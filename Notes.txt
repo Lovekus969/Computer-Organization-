@@ -3,3 +3,14 @@ Defines the functional behavior—instruction set (ISA), registers, addressing m
 
 Computer Organization (the "how"):
 Defines the physical implementation—control signals, microarchitecture, how the hardware actually executes instructions.
+
+    ###      Basic CPU Components (Organization Level)
+                    Control Unit (CU): Manages instruction flow, signals, and coordination of CPU components.
+                    Arithmetic Logic Unit (ALU): Performs calculations, logic, and bit-shifts.
+                    Registers: Key types:
+                    Accumulator – holds ALU output
+                    Program Counter (PC) – stores next instruction address
+                    Memory Address Register (MAR) – holds addresses for memory operations
+                    Memory Data Register (MDR) – holds data sent to/from memory
+                    Current Instruction Register (CIR) – stores the fetched instruction
+                    (Extended: Instruction Buffer Register – holds instructions waiting to be executed)
