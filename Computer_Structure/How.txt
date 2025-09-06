@@ -1,0 +1,2 @@
+Basic Computer Structure
+This section introduces the fundamentals of computer organisation and architecture, explaining system components, design issues, and different architectural models.
