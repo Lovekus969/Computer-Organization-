@@ -2,3 +2,4 @@ Basic Computer Structure
 This section introduces the fundamentals of computer organisation and architecture, explaining system components, design issues, and different architectural models.
 
 A computer is an electronic device that processes data according to instructions provided by software programs. It takes input (data), processes it using a central processing unit (CPU), stores information, and produces output (results) to perform various tasks.
+Types of Computers
