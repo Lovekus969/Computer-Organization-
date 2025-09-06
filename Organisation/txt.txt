@@ -4,3 +4,12 @@ Computer organization helps optimize performance-based products. For example, so
 
 
 A computer is a machine that can be programmed to automatically carry out sequences of arithmetic or logical operations (computation). Modern digital electronic computers can perform generic sets of operations known as programs, which enable computers to perform a wide range of tasks.
+
+# Computer Architecture vs Computer Organization
+
+**Architecture** describes *what* the system does (ISA, registers, addressing modes)...  
+**Organization** describes *how* it’s actually built and implemented...
+
+- Architecture first → then organization  
+- Architecture = blueprint, Organization = implementation  
+- Microarchitecture is another term for organization...
