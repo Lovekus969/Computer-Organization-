@@ -3,3 +3,4 @@ This section introduces the fundamentals of computer organisation and architectu
 
 A computer is an electronic device that processes data according to instructions provided by software programs. It takes input (data), processes it using a central processing unit (CPU), stores information, and produces output (results) to perform various tasks.
 Types of Computers
+Desktop: Desktops are mainly used for regular use and they have separate components mounted together like the monitor, keyboard, mouse, CPU etc. Since the system is primarily kept on a desk for better usability it is called a desktops.
