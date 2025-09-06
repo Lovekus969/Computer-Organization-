@@ -6,3 +6,5 @@ Types of Computers
 Desktop: Desktops are mainly used for regular use and they have separate components mounted together like the monitor, keyboard, mouse, CPU etc. Since the system is primarily kept on a desk for better usability it is called a desktops.
 
 Laptop: Laptops are a portable version of desktops, with all the components integrated into a single unit thus providing mobility to the system. They are great for on-the-go work and come with built-in webcams, Bluetooth and Wi-Fi.
+
+Servers: Servers are special types of computers that are used to manage network resources. They provide services to other systems and computers. Some of the primary tasks of servers include creating databases, hosting and providing support to other applications.
