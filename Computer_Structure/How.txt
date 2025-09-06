@@ -10,3 +10,6 @@ Laptop: Laptops are a portable version of desktops, with all the components inte
 Servers: Servers are special types of computers that are used to manage network resources. They provide services to other systems and computers. Some of the primary tasks of servers include creating databases, hosting and providing support to other applications.
 
 Tablets: Tablets are even more portable than laptops. They are smaller than laptops but are larger than smartphones. They come with touchscreens which makes them perfect for browsing the web, consuming content and personal communications.
+
+
+                                                          How does the Software Work with Hardware?
