@@ -1,5 +1,7 @@
 Computer Architecture (the "what"):
 Defines the functional behavior—instruction set (ISA), registers, addressing modes. It's like the blueprint or the programmer’s view.
+In computer science and computer engineering, a computer architecture is the structure of a computer system made from component parts.[1] It can sometimes be a high-level description that ignores details of the implementation.[2] At a more detailed level, the description may include the instruction set architecture design, microarchitecture design, logic design, and implementation.[3]
+for more view thw ink   https://en.wikipedia.org/wiki/Computer_architecture
 
 Computer Organization (the "how"):
 Defines the physical implementation—control signals, microarchitecture, how the hardware actually executes instructions.
