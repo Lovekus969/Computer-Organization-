@@ -1,0 +1,43 @@
+component of computers:=>>
+
+At the highest level, a computer system has five main components (according to the Von Neumann Architecture, which most modern computers follow):
+
+🖥️ 1. Input Unit
+
+  What it does: Takes data and instructions from the outside world and sends them to the computer.
+  Examples: Keyboard, mouse, scanner, microphone, touch screen.
+
+⚙ 2. Central Processing Unit (CPU)
+    The “brain” of the computer, responsible for executing instructions.The CPU itself has 3 main sub-components:
+
+Control Unit (CU)
+
+                Directs the flow of data between input, memory, ALU, and output.
+                Acts like a “traffic controller.”
+Arithmetic Logic Unit (ALU)
+                Performs mathematical operations (add, subtract, multiply, divide).
+                Performs logical operations (AND, OR, NOT, comparisons).
+
+
+
+  💾 3. Memory Unit (Storage)
+                Stores data and instructions temporarily or permanently.
+
+
+                Primary memory: RAM (volatile, temporary), ROM (non-volatile).
+                Cache memory: Very fast, between CPU and RAM.
+                Secondary memory: Hard disk, SSD, external drives (long-term storage).
+
+ 4. Output Unit
+                Converts computer-processed data into human-understandable form.
+                Examples: Monitor, printer, speakers, projectors.
+
+ 5. Communication/Interconnection (System Bus)
+
+                A pathway for data transfer among CPU, memory, input, and output.
+
+      Types of buses:
+
+                Data Bus – carries actual data.
+                Address Bus – carries memory addresses.
+                Control Bus – carries control signals (read/write).
