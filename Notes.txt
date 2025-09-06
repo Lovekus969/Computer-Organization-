@@ -1,2 +1,5 @@
 Computer Architecture (the "what"):
 Defines the functional behavior—instruction set (ISA), registers, addressing modes. It's like the blueprint or the programmer’s view.
+
+Computer Organization (the "how"):
+Defines the physical implementation—control signals, microarchitecture, how the hardware actually executes instructions.
