@@ -14,3 +14,5 @@ Tablets: Tablets are even more portable than laptops. They are smaller than lapt
 
                                                           How does the Software Work with Hardware?
 give input (e.g., typing a letter on a keyboard), the hardware (keyboard) sends this input to the software. The software then converts the input into a machine-readable language (binary) that the CPU can process. The output (e.g., the letter ‘A’) is then displayed on the screen as a result of this process.
+What is further needed and some limitations
+
