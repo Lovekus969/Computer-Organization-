@@ -20,3 +20,9 @@ What is Computer Organization?
 
 Computer Organization is about how a computer system is structured and how it executes programs.
 It deals with the hardware components and the interaction between them to make the computer function.
+■ Central processing unit (CPU): Controls the operation of the computer and
+performs its data processing functions; often simply referred to as processor.
+■■ Main memory: Stores data.
+■■ I/O: Moves data between the computer and its external environment.
+■■ System interconnection: Some mechanism that provides for communica-
+tion among CPU, main memory, and I/O.
