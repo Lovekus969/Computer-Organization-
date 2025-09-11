@@ -4,3 +4,15 @@ In electronics, a digital-to-analog converter (DAC, D/A, D2A, or D-to-A) is a sy
 DACs are commonly used in music players to convert digital data streams into analog audio signals. They are also used in televisions and mobile phones to convert digital video data into analog video signals. These two applications use DACs at opposite ends of the frequency/resolution trade-off. The audio DAC is a low-frequency, high-resolution type while the video DAC is a high-frequency low- to medium-resolution type.
 
 look at this https://upload.wikimedia.org/wikipedia/commons/e/ea/CirrusLogicCS4282-AB.jpg
+
+Analog to Digital Conversion (A/D or ADC)
+                        Definition: Converts a continuous analog signal into a digital number the processor can understand.
+
+        Steps of ADC:  
+                  Sampling → Measure the analog signal at small time intervals.
+                  Quantization → Round the sampled values to nearest discrete level.
+                  Encoding → Represent that quantized level as a binary number.
+
+        Example:
+                  A temperature sensor outputs a voltage (0V → 5V).
+                  ADC converts it into digital values (e.g., 0–1023 for a 10-bit ADC). Processor reads those values and interprets temperature.
