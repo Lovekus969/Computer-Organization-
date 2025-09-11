@@ -150,3 +150,7 @@ IoT Examples
                         Automotive → connected cars, GPS tracking, predictive maintenance.
                         Industry (IIoT) → predictive machine maintenance, automated robots.
                         Agriculture → soil moisture sensors, automated irrigation.
+
+
+What is an API?
+              An API (Application Programming Interface) is a set of rules that allows software components or systems to communicate with each other.
