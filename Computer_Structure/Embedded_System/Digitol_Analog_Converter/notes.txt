@@ -46,3 +46,23 @@ Why Processors Need ADC & DAC
 
                           [Analog World] --> [Sensor] --> [ADC] --> [Processor] --> [DAC] --> [Actuator/Output]
                           Temperature -----> Voltage --> Digital Temp --> CPU -----> Analog Signal --> Motor/LED
+
+what is Actuators? 
+        An actuator is a device that takes control signals from the processor (digital/analog) and produces physical action.
+
+ Types of Actuators:
+
+                Electrical Actuators
+                        Motors (DC motor, stepper motor, servo motor),Solenoids (open/close valves, locks)
+
+                Mechanical Actuators
+                        Gears, levers, hydraulic pistons
+
+                Thermal Actuators
+                        Heating elements (electric stove, iron)
+
+                Optical Actuators
+                        Laser movement systems, projectors
+ Example:
+                    In a robot arm, the processor decides motion.
+                    Actuators (motors) physically move the arm.
