@@ -66,3 +66,5 @@ what is Actuators?
  Example:
                     In a robot arm, the processor decides motion.
                     Actuators (motors) physically move the arm.
+What are Indicators ?
+      An indicator is a device that provides feedback or information to the user (or system).
