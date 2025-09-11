@@ -136,3 +136,10 @@ Example :-> IoT Workflow (Smart Home Light)
                         Cloud logs activity and applies logic (“turn ON the light if motion is detected at night”).
                         Actuator (Light Bulb) switches ON.
                         The User App displays a notification: “Light turned ON.”
+
+Key Features of IoT
+                        Connectivity → Devices connected via Internet.
+                        Real-Time Operation → Must respond quickly (smart locks, cars).
+                        Data Processing → At edge (locally) or cloud.
+                        Automation → Systems make decisions without human input.
+                        Scalability → Billions of devices can connect.
