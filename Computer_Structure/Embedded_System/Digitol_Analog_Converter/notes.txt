@@ -109,3 +109,12 @@ Diagnostics means the ability of a system to detect, analyze, and report faults 
 
       Communication Interfaces
                 Diagnostic data sent via CAN bus, OBD-II (cars), JTAG (chips).
+
+In real life diagnosis happens in the car  when i go to mechinic shop, i see mechanic have the diagnose sysytem and its all about the diagnose 
+
+Example: Car Diagnostics
+                  Sensors → measure oxygen level, speed, fuel, temperature.
+                  Processor (ECU) → checks values against normal range.
+                  If fault → logs Diagnostic Trouble Code (DTC).
+                  Indicators → “Check Engine” light comes ON.
+                  Mechanic → connects OBD-II scanner, reads error codes.
