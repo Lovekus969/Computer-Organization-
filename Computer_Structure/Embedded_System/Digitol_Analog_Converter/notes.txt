@@ -29,3 +29,15 @@ Example:
               MP3 player stores music as digital data.
               DAC converts it into analog audio signals.
               Speaker plays the sound you hear.
+
+Why Processors Need ADC & DAC
+
+              Sensors → ADC → Processor → DAC → Actuators
+
+👉 Full Cycle Example (in a smart fan):
+
+                Temperature sensor outputs analog voltage proportional to heat.
+                ADC converts it into digital form for the processor.
+                Processor decides fan speed.
+                DAC converts digital speed command into an analog voltage/current.
+                Fan motor runs at desired speed.
