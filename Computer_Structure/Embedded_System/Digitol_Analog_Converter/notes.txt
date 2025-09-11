@@ -125,3 +125,6 @@ Why Diagnostics are Important
                     Ensures safety (especially in cars, aircraft, medical devices).
                     Helps in maintenance (engineers can quickly find fault).
                     Reduces downtime.
+
+What is IoT?
+  IoT (Internet of Things) = A network of physical devices (things) embedded with sensors, processors, and communication modules that collect, exchange, and act on data over the internet.
