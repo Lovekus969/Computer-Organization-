@@ -154,3 +154,12 @@ IoT Examples
 
 What is an API?
               An API (Application Programming Interface) is a set of rules that allows software components or systems to communicate with each other.
+
+
+What is an API Matrix?
+          An API Matrix is like a comparison table (or framework) that lists multiple APIs side by side, showing their features, performance, protocols, and constraints.
+          It’s often used when you’re:
+
+Evaluating different APIs (e.g., Google Maps vs. OpenStreetMap).
+Designing your own system and deciding which API fits best.
+Testing compatibility and integration across systems.
