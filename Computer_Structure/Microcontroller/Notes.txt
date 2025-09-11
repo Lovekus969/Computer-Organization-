@@ -14,3 +14,10 @@ Memory
 
 Chipset
 A chipset is a collection of integrated circuits on a motherboard or system that manages data flow between the processor, memory, and peripherals.
+
+Typical Chipset Components:
+          1 Northbridge (older systems; sometimes integrated into CPU now)
+                    Connects CPU ↔ RAM ↔ GPU
+          2. Southbridge
+                    Connects CPU ↔ I/O devices (USB, SATA, PCI, audio, network)
+          3. Integrated Peripherals – Network interface, sound, storage controllers.
