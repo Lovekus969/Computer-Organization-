@@ -54,4 +54,5 @@ Explanation:
           Communication modules handle data exchange with other devices.
 
 EEPROM (Electrically Erasable Programmable Read-Only Memory)
+Definition: EEPROM is a type of non-volatile memory that retains data even when the power is off, and it can be electrically erased and reprogrammed.
 
