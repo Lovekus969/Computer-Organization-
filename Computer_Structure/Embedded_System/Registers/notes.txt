@@ -8,3 +8,16 @@ The number and size of registers in a CPU are determined by the processor design
 16-bit registers: These registers can store 16 bits of data (2 bytes). They are commonly found in older processors or in specific architectures that require 16-bit operations.
 32-bit registers: These registers can store 32 bits of data (4 bytes). They are widely used in many processors and are capable of handling larger data sizes and more complex calculations.
 64-bit registers: These registers can store 64 bits of data (8 bytes). They are prevalent in modern processors and offer increased computational power and memory addressing capabilities.
+
+Types of CPU Registers
+Depending on the CPUs architecture and design, the type and number of registers can vary. Common types of registers found in a CPU may include:
+
+Program Counter (PC): The Program Counter keeps track of the memory address of the next instruction to be fetched and executed.
+Instruction Register (IR): The Instruction Register holds the currently fetched instruction being executed.
+Accumulator (ACC): The Accumulator is a general-purpose register used for arithmetic and logical operations. It stores intermediate results during calculations.
+General-Purpose Registers (R0, R1, R2…): These registers are used to store data during calculations and data manipulation. They can be accessed and utilized by the programmer for various purposes.
+Address Registers (AR): Address Registers store memory addresses for data access or for transferring data between different memory locations.
+Stack Pointer (SP): The Stack Pointer points to the top of the stack, which is a region of memory used for temporary storage during function calls and other operations.
+Data Registers (DR): These registers store data fetched from memory or obtained from input/output operations.
+Status Register/Flags Register (SR): The Status Register or Flags Register contains individual bits that indicate the outcome of operations, such as carry, overflow, zero result, and others. These flags help in making decisions and controlling program flow based on the results of previous operations.
+Control Registers (CR): Control Registers manage various control settings and parameters related to the CPU's operation, such as interrupt handling, memory management, and system configuration.
