@@ -96,5 +96,16 @@ In real life embedded system is everywhere lwts take an example of the car
                                     Indicator: ABS warning light on dashboard.
 
 What is Diagnostic in Systems?
-Diagnostics means the ability of a system to detect, analyze, and report faults or problems in hardware or software.
-It ensures the system stays reliable, safe, and efficient.
+Diagnostics means the ability of a system to detect, analyze, and report faults or problems in hardware or software.It ensures the system stays reliable, safe, and efficient.
+
+    Diagnostic Components
+
+                  Built-In Self Test (BIST)
+                  Hardware test circuits inside processor/memory.
+                  Watchdog Timer - Resets system if software hangs.
+
+      Error Codes / Indicators
+                Blinking LEDs, dashboard lights, beeps, display messages.
+
+      Communication Interfaces
+                Diagnostic data sent via CAN bus, OBD-II (cars), JTAG (chips).
