@@ -57,3 +57,14 @@ Embedded Systems in Computer Organization Course:-
                         Show how processors, memory, I/O are integrated into real-world applications.
                         Explain microcontroller architecture (like ARM Cortex, 8051, PIC).
                         Teach about instruction sets, control signals, and bus organization
+
+And the other is Pathfinder.
+
+            What is a Pathfinder?
+                        A pathfinder is an algorithm/system that finds the best route from a start point to a destination point, while avoiding obstacles.
+                        It’s widely used in:
+
+                        GPS navigation (Google Maps, Waze)
+                        Robotics (self-driving cars, drones)
+                        Games (AI characters finding routes)
+                        Network routing (packets choosing the shortest path)
