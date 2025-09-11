@@ -128,3 +128,11 @@ Why Diagnostics are Important
 
 What is IoT?
   IoT (Internet of Things) = A network of physical devices (things) embedded with sensors, processors, and communication modules that collect, exchange, and act on data over the internet.
+
+Example :-> IoT Workflow (Smart Home Light)
+                        The sensor detects motion in the room.
+                        Processor (ESP32) processes input.
+                        Wi-Fi Module sends status to the cloud.
+                        Cloud logs activity and applies logic (“turn ON the light if motion is detected at night”).
+                        Actuator (Light Bulb) switches ON.
+                        The User App displays a notification: “Light turned ON.”
