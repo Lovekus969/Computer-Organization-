@@ -118,3 +118,10 @@ Example: Car Diagnostics
                   If fault → logs Diagnostic Trouble Code (DTC).
                   Indicators → “Check Engine” light comes ON.
                   Mechanic → connects OBD-II scanner, reads error codes.
+
+
+Why Diagnostics are Important
+                    Improves reliability.
+                    Ensures safety (especially in cars, aircraft, medical devices).
+                    Helps in maintenance (engineers can quickly find fault).
+                    Reduces downtime.
