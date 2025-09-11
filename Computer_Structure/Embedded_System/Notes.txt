@@ -50,3 +50,10 @@ What is the differecne in b/w  Embeddes System and Genral-Purpose Computer  ?
                         | Power Consumption | Low                | High                       |
                         | User Interaction  | Minimal            | High                       |
                         | Flexibility       | Fixed function     | Programmable for many uses |
+
+
+Embedded Systems in Computer Organization Course:-
+                        When you study Computer Organization, embedded systems are discussed to:
+                        Show how processors, memory, I/O are integrated into real-world applications.
+                        Explain microcontroller architecture (like ARM Cortex, 8051, PIC).
+                        Teach about instruction sets, control signals, and bus organization
