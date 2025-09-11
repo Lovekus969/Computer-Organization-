@@ -41,3 +41,8 @@ Why Processors Need ADC & DAC
                 Processor decides fan speed.
                 DAC converts digital speed command into an analog voltage/current.
                 Fan motor runs at desired speed.
+
+
+
+                          [Analog World] --> [Sensor] --> [ADC] --> [Processor] --> [DAC] --> [Actuator/Output]
+                          Temperature -----> Voltage --> Digital Temp --> CPU -----> Analog Signal --> Motor/LED
