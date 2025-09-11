@@ -1,2 +1,10 @@
 What is a Register in Processors/CPUs?
 Registers are a type of computer memory built directly into the processor or CPU (Central Processing Unit) that is used to store and manipulate data during the execution of instructions. A register may hold an instruction, a storage address, or any kind of data (such as a bit sequence or individual characters).
+
+Sizes of CPU Registers
+The number and size of registers in a CPU are determined by the processor design and can have a significant impact on its performance and capabilities. Most modern computer processers include:
+
+8-bit registers: These registers can store 8 bits of data (1 byte). They are often used for basic arithmetic operations and data manipulation.
+16-bit registers: These registers can store 16 bits of data (2 bytes). They are commonly found in older processors or in specific architectures that require 16-bit operations.
+32-bit registers: These registers can store 32 bits of data (4 bytes). They are widely used in many processors and are capable of handling larger data sizes and more complex calculations.
+64-bit registers: These registers can store 64 bits of data (8 bytes). They are prevalent in modern processors and offer increased computational power and memory addressing capabilities.
