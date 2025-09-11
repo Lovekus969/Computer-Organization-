@@ -11,3 +11,24 @@ Examples:
             ATM machine
 What is the Role of embedded systems in Computer Organization? 
 In Computer Organization, we study how hardware components interact with software. Embedded systems apply these principles in real-world, specialized devices.
+
+                        Key Components of Embedded Systems:
+                                                Processor (CPU / Microcontroller / DSP)
+                                                The "brain" of the embedded system.
+                                                Can be RISC-based (like ARM) or CISC-based (like Intel 8051).
+
+                        Memory:=>>
+
+                                    ROM / Flash → stores the program (firmware).
+                                    RAM → temporary data storage while running.
+                        Input Devices (Sensors)
+
+                                    E.g., Temperature sensor, motion sensor, camera.
+                                    Output Devices (Actuators / Displays)
+                                    E.g., Motor control, LCD display, LED, buzzer.
+
+                        I/O Interfaces
+
+                                    Communication with external devices using UART, I²C, SPI, CAN bus, etc.
+                                    Power Supply
+                                    Usually low power, designed for efficiency.
