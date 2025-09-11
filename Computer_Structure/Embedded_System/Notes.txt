@@ -40,3 +40,13 @@ In Computer Organization, we study how hardware components interact with softwar
                                     Low power consumption → optimized for efficiency.
                                     Reliability & Stability → runs continuously without failure.
                                     Small size → integrated into devices.
+
+What is the differecne in b/w  Embeddes System and Genral-Purpose Computer  ?
+
+                        | Feature           | Embedded System    | General-Purpose Computer   |
+                        | ----------------- | ------------------ | -------------------------- |
+                        | Purpose           | Specific task      | Multiple tasks             |
+                        | OS                | Often none or RTOS | Full OS (Windows/Linux)    |
+                        | Power Consumption | Low                | High                       |
+                        | User Interaction  | Minimal            | High                       |
+                        | Flexibility       | Fixed function     | Programmable for many uses |
