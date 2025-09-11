@@ -56,3 +56,12 @@ Explanation:
 EEPROM (Electrically Erasable Programmable Read-Only Memory)
 Definition: EEPROM is a type of non-volatile memory that retains data even when the power is off, and it can be electrically erased and reprogrammed.
 
+ Key Characteristics:
+1. Non-volatile – keeps data without power.
+2. Byte-addressable – you can erase or write individual bytes, unlike flash memory which usually works in blocks.
+3. Limited write cycles – typically can be rewritten ~1 million times per cell.
+4. Used in microcontrollers for storing:
+                               Configuration data
+                               Calibration values
+                               Small lookup tables
+
