@@ -1,0 +1,2 @@
+Microcontroller (MCU)
+A microcontroller is a compact integrated circuit designed to control specific tasks in embedded systems. It’s like a small computer on a single chip.
