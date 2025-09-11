@@ -68,3 +68,40 @@ And the other is Pathfinder.
                         Robotics (self-driving cars, drones)
                         Games (AI characters finding routes)
                         Network routing (packets choosing the shortest path)
+
+
+            How it Works (Step by Step)
+
+                        Model the Environment 
+                        Represent the world as a graph (nodes + edges).
+
+                        Example: A city’s intersections (nodes) connected by roads (edges).
+                        Or a grid (2D map) where each cell is a position.
+                        Define Start & Goal
+                        Start = where you are now.
+                        Goal = where you want to go.
+                        Choose a Cost Metric
+                        Distance (shortest path).Time (fastest route).
+                        Energy/fuel used.
+
+                        Combination of multiple factors.
+                        Run a Pathfinding Algorithm
+Some common ones are:
+
+Dijkstra’s Algorithm
+            Finds the shortest path from source to all nodes (no heuristic).
+
+A* (A-Star) Algorithm
+            Uses a heuristic (like straight-line distance) + Dijkstra’s to find the fastest route.
+
+Breadth-First Search (BFS)
+            Finds shortest path in grids where all moves have equal cost.
+
+Depth-First Search (DFS)
+            Explores but not optimal for shortest path.
+
+Handle Obstacles
+
+Mark blocked nodes/cells as unavailable.Algorithm searches around them.
+
+
