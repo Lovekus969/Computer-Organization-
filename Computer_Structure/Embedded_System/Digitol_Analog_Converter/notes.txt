@@ -16,3 +16,16 @@ Analog to Digital Conversion (A/D or ADC)
         Example:
                   A temperature sensor outputs a voltage (0V → 5V).
                   ADC converts it into digital values (e.g., 0–1023 for a 10-bit ADC). Processor reads those values and interprets temperature.
+
+Digital to Analog Conversion (D/A or DAC)
+                    Definition: Converts digital numbers (binary) from processor into a continuous analog signal.
+
+Steps of DAC:
+                  Take binary input from processor (e.g., 10101010).
+                  Convert to proportional voltage/current.
+                  Smooth signal using filters to remove steps (staircase effect).
+
+Example:
+              MP3 player stores music as digital data.
+              DAC converts it into analog audio signals.
+              Speaker plays the sound you hear.
