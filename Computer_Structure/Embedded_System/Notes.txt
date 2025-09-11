@@ -111,4 +111,16 @@ Whatever wheteher its computer science or the real scenario there is everywhere 
              Example:
             A car’s airbag system must deploy within milliseconds of impact. If it works correctly but reacts too late → it’s a failure. So, real-time = deadline + correctness.
 
+            Types of Real-Time Constraints
+ Hard Real-Time :- > Missing the deadline = system failure.
+                        Example:
+                        Pacemaker for heart, Aircraft control,Anti-lock braking system (ABS) in cars
 
+Soft Real-Time
+                        Occasional deadline misses are tolerable, but performance degrades.
+
+Example:
+                        Video streaming (small delays = buffering) , Online gaming (lag tolerated but not fatal)
+
+Firm Real-Time :-  >    Missing deadline makes result useless, but system doesn’t “crash.”
+Example:                Stock market trading system (late price = worthless),Pathfinding in a robot (if path is late, robot already moved)
