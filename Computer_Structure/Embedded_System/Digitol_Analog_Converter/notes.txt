@@ -76,3 +76,13 @@ What are Indicators ?
                     Audible Indicators:-->>    Buzzers (alert sounds),Speakers (voice instructions, alarms)
 
                     Mechanical Indicators :-->>   Gauges (speedometer in a car),Moving needles, dials
+
+
+So far so good, and now let's see the difference between the indicators and the Actulators
+
+                                  
+                        | Feature     | Actuator                  | Indicator                  |
+                        | ----------- | ------------------------- | -------------------------- |
+                        | Function    | Performs **action**       | Provides **feedback/info** |
+                        | Output Form | Motion, heat, force, etc. | Light, sound, display      |
+                        | Example     | Fan motor in AC           | LED showing “Power ON”     |
