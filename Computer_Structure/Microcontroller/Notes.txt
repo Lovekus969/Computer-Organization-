@@ -65,3 +65,11 @@ Definition: EEPROM is a type of non-volatile memory that retains data even when 
                                Calibration values
                                Small lookup tables
 
+                                                  Difference: EEPROM vs Flash
+                              | Feature      | EEPROM                     | Flash Memory                |
+                              | ------------ | -------------------------- | --------------------------- |
+                              | Erase Method | Byte-by-byte               | Block/sector-wise           |
+                              | Speed        | Slower                     | Faster                      |
+                              | Endurance    | \~1 million writes         | \~10k–100k writes per block |
+                              | Usage        | Config data, small storage | Firmware, large storage     |
+
