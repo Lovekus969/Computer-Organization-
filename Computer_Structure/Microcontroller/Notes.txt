@@ -1,2 +1,13 @@
 Microcontroller (MCU)
 A microcontroller is a compact integrated circuit designed to control specific tasks in embedded systems. It’s like a small computer on a single chip.
+
+Key Components of a Microcontroller:
+          CPU (Central Processing Unit) – the brain; executes instructions.
+Memory
+          ROM/Flash: Stores program code.
+          RAM: Temporary storage for variables and data.
+          I/O Ports (Input/Output) – connect sensors, LEDs, motors, etc.
+          Timers/Counters – handle precise time-based tasks.
+          ADC/DAC (Analog-to-Digital / Digital-to-Analog Converters) – interface with analog sensors or outputs.
+          Communication Modules – UART, SPI, I2C for device communication.
+          Clock/Reset Circuits – provide timing signals and reset functionality.
