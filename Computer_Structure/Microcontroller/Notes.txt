@@ -11,3 +11,6 @@ Memory
           ADC/DAC (Analog-to-Digital / Digital-to-Analog Converters) – interface with analog sensors or outputs.
           Communication Modules – UART, SPI, I2C for device communication.
           Clock/Reset Circuits – provide timing signals and reset functionality.
+
+Chipset
+A chipset is a collection of integrated circuits on a motherboard or system that manages data flow between the processor, memory, and peripherals.
