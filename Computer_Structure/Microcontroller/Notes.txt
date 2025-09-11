@@ -45,4 +45,11 @@ Typical Chipset Components:
          │Comm. Bus │ (UART, SPI, I2C)
          └──────────┘
 
+Explanation:
+          CPU executes instructions stored in ROM/Flash.
+          RAM holds temporary data.
+          Timers control time-based operations.
+          ADC/DAC converts signals for sensors and actuators.
+          I/O ports interact with external devices.
+          Communication modules handle data exchange with other devices.
 
