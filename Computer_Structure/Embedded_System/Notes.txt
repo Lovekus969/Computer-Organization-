@@ -2,3 +2,10 @@ What is an Embedded System?
 
 An embedded system is a special-purpose computer that is part of a larger device and performs dedicated tasks.
 Unlike a general-purpose computer (like a laptop), it is designed for specific control functions.
+
+Examples:
+            Microwave oven controller
+            Car engine control unit (ECU)
+            Smartwatch processor
+            Washing machine controller
+            ATM machine
