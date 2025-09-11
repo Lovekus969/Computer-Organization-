@@ -86,3 +86,11 @@ So far so good, and now let's see the difference between the indicators and the 
                         | Function    | Performs **action**       | Provides **feedback/info** |
                         | Output Form | Motion, heat, force, etc. | Light, sound, display      |
                         | Example     | Fan motor in AC           | LED showing “Power ON”     |
+
+In real life embedded system is everywhere lwts take an example of the car 
+                Embedded System Example (Car)
+                                    Sensor: Speed sensor (measures wheel speed).
+                                    ADC: Converts analog speed voltage to digital.
+                                    Processor: Decides whether ABS should activate.
+                                    Actuator: Hydraulic valve actuator adjusts brake pressure.
+                                    Indicator: ABS warning light on dashboard.
