@@ -32,3 +32,11 @@ In Computer Organization, we study how hardware components interact with softwar
                                     Communication with external devices using UART, I²C, SPI, CAN bus, etc.
                                     Power Supply
                                     Usually low power, designed for efficiency.
+
+                        Characteristics
+
+                                    Dedicated Functionality → does one job well.
+                                    Real-time operation → responds instantly (ex: airbags in cars).
+                                    Low power consumption → optimized for efficiency.
+                                    Reliability & Stability → runs continuously without failure.
+                                    Small size → integrated into devices.
