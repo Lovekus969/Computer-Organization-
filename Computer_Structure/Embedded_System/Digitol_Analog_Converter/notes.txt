@@ -68,3 +68,11 @@ what is Actuators?
                     Actuators (motors) physically move the arm.
 What are Indicators ?
       An indicator is a device that provides feedback or information to the user (or system).
+
+          Types of Indicators:
+
+                    Visual Indicators :->>  LEDs (on/off status lights),LCD / OLED screens (show text, numbers, graphics), and 7-segment displays (digital clocks, meters)
+
+                    Audible Indicators:-->>    Buzzers (alert sounds),Speakers (voice instructions, alarms)
+
+                    Mechanical Indicators :-->>   Gauges (speedometer in a car),Moving needles, dials
