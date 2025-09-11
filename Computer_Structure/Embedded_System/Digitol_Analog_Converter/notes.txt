@@ -143,3 +143,10 @@ Key Features of IoT
                         Data Processing → At edge (locally) or cloud.
                         Automation → Systems make decisions without human input.
                         Scalability → Billions of devices can connect.
+
+IoT Examples
+                        Smart Home → smart lights, thermostats, security cameras.
+                        Healthcare → wearable heart monitors, insulin pumps.
+                        Automotive → connected cars, GPS tracking, predictive maintenance.
+                        Industry (IIoT) → predictive machine maintenance, automated robots.
+                        Agriculture → soil moisture sensors, automated irrigation.
