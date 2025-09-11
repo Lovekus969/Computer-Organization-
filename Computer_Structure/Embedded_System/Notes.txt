@@ -104,4 +104,11 @@ Handle Obstacles
 
 Mark blocked nodes/cells as unavailable.Algorithm searches around them.
 
+Whatever wheteher its computer science or the real scenario there is everywhere a time constrain and now let see what they are ..
+
+            What is a Real-Time Constraint?
+                        A real-time constraint means the system must respond within a strict time limit.It’s not just about correctness, but also about timing.
+             Example:
+            A car’s airbag system must deploy within milliseconds of impact. If it works correctly but reacts too late → it’s a failure. So, real-time = deadline + correctness.
+
 
