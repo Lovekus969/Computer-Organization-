@@ -9,3 +9,5 @@ Examples:
             Smartwatch processor
             Washing machine controller
             ATM machine
+What is the Role of embedded systems in Computer Organization? 
+In Computer Organization, we study how hardware components interact with software. Embedded systems apply these principles in real-world, specialized devices.
