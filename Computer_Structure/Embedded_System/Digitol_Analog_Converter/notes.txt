@@ -163,3 +163,19 @@ What is an API Matrix?
 Evaluating different APIs (e.g., Google Maps vs. OpenStreetMap).
 Designing your own system and deciding which API fits best.
 Testing compatibility and integration across systems.
+
+
+              Typical Dimensions in an API Matrix
+
+| **Category**       | **What It Means**   | **Example Values**          |
+| ------------------ | ------------------- | --------------------------- |
+| **Functionality**  | What the API does   | Maps, Payments, Weather, ML |
+| **Protocols**      | How it communicates | REST, GraphQL, gRPC, SOAP   |
+| **Data Formats**   | Supported formats   | JSON, XML, CSV              |
+| **Auth Method**    | Security method     | API Key, OAuth2, JWT        |
+| **Rate Limits**    | Requests allowed    | 1000/day, Unlimited         |
+| **Latency**        | Response time       | 50ms, 200ms                 |
+| **Pricing**        | Cost model          | Free, Freemium, Paid        |
+| **Reliability**    | SLA/Uptime          | 99.9%, 99.5%                |
+| **Support & Docs** | Developer support   | Strong, Medium, Weak        |
+
