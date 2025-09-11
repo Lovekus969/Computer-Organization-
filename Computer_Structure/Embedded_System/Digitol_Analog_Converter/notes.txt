@@ -94,3 +94,7 @@ In real life embedded system is everywhere lwts take an example of the car
                                     Processor: Decides whether ABS should activate.
                                     Actuator: Hydraulic valve actuator adjusts brake pressure.
                                     Indicator: ABS warning light on dashboard.
+
+What is Diagnostic in Systems?
+Diagnostics means the ability of a system to detect, analyze, and report faults or problems in hardware or software.
+It ensures the system stays reliable, safe, and efficient.
