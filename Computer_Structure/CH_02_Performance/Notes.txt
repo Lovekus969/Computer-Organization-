@@ -178,3 +178,13 @@ Modern CPUs have become very fast (thanks to Moore’s Law and high transistor d
 							Memory (RAM): tens to hundreds of ns
 							Disk I/O (HDD/SSD): microseconds (µs) to milliseconds (ms)
 							Network I/O: even higher latency compared to CPU
+I/O Devices in Performance Balance
+
+						CPU vs. I/O → CPU executes billions of instructions per second, but I/O devices (disk, network, printer) are much slower.
+						Bottleneck → If CPU waits idly for I/O, performance collapses.
+						Solution → Introduce techniques to balance speed differences:
+						Buffers & Caches – Temporary storage between CPU ↔ I/O to smooth data transfer.
+						DMA (Direct Memory Access) – Lets I/O devices transfer data to RAM directly without CPU intervention.
+						Interrupts – CPU doesn’t constantly check the I/O device; instead, the device notifies CPU when ready.
+						Parallelism – Overlap I/O with CPU work (CPU computes while I/O runs in background).
+						Queuing & Scheduling – Efficient handling of multiple I/O requests.
