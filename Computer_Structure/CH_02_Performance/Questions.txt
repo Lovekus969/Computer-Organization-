@@ -1,0 +1,46 @@
+The main architectural examples:
+
+1. Cache Memory
+    Why? CPU is much faster than main memory (RAM).
+    How? Cache (L1, L2, L3) stores frequently accessed data close to the CPU.
+    Effect: Reduces average memory access time.
+
+2. Pipelining
+
+    Why? Without pipelining, CPU executes instructions sequentially (fetch → decode → execute → write-back).
+    How? Breaks instruction execution into stages, so multiple instructions are in progress at once.
+    Effect: Increases throughput (instructions per cycle).
+
+3. Instruction-Level Parallelism (ILP)
+
+    Superscalar execution: Multiple instructions executed in parallel.
+    Out-of-order execution: CPU executes instructions as soon as operands are ready (not strictly in order).
+    Branch prediction & speculative execution: Guess outcomes to keep the pipeline full.
+
+4. Multicore Processors
+
+    Why? Clock speeds hit power/heat limits.
+    How? Multiple cores on one chip work in parallel.
+    Effect: Better performance for parallel workloads.
+
+5. Memory Hierarchy Optimization
+
+    Registers → Caches → RAM → Storage.
+    Each level is larger but slower. CPU relies on fast, small memories to hide latency.
+
+6. Multiprogramming & Multithreading
+
+    Hardware multithreading: Switch to another thread when one is waiting (e.g., for memory).
+    Effect: Keeps CPU busy instead of idle.
+
+7. I/O Techniques
+    
+    DMA (Direct Memory Access): Allows devices to transfer data directly to memory without CPU.
+    I/O Channels & Controllers: Offload tasks from CPU.
+    Effect: Reduces CPU bottleneck in I/O-heavy tasks.
+
+8. Bus & Interconnect Design
+    
+    Wider buses (e.g., 32-bit, 64-bit) or higher-speed serial links.
+    Use of crossbars or Network-on-Chip (NoC) for internal communication.
+    Effect: Faster data transfer between CPU, memory, and I/O.
