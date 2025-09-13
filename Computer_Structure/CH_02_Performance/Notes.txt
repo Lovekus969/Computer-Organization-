@@ -261,3 +261,8 @@ As processor speeds have increased rapidly, chip designers had to reorganize and
 
 			Chips optimized for performance per watt.
 			Techniques: Dynamic Voltage & Frequency Scaling (DVFS), low-power cores (big.LITTLE).
+
+
+
+
+													Problems with Clock Speed and Logic Density
