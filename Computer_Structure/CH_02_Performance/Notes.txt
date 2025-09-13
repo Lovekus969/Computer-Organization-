@@ -190,3 +190,30 @@ I/O Devices in Performance Balance
 						Queuing & Scheduling – Efficient handling of multiple I/O requests.
 
 Performance Balance & I/O Devices
+
+1. Increasing Demands
+
+As processors get faster, applications become more data-intensive (e.g., video editing, gaming, AI, cloud services).
+These require peripherals with high I/O throughput (disks, networks, GPUs, sensors).
+
+2. The Core Problem
+
+Processors can handle massive data rates, but the bottleneck is moving data efficiently between CPU ↔ RAM ↔ I/O devices.
+Mismatch in speed creates latency and throughput issues.
+
+3. Strategies for Balance
+	A.	Caching & Buffering
+			Temporary storage between processor and device.
+					Smooths out bursts in data flow.
+
+	B.	High-Speed Interconnection Buses
+				Faster buses (e.g., PCIe, NVMe) reduce transfer delays.
+					Bus hierarchies distribute traffic efficiently.
+
+	C.	Bus Structures
+				Use of multiple, more elaborate bus systems to handle parallel data movement.
+		Example: Separate memory bus and I/O bus.
+
+	D.   Multiprocessor Configurations
+					Dedicated processors or controllers handle I/O, reducing CPU load.
+			Example: GPU for graphics, NIC offload engines for networking, storage controllers.
