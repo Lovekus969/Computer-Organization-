@@ -129,3 +129,13 @@ Attatched Image shows winder conncetion is availiable in the same path folder vi
 		Here’s the idea:
 	Problem: The CPU is much faster than DRAM. Every time the processor requests data directly from DRAM, it waits too long → bottleneck.
 	Solution: Put a small cache or buffer inside the DRAM chip itself. This way, frequently accessed rows/blocks of data can be served faster without going all the way back through the full DRAM access cycle.
+
+
+	Examples:
+
+		EDO DRAM (Extended Data Out) → lets data stay valid longer to speed sequential access.
+		SDRAM (Synchronous DRAM) → syncs with CPU clock to improve efficiency.
+		RDRAM and later DDR SDRAM → added internal buffering and pipelining to keep the data bus busy.
+		Modern DRAM (e.g., GDDR6, HBM) → includes row buffers and prefetch logic (like an internal cache) to transfer wide chunks of data more efficiently.
+		
+		⚡ So instead of each request being “open row → fetch → close row,” the cache/buffer keeps the row open and serves multiple accesses quickly.
