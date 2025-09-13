@@ -147,3 +147,25 @@ Why reduce memory access?
 			Accessing DRAM takes hundreds of CPU cycles.
 			If the CPU had to go to main memory for every instruction/data fetch, it would spend most of its time waiting.
 			So we reduce the number of times CPU must access DRAM → use caches.
+
+How caches solve this
+
+			Cache Hierarchy (L1, L2, L3):
+			L1 (very small, very fast, per-core).
+			L2 (larger, slower, but still faster than RAM).
+			L3 (largest, shared across cores).
+
+Each level catches misses from the level above it, reducing how often RAM is touched.
+
+More Efficient Structures:
+
+		Set-associative caches: Smarter placement of data than direct-mapped caches → fewer collisions.
+		Victim caches: Small extra buffer to store recently evicted lines → reduces miss penalties.
+		Write-back caches: Update main memory less frequently → fewer writes.
+		Prefetching: Cache predicts future data and fetches it before CPU requests.
+		Inclusive/Exclusive caches: Hierarchy coordination to avoid redundant storage.
+
+Result:
+		
+		Higher hit ratio → CPU finds data in cache instead of RAM.
+		Dramatically fewer DRAM accesses → faster execution.
