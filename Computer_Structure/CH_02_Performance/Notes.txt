@@ -25,3 +25,7 @@ To make a computer faster, you can:
 			⚠ But leads to heating and power issues.
 			Reduce CPI: Optimize hardware (pipelining, parallelism, better instruction design).
 			Reduce Instruction Count (IC): Compiler optimizations, efficient ISA.
+
+4. Benchmarks
+
+Standard programs used to compare systems (e.g., SPEC benchmarks).Real workloads are better indicators than synthetic ones.
