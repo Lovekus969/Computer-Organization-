@@ -1,0 +1,7 @@
+Here are the different types of caches:
+
+L1 cache:
+- fastest memory for accessing the data among L1, L2, L3 caches
+- as a hardware, it's placed closest to the CPU cores
+- measured in KiloBytes or usually max goes up to 1MB
+- approx 100x faster than your system RAM
