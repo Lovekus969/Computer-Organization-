@@ -5,3 +5,16 @@ Designing for Performance
 
 Often measured by:
   Response Time (Latency): Time taken to finish one task.
+
+Measuring Performance
+
+Execution Time (T):
+
+`````````````````````𝑇  =(Instruction Count) ×(CPI)× (Clock Cycle Time)
+                     T=(Instruction Count)×(CPI)×(Clock Cycle Time)
+
+            Instruction Count (IC): How many instructions a program needs.
+            CPI (Cycles per Instruction): Average cycles per instruction.
+            Clock Cycle Time: Inverse of clock rate (1 / frequency).
+
+	​
