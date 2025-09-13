@@ -280,3 +280,7 @@ As processor speeds have increased rapidly, chip designers had to reorganize and
 				At very high frequencies, even small wire distances inside chips cause timing errors.
 		D. Diminishing Returns
 				Doubling clock speed doesn’t double performance (bottlenecks in memory, I/O).
+Summary of clock time limitations:=>> 
+			Clock Speed Limits → heat, power, timing problems.
+			Logic Density Limits → leakage, fabrication, interconnect bottlenecks.
+			Together, they forced a shift to new architectures instead of just scaling speed and densit
