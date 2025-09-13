@@ -94,3 +94,10 @@ Techniques:
 				Multithreading / Multicore: Multiple threads or cores run simultaneously.
 
 		Prefetching: Load data before it’s needed.
+
+what widening a wire actually does
+
+	Lower resistance (R): a thicker/wider conductor has less resistance → less voltage drop and less Joule heating for the same current.
+	Lower RC delay: resistance × capacitance (RC) sets how fast a signal edge rises. Wider traces or on-chip metal layers lower R, so edges are faster → lower latency.
+	Higher current capacity: wider traces can carry more current without overheating (important for power rails and high-speed parallel drivers).
+	But larger area / routing cost: wider wires take space on a die or PCB and use up routing resources (fewer wires fit in a given width).
