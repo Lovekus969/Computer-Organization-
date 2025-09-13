@@ -123,3 +123,9 @@ If each memory access brings more data per cycle, caches and CPU pipelines are l
 This improves throughput without necessarily making DRAM itself faster.
  So this is one of the architectural adjustments to handle the mismatch: Increase memory bandwidth by widening DRAM chips and bus data paths, so more bits are delivered to the CPU in each transfer.
 Attatched Image shows winder conncetion is availiable in the same path folder view more at Path_Wider.jpg
+
+
+	One of the architectural tricks used to reduce the mismatch between processor and memory speed.
+		Here’s the idea:
+	Problem: The CPU is much faster than DRAM. Every time the processor requests data directly from DRAM, it waits too long → bottleneck.
+	Solution: Put a small cache or buffer inside the DRAM chip itself. This way, frequently accessed rows/blocks of data can be served faster without going all the way back through the full DRAM access cycle.
