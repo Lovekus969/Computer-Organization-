@@ -169,3 +169,12 @@ Result:
 		
 		Higher hit ratio → CPU finds data in cache instead of RAM.
 		Dramatically fewer DRAM accesses → faster execution.
+
+Performance Balance
+
+Modern CPUs have become very fast (thanks to Moore’s Law and high transistor density). But other components—like memory and I/O devices—haven’t scaled at the same rate. This creates a mismatch (also called the performance gap).
+
+							CPU speed: nanoseconds (ns)
+							Memory (RAM): tens to hundreds of ns
+							Disk I/O (HDD/SSD): microseconds (µs) to milliseconds (ms)
+							Network I/O: even higher latency compared to CPU
