@@ -101,3 +101,15 @@ what widening a wire actually does
 	Lower RC delay: resistance × capacitance (RC) sets how fast a signal edge rises. Wider traces or on-chip metal layers lower R, so edges are faster → lower latency.
 	Higher current capacity: wider traces can carry more current without overheating (important for power rails and high-speed parallel drivers).
 	But larger area / routing cost: wider wires take space on a die or PCB and use up routing resources (fewer wires fit in a given width).
+
+
+Make DRAM “wider” instead of “deeper”
+
+			Deeper memory = more addresses (bigger memory capacity).
+			Wider memory = more bits per word (fetching more data per access).
+
+👉 Example:
+
+		A 1M × 8-bit DRAM can store 1 million 8-bit words.											(:=>> Things are same just change the size of the path think ) 
+		A 512K × 16-bit DRAM has the same total capacity, but each access retrieves 16 bits at once instead of 8.
+		So by widening, you don’t increase the number of words stored, but you increase the width of each access. That means the CPU can get more data per memory cycle.
