@@ -18,3 +18,10 @@ Execution Time (T):
             Clock Cycle Time: Inverse of clock rate (1 / frequency).
 
 	​
+Improving Performance
+
+To make a computer faster, you can:
+			Increase Clock Rate (GHz): Faster cycles → faster CPU.
+			⚠ But leads to heating and power issues.
+			Reduce CPI: Optimize hardware (pipelining, parallelism, better instruction design).
+			Reduce Instruction Count (IC): Compiler optimizations, efficient ISA.
