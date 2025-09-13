@@ -134,8 +134,16 @@ Attatched Image shows winder conncetion is availiable in the same path folder vi
 	Examples:
 
 		EDO DRAM (Extended Data Out) → lets data stay valid longer to speed sequential access.
+
+
 		SDRAM (Synchronous DRAM) → syncs with CPU clock to improve efficiency.
 		RDRAM and later DDR SDRAM → added internal buffering and pipelining to keep the data bus busy.
 		Modern DRAM (e.g., GDDR6, HBM) → includes row buffers and prefetch logic (like an internal cache) to transfer wide chunks of data more efficiently.
 		
 		⚡ So instead of each request being “open row → fetch → close row,” the cache/buffer keeps the row open and serves multiple accesses quickly.
+
+Why reduce memory access?
+			
+			Accessing DRAM takes hundreds of CPU cycles.
+			If the CPU had to go to main memory for every instruction/data fetch, it would spend most of its time waiting.
+			So we reduce the number of times CPU must access DRAM → use caches.
