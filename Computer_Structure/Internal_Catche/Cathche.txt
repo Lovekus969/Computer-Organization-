@@ -28,3 +28,19 @@ The L1, L2 and L3 caches are faster memory access option compared to the main me
 Registers are type of computer memory that are built directly into the CPU that is used for storing and transferring the data and instructions to the computer. It is the smallest and fastest memory of a computer. The register memory is 16, 32 and 64 bits in size.
 
 There are different types of registers available and thus may store different type of data such as an instruction, a storage address, or any kind of data for that matter depending upon their type.
+
+
+Here are some examples of registers with their respective applications in brief:
+
+Accumulator (AC): Stores the results of arithmetic and logical operations.
+
+Memory Address Register (MAR): Holds the memory address of the data to be accessed.
+
+Memory Data Register (MDR) : Stores the data being read from or written to the memory.
+MAR and MDR together facilitate the communication of the CPU with the main memory.
+
+Program Counter: Points to the next instruction to be executed.
+
+Instruction Register: Holds the current instruction to be executed.
+
+Condition code registers: contains different flags that indicate the status of any operation.
