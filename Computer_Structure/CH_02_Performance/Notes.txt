@@ -27,5 +27,7 @@ To make a computer faster, you can:
 			Reduce Instruction Count (IC): Compiler optimizations, efficient ISA.
 
 4. Benchmarks
+			Standard programs used to compare systems (e.g., SPEC benchmarks).Real workloads are better indicators than synthetic ones.
 
-Standard programs used to compare systems (e.g., SPEC benchmarks).Real workloads are better indicators than synthetic ones.
+5. Amdahl’s Law (Important)
+			The speedup gained from improving part of a system is limited by the portion not improved.
