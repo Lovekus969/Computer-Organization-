@@ -9,3 +9,19 @@ L1 cache:
 L1 cache internally consists of two parts:
 [1] Data cache: holds the data on which the operation is to be performed
 [2] Instruction Cache: deals with the information about the operation that the CPU must perform
+
+
+L2 cache:
+- slower in terms of data access but bigger in size than the L1 cache
+- also fitted inside each individual CPU core
+- usually measured in single-digit MBs
+- approx 25x faster than your system RAM
+
+L3 cache:
+- larger in size than L1 and L2 caches
+- placed outside of the CPU core and shared across multiple CPU cores
+- It's a generic memory pool that the entire chip can use
+
+The L1, L2 and L3 caches are faster memory access option compared to the main memory. Cache memory stores all data and instructions that are repeatedly used by the CPU for improving the performance of a computer. Moreover, caches are must costlier compared to the primary memory and secondary memory.
+
+4) Registers
