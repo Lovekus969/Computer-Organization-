@@ -31,3 +31,9 @@ To make a computer faster, you can:
 
 5. Amdahl’s Law (Important)
 			The speedup gained from improving part of a system is limited by the portion not improved.
+
+Designing for Performance (Extended Notes)
+		Falling Cost, Rising Power
+		The cost of computer systems keeps dropping dramatically.Meanwhile, performance and capacity rise equally dramatically.
+Example:	
+		A laptop today ≈ the power of an IBM mainframe from 10–15 years ago.What used to require a multi-million-dollar machine now fits in your backpack.
