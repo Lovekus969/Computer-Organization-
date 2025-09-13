@@ -1,0 +1,7 @@
+Designing for Performance
+1. What is Performance?
+    Performance = how fast a computer executes programs.
+  Higher performance = less time to complete a task.
+
+Often measured by:
+  Response Time (Latency): Time taken to finish one task.
