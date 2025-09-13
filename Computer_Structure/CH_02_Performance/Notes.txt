@@ -266,3 +266,17 @@ As processor speeds have increased rapidly, chip designers had to reorganize and
 
 
 													Problems with Clock Speed and Logic Density
+1. Clock Speed Problems
+		A. Heat Dissipation
+				Higher clock speeds = more power consumption.
+				More power → more heat → harder to cool.
+				Example: CPUs above ~4–5 GHz face thermal limits.
+
+		B.  Power Consumption
+				Power ∝ Voltage² × Frequency.
+				Increasing clock frequency dramatically raises power needs.
+
+		C. Signal Delay (Propagation Delay)
+				At very high frequencies, even small wire distances inside chips cause timing errors.
+		D. Diminishing Returns
+				Doubling clock speed doesn’t double performance (bottlenecks in memory, I/O).
