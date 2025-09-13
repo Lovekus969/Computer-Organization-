@@ -5,3 +5,7 @@ L1 cache:
 - as a hardware, it's placed closest to the CPU cores
 - measured in KiloBytes or usually max goes up to 1MB
 - approx 100x faster than your system RAM
+
+L1 cache internally consists of two parts:
+[1] Data cache: holds the data on which the operation is to be performed
+[2] Instruction Cache: deals with the information about the operation that the CPU must perform
