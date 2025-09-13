@@ -48,3 +48,49 @@ Example:
 											Multimedia Authoring → creating and editing video/audio content.
 											Voice and Video Annotation of Files → adding media notes in documents.
 											Simulation Modeling → engineering, weather prediction, AI training.
+
+
+
+
+						Designing for Performance – Processor Speed & Challenges
+1. Increasing Speed of Processors
+
+				Processor speed has historically doubled every 18–24 months.
+				Measured in clock frequency (GHz).
+				Higher speed = faster execution, but also more heat and power consumption.
+
+2. Moore’s Law
+
+				Gordon Moore (Intel co-founder) observed in 1965:
+				The number of transistors on a chip doubles roughly every 18–24 months.
+
+Effect:
+
+				More transistors → more circuits in less space.
+				Leads to higher performance, lower cost per transistor, and more compact chips.
+
+Example:
+				A modern smartphone has billions of transistors, more than early supercomputers.
+
+3. Reducing Distances Between Circuits
+
+				As chips shrink (nanometer technology: 7nm, 5nm, 3nm), the signal travel distance decreases. Shorter distances = faster communication = less delay.
+
+Challenge:
+
+				Very small circuits suffer from heat dissipation and quantum effects (leakage, tunneling).
+
+4. Continuously Feeding Work to Processors
+
+Fast CPUs are useless if they sit idle. The big challenge:How do we keep processors busy at all times?
+
+Techniques:
+			Pipelining: Break execution into stages so multiple instructions overlap.
+			Superscalar Execution: Multiple instructions issued per clock cycle.
+			Out-of-Order Execution: CPU reorders instructions to avoid stalls.
+			Branch Prediction: Guess outcomes of branches to avoid waiting.
+
+		Caches: Store recently/frequently used data close to CPU.
+				Multithreading / Multicore: Multiple threads or cores run simultaneously.
+
+		Prefetching: Load data before it’s needed.
