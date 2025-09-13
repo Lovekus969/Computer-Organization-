@@ -113,3 +113,13 @@ Make DRAM “wider” instead of “deeper”
 		A 1M × 8-bit DRAM can store 1 million 8-bit words.											(:=>> Things are same just change the size of the path think ) 
 		A 512K × 16-bit DRAM has the same total capacity, but each access retrieves 16 bits at once instead of 8.
 		So by widening, you don’t increase the number of words stored, but you increase the width of each access. That means the CPU can get more data per memory cycle.
+
+
+	Why this helps performance
+
+Modern CPUs can execute billions of instructions per second, but DRAM latency is high (hundreds of cycles).
+If each memory access brings more data per cycle, caches and CPU pipelines are less likely to stall.
+
+This improves throughput without necessarily making DRAM itself faster.
+ So this is one of the architectural adjustments to handle the mismatch: Increase memory bandwidth by widening DRAM chips and bus data paths, so more bits are delivered to the CPU in each transfer.
+Attatched Image shows winder conncetion is availiable in the same path folder view more at Path_Wider.jpg
