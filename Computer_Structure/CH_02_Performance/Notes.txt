@@ -37,3 +37,14 @@ Designing for Performance (Extended Notes)
 		The cost of computer systems keeps dropping dramatically.Meanwhile, performance and capacity rise equally dramatically.
 Example:	
 		A laptop today ≈ the power of an IBM mainframe from 10–15 years ago.What used to require a multi-million-dollar machine now fits in your backpack.
+
+
+						Applications Driving Performance Needs
+											Modern desktop applications demand the great power of today’s processors:
+											Image Processing → e.g., editing high-res photos, filters.
+											3D Rendering → used in games, animations, VR/AR.
+											Speech Recognition → voice assistants, transcription.
+											Videoconferencing → real-time audio/video encoding/decoding.
+											Multimedia Authoring → creating and editing video/audio content.
+											Voice and Video Annotation of Files → adding media notes in documents.
+											Simulation Modeling → engineering, weather prediction, AI training.
