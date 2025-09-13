@@ -188,3 +188,5 @@ I/O Devices in Performance Balance
 						Interrupts – CPU doesn’t constantly check the I/O device; instead, the device notifies CPU when ready.
 						Parallelism – Overlap I/O with CPU work (CPU computes while I/O runs in background).
 						Queuing & Scheduling – Efficient handling of multiple I/O requests.
+
+Performance Balance & I/O Devices
