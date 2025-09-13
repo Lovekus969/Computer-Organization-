@@ -284,3 +284,9 @@ Summary of clock time limitations:=>>
 			Clock Speed Limits → heat, power, timing problems.
 			Logic Density Limits → leakage, fabrication, interconnect bottlenecks.
 			Together, they forced a shift to new architectures instead of just scaling speed and densit
+
+
+Moore’s Law
+	Definition:
+	Moore’s Law is an observation made by Gordon Moore (co-founder of Intel) in 1965. He noticed that:
+		“The number of transistors on a chip doubles approximately every 18–24 months, while the cost per transistor decreases.”
