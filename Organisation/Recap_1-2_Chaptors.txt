@@ -4,3 +4,10 @@ Computer Organization & Architecture – What We’ve Learned So Far
                 Computer Architecture → What is visible to the programmer (instruction set, addressing modes, system design).
 
 👉 Think of Organization = Implementation, Architecture = Design.
+
+2. CPU & Memory Hierarchy
+                          Registers → Fastest storage, inside CPU.
+                          Cache (L1, L2, L3) → Stores frequently accessed data.
+                          Main Memory (RAM) → Stores active programs/data.
+                          Secondary Storage (HDD/SSD) → Permanent storage.
+                          Principle of Locality → Temporal & Spatial locality → why caches work.
