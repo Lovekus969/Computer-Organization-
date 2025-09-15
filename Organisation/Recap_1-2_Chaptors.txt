@@ -32,3 +32,9 @@ Solutions:
                 Buffers & Caches in memory.
                 High-speed buses (PCIe, USB, etc.).
                 DMA (Direct Memory Access) to bypass CPU for data transfer.
+
+6. Memory Organization
+
+                DRAM vs SRAM → DRAM slower but higher capacity, SRAM faster but expensive.
+                Cache Organization → Direct-mapped, Fully associative, Set associative.
+                Virtual Memory → Uses disk + RAM to give illusion of bigger memory.
