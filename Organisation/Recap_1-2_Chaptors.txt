@@ -16,3 +16,12 @@ Computer Organization & Architecture – What We’ve Learned So Far
                           Moore’s Law → More transistors in less space → faster chips.
                           Problems → Power consumption, heat, clock speed limits.
                           Solution → Multi-core processors, pipelining, parallelism.
+4. Instruction Execution
+
+          Instruction Cycle → Fetch → Decode → Execute → Store.
+          Pipelining → Break instructions into stages, overlap execution.
+
+Hazards
+          Data hazards
+          Control hazards (branching)
+          Structural hazards
