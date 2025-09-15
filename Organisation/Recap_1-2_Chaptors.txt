@@ -25,3 +25,10 @@ Hazards
           Data hazards
           Control hazards (branching)
           Structural hazards
+
+5. I/O & System Balance
+          Processor power is very high, but I/O devices are slower.
+Solutions:
+                Buffers & Caches in memory.
+                High-speed buses (PCIe, USB, etc.).
+                DMA (Direct Memory Access) to bypass CPU for data transfer.
