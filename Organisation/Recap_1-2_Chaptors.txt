@@ -11,3 +11,8 @@ Computer Organization & Architecture – What We’ve Learned So Far
                           Main Memory (RAM) → Stores active programs/data.
                           Secondary Storage (HDD/SSD) → Permanent storage.
                           Principle of Locality → Temporal & Spatial locality → why caches work.
+3. Performance Factors
+
+                          Moore’s Law → More transistors in less space → faster chips.
+                          Problems → Power consumption, heat, clock speed limits.
+                          Solution → Multi-core processors, pipelining, parallelism.
