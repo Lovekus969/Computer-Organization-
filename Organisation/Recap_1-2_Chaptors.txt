@@ -1,0 +1,6 @@
+Computer Organization & Architecture – What We’ve Learned So Far
+1. Basic Concepts
+                Computer Organization → How things work internally (control signals, data paths, memory hierarchy, instruction cycles).
+                Computer Architecture → What is visible to the programmer (instruction set, addressing modes, system design).
+
+👉 Think of Organization = Implementation, Architecture = Design.
