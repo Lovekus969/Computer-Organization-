@@ -38,3 +38,42 @@ Solutions:
                 DRAM vs SRAM → DRAM slower but higher capacity, SRAM faster but expensive.
                 Cache Organization → Direct-mapped, Fully associative, Set associative.
                 Virtual Memory → Uses disk + RAM to give illusion of bigger memory.
+
+
+
+
+                                              
+                                                                ┌───────────────────────────┐
+                                                                │        Input Devices       │
+                                                                │ (Keyboard, Mouse, Sensor)  │
+                                                                └───────────────┬───────────┘
+                                                                                │
+                                                                                ▼
+                                                      ┌─────────────────────────────────────────────┐
+                                                      │                  CPU                        │
+                                                      │ ┌───────────────┐   ┌────────────────────┐ │
+                                                      │ │ Control Unit  │◄──│  Instruction Set   │ │
+                                                      │ └───────────────┘   └────────────────────┘ │
+                                                      │ ┌───────────────┐   ┌────────────────────┐ │
+                                                      │ │   ALU         │   │   Registers        │ │
+                                                      │ └───────────────┘   └────────────────────┘ │
+                                                      └─────────────────────────────────────────────┘
+                                                                                │
+                                                             ┌──────────────────┴──────────────────┐
+                                                             ▼                                     ▼
+                                                     ┌───────────────────┐              ┌────────────────────┐
+                                                     │    Cache Memory   │              │   Main Memory (RAM)│
+                                                     │  (L1, L2, L3)     │              │                    │
+                                                     └───────────────────┘              └────────────────────┘
+                                                             │                                     │
+                                                             ▼                                     ▼
+                                                     ┌───────────────────┐              ┌────────────────────┐
+                                                     │ Secondary Storage │              │   Virtual Memory    │
+                                                     │  (SSD, HDD)       │              │ (Disk + RAM)        │
+                                                     └───────────────────┘              └────────────────────┘
+                                                                                │
+                                                                                ▼
+                                                                     ┌────────────────────┐
+                                                                     │   Output Devices   │
+                                                                     │ (Display, Printer) │
+                                                                     └────────────────────┘
