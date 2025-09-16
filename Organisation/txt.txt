@@ -26,3 +26,18 @@ Defines the programmer’s view of the machine.
 Examples:
 
 Instruction Set Architecture (ISA): what instructions the CPU supports (e.g., x86, ARM).
+
+
+2. Computer Organization ⚙️
+
+Refers to the implementation details of the architecture.
+
+It is about how the computer does it.
+
+Deals with the hardware components and their interconnections.
+
+Examples:
+
+How the control unit is designed (hardwired vs microprogrammed).
+
+How cache is structured (L1, L2, L3).
