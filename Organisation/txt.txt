@@ -13,3 +13,16 @@ A computer is a machine that can be programmed to automatically carry out sequen
 - Architecture first → then organization  
 - Architecture = blueprint, Organization = implementation  
 - Microarchitecture is another term for organization...
+
+
+. Computer Architecture 🏗️
+
+Refers to the abstract design and functional behavior of a computer system.
+
+It is about what the computer does.
+
+Defines the programmer’s view of the machine.
+
+Examples:
+
+Instruction Set Architecture (ISA): what instructions the CPU supports (e.g., x86, ARM).
