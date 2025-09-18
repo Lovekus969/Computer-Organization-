@@ -39,3 +39,10 @@ If 10 requests arrive per second (λ=10) and each request spends 5 seconds in th
 			L=10×5=50
 
 ➝ On average, 50 requests will be in the system at any time.
+
+
+| Law              | Domain              | Formula                                          | What It Explains                                             |
+| ---------------- | ------------------- | ------------------------------------------------ | ------------------------------------------------------------ |
+| **Amdahl’s Law** | Parallel computing  | $\text{Speedup} = \frac{1}{(1-f) + \frac{f}{N}}$ | Limits of parallelism                                        |
+| **Little’s Law** | Queueing/throughput | $L = \lambda \times W$                           | Relationship between concurrency, arrival rate, waiting time |
+
