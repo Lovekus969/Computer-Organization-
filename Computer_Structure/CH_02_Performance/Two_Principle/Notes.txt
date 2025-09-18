@@ -10,3 +10,5 @@ Speedup
 
 Speedup(f,N)=(1−f)+Nfi/1
 	​
+
+
