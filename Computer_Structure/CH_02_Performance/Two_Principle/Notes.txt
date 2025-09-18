@@ -19,3 +19,23 @@ Little’s Law is from queueing theory but is very important in computer systems
  Formula:
 															𝐿=𝜆×𝑊
 L=λ×W
+
+Where:
+
+𝐿
+L = average number of items in the system (queue length, customers, instructions in pipeline, etc.)
+
+𝜆
+λ = average arrival rate (items per unit time)
+
+𝑊
+W = average waiting time in the system
+
+Interpretation:
+
+If 10 requests arrive per second (λ=10) and each request spends 5 seconds in the system (W=5):
+
+
+			L=10×5=50
+
+➝ On average, 50 requests will be in the system at any time.
