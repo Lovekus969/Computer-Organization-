@@ -46,3 +46,13 @@ If 10 requests arrive per second (λ=10) and each request spends 5 seconds in th
 | **Amdahl’s Law** | Parallel computing  | $\text{Speedup} = \frac{1}{(1-f) + \frac{f}{N}}$ | Limits of parallelism                                        |
 | **Little’s Law** | Queueing/throughput | $L = \lambda \times W$                           | Relationship between concurrency, arrival rate, waiting time |
 
+
+
+
+
+So in this chapter:
+
+Amdahl’s Law helps us understand why adding more processors doesn’t always improve performance.
+
+Little’s Law helps us understand how many things can be in a system based on throughput and latency.
+
