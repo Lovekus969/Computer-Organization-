@@ -22,3 +22,6 @@ Why Clock Speed Matters ??
                                                 The processor design (pipeline, superscalar, cache, etc.).
 
 The latency of signals inside the chip (distance, wiring, layout).
+
+Instruction Execution Rate(IER)
+                A processor’s performance depends not only on its clock speed, but also on how many instructions it executes per cycle and how many cycles each instruction takes.
