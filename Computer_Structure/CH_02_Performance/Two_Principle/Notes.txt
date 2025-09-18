@@ -12,3 +12,10 @@ Speedup(f,N)=(1−f)+Nfi/1
 	​
 
 
+2. Little’s Law
+
+Little’s Law is from queueing theory but is very important in computer systems (pipelines, I/O queues, networks).
+
+ Formula:
+															𝐿=𝜆×𝑊
+L=λ×W
