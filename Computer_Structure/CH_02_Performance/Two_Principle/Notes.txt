@@ -9,7 +9,8 @@ Speedup
 (𝑓,𝑁 ) =1(1−𝑓)+𝑓𝑁
 
 Speedup(f,N)=(1−f)+Nfi/1
-	​
+	
+Speedup = Time to execute program on a single processor/Time to execute program on N parallel processors​
 
 
 2. Little’s Law
