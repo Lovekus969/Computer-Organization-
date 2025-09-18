@@ -1,1 +1,12 @@
 fundamental principles
+1. Amdahl’s Law
+
+Amdahl’s Law tells us the maximum speedup we can get by parallelizing a task, given that some part of the task is inherently sequential.
+
+👉 Formula:
+
+Speedup
+(𝑓,𝑁 ) =1(1−𝑓)+𝑓𝑁
+
+Speedup(f,N)=(1−f)+Nfi/1
+	​
