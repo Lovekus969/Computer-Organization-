@@ -25,3 +25,24 @@ The latency of signals inside the chip (distance, wiring, layout).
 
 Instruction Execution Rate(IER)
                 A processor’s performance depends not only on its clock speed, but also on how many instructions it executes per cycle and how many cycles each instruction takes.
+
+
+Basic Parameters
+
+Clock frequency (f):
+
+Number of clock cycles per second (Hz).
+
+Cycle time:
+
+                𝑡=1 / 𝑓
+	​
+
+
+Instruction count (Ic):
+                        The total number of instructions executed by the program.
+                        ⚠ Not the same as the number of instructions in the code (loops, branches, etc. affect actual executions).
+                        Cycles per instruction (CPI):
+                        Average number of cycles required per instruction.
+                        Depends on instruction type (load, store, branch, etc.).
+                        ​
