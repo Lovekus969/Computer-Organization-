@@ -14,3 +14,11 @@ How the Clock Works
 
  Each pulse = clock tick (cycle).
  The time between pulses = cycle time.
+
+Why Clock Speed Matters ?? 
+                Every operation (fetch, decode, execute, memory access) starts on a clock tick. Higher clock speed = more cycles per second → potentially faster execution.
+                But ⚠ speed depends on more than just clock rate:
+                                                The number of cycles per instruction (CPI).
+                                                The processor design (pipeline, superscalar, cache, etc.).
+
+The latency of signals inside the chip (distance, wiring, layout).
