@@ -49,3 +49,11 @@ Instruction count (Ic):
 Processor Time (Execution Time)
  Definition:
 		Processor time (or execution time) is the total time a CPU takes to execute a program from start to finish. It tells us how long the processor spends actively running instructions for that program.
+
+Why It Matters
+	Execution time is the real-world measure of performance (how fast a program finishes).
+It depends on:
+				Instruction set design (RISC vs CISC, complexity of operations).
+				Compiler efficiency (translating high-level code into fewer machine instructions).
+				Processor implementation (pipelining, parallelism, superscalar design).
+				Cache and memory hierarchy (reducing memory delays).
