@@ -1,0 +1,5 @@
+The clock speed (or clock rate) is the number of cycles per second that the system clock produces to synchronize processor operations.
+
+Measured in Hertz (Hz).
+
+Example: A 1 GHz processor = 1 billion cycles per second.
