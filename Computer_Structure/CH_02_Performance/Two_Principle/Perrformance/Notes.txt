@@ -46,3 +46,6 @@ Instruction count (Ic):
                         Average number of cycles required per instruction.
                         Depends on instruction type (load, store, branch, etc.).
                         ​
+Processor Time (Execution Time)
+ Definition:
+		Processor time (or execution time) is the total time a CPU takes to execute a program from start to finish. It tells us how long the processor spends actively running instructions for that program.
