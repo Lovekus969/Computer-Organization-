@@ -148,3 +148,14 @@ That’s true because:    Adding processors = more heat, more power draw.
 							Software (algorithms, parallel code)
 							Hardware (memory, cache, buses, storage, network)
 							Architecture (better pipelines, compilers, branch predictors)
+
+5. Heat, Resistance, and Limits
+
+More processors → more switching transistors → more heat.
+
+
+Formula: 𝑃=𝑉^2  × f × 𝐶
+									 (power depends on voltage, frequency, activity).
+
+		Pushing frequency too high → thermal issues, errors, throttling.
+		This is why CPU clock speeds plateaued (~3–5 GHz), and companies shifted to multicore designs + efficiency improvements.
