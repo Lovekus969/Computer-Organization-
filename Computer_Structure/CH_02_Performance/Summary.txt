@@ -98,3 +98,11 @@ FLOPS (Floating-Point Ops/sec):
             Execution time (T): 
                                                                   𝑇   = Instruction count    X  CPI   X  Clock cycle time
             Instruction count × CPI × Clock cycle time
+
+
+
+1. Execution rate (instructions per second)
+Execution rate =                Instruction count /
+                                                 /  Execution time
+
+	​
