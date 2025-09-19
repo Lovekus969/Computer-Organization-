@@ -105,4 +105,13 @@ FLOPS (Floating-Point Ops/sec):
 Execution rate =                Instruction count /
                                                  /  Execution time
 
+
+2. MIPS (Millions of Instructions per Second)
+		Now, to express that same execution rate in millions:
+
+									MIPS  =    	Instruction count /
+																 /	Execution time × 10^6
+
+	​
+
 	​
