@@ -72,3 +72,15 @@
             Example: 3 GHz = 3 billion cycles per second.
             Same as frequency of CPU’s system clock
             ⚠ But → Not a full measure of performance. One 3 GHz CPU can be slower than another 2 GHz CPU if CPI is worse.
+
+2.6 Why MIPS/FLOPS are inadequate
+
+            MIPS (Million Instructions per Second):
+            Doesn’t reflect instruction complexity (some CPUs need more cycles per instruction).
+            Different instruction sets = unfair comparisons.
+
+FLOPS (Floating-Point Ops/sec):     
+            Useful only for floating-point heavy workloads (scientific/AI).
+            Doesn’t represent general-purpose performance.
+
+⚡ Example: A CPU with high MIPS may perform worse if each instruction does less useful work
