@@ -38,3 +38,12 @@
             Signal propagation delay – Wires on the chip take time to send signals (speed of light limits). At very high frequencies, signals may not settle before the next clock tick.
             Synchronization issues – Multiple parts of a large chip may not stay in sync at ultra-high speeds, causing errors.
             ⚡ Insight: This is why chipmakers shifted focus from increasing frequency → to parallelism (multicore).
+
+2.2 Advantages of cache
+
+            Cache is fast memory close to the CPU.
+            Faster memory access – L1/L2/L3 caches are orders of magnitude faster than main memory (nanoseconds vs hundreds of ns).
+            Reduces average memory latency – CPU doesn’t stall as often waiting for DRAM.
+            Bridges CPU–memory gap – Memory speeds haven’t scaled with CPU speeds. Cache smooths this imbalance.
+            
+            ⚡ Without cache, CPUs would spend most of their time idle waiting for data.
