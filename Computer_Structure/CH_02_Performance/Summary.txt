@@ -57,3 +57,12 @@
             Speculative execution & branch prediction – CPU predicts future paths of programs and executes ahead of time. If correct, saves time; if wrong, discard.
             Larger/faster caches – Reduces stalls, improves throughput.
             ⚡ Together, these techniques improve IPC (instructions per cycle), not just raw GHz.
+
+2.4 Obstacles at high clock speed/density
+            
+            Even with advanced designs:
+            Power & heat issues – Thermal limits cap frequency. Cooling is expensive.
+            Diminishing returns – Doubling frequency doesn’t double performance (because CPI, memory delays, etc.).
+            Memory bottlenecks – CPUs get faster, but DRAM hasn’t kept up → stalls.
+            Wire delays – As chips get bigger, interconnect delays dominate.
+            ⚡ Moore’s Law (transistors double every ~2 years) slowed down due to these limits.
