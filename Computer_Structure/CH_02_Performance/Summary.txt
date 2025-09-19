@@ -11,3 +11,9 @@
       Functional mean (FM) → Type of average that weights values based on functionality.
       General-purpose computing on GPU (GPGPU) → Using GPUs (normally for graphics) to perform non-graphics computations.
       Geometric mean (GM) → Multiply values, take the n-th root. Used for benchmarking ratios
+      Graphics Processing Unit (GPU) → Processor specialized for parallel graphics and data tasks.
+      Harmonic mean (HM) → Reciprocal of the average of reciprocals. Good for rate-based metrics.
+      Instruction execution rate → How many instructions are executed per unit time.
+
+                                    Little’s law →                                                                                     L=λ×W.
+Relates concurrency, throughput, and waiting time.
