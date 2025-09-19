@@ -94,3 +94,7 @@ FLOPS (Floating-Point Ops/sec):
             ⚡ Example: If a server processes 100 requests/sec (
             
             L=100×0.2=20
+
+            Execution time (T): 
+                                                                  𝑇   = Instruction count    X  CPI   X  Clock cycle time
+            Instruction count × CPI × Clock cycle time
