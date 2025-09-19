@@ -138,3 +138,13 @@ Speedup(N)=  1   /  F +{ (1−f)/N }
 				Parallel (can be spread across multiple cores)
 				Example: If 20% of a program is serial, even with 100 processors, the speedup is only ~5×, not 100×.
 				 Like cars on a highway that all must cross a one-lane bridge (serial bottleneck).
+
+Why Just Adding Processors Isn’t Enough	:=>> 
+	I  said it well: “whatever the system has space, technically it can get more power — but the reason we update is to improve everything, not just the processor.”
+
+That’s true because:    Adding processors = more heat, more power draw.
+		If the serial portion isn’t reduced, more cores don’t help.
+				We must upgrade the entire system:
+							Software (algorithms, parallel code)
+							Hardware (memory, cache, buses, storage, network)
+							Architecture (better pipelines, compilers, branch predictors)
