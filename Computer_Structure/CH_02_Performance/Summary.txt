@@ -1,1 +1,3 @@
 Amdahl’s law → Formula that shows the limit of speedup from parallel processing.
+
+Arithmetic mean (AM) → Average of values (sum ÷ count).
