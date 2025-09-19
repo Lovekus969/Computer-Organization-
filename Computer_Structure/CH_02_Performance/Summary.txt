@@ -47,3 +47,13 @@
             Bridges CPU–memory gap – Memory speeds haven’t scaled with CPU speeds. Cache smooths this imbalance.
             
             ⚡ Without cache, CPUs would spend most of their time idle waiting for data.
+
+2.3 Methods to increase processor speed
+            
+            How designers make CPUs faster beyond just clock speed:
+            Pipelining – Break instruction execution into stages (fetch, decode, execute, writeback). Multiple instructions overlap. Like an assembly line.
+            Superscalar execution – Multiple instructions issued per cycle if independent (parallel execution units).
+            Multicore architecture – Instead of one super-fast core, have multiple cores working in parallel.
+            Speculative execution & branch prediction – CPU predicts future paths of programs and executes ahead of time. If correct, saves time; if wrong, discard.
+            Larger/faster caches – Reduces stalls, improves throughput.
+            ⚡ Together, these techniques improve IPC (instructions per cycle), not just raw GHz.
