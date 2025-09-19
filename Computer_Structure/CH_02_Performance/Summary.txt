@@ -1,3 +1,13 @@
-Amdahl’s law → Formula that shows the limit of speedup from parallel processing.
-Arithmetic mean (AM) → Average of values (sum ÷ count).
-Base metric → A performance measure under baseline or standard conditions (e.g., SPECspeed base runs).
+      Amdahl’s law → Formula that shows the limit of speedup from parallel processing.
+      Arithmetic mean (AM) → Average of values (sum ÷ count).
+      Base metric → A performance measure under baseline or standard conditions (e.g., SPECspeed base runs).
+      Benchmark → Standardized test/program to evaluate system performance.
+      
+      Clock cycle / tick → One pulse of the system clock.
+      Clock cycle time → Duration of one clock cycle (
+                                                                          t=1/f).
+      Clock rate / speed → Number of cycles per second (Hz).
+      Cycles per instruction (CPI) → Average number of cycles an instruction takes.
+      Functional mean (FM) → Type of average that weights values based on functionality.
+      General-purpose computing on GPU (GPGPU) → Using GPUs (normally for graphics) to perform non-graphics computations.
+      Geometric mean (GM) → Multiply values, take the n-th root. Used for benchmarking ratios
