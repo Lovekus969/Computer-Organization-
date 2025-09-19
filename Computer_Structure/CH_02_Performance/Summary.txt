@@ -28,3 +28,13 @@
       SPEC → Standard Performance Evaluation Corporation; provides industry benchmarks.
       System under test (SUT) → The actual system being evaluated.
       Throughput → Number of tasks completed per unit time.
+
+
+2.1 Obstacles with higher clock speed & logic density
+
+            As we increase clock speed (GHz) and pack more transistors per chip (logic density):
+            Heat dissipation – Higher frequency = higher switching activity = more heat. Too much heat damages circuits.
+            Power consumption – Power ∝ Frequency × Voltage². Faster chips need more voltage, leading to an exponential rise in energy.
+            Signal propagation delay – Wires on the chip take time to send signals (speed of light limits). At very high frequencies, signals may not settle before the next clock tick.
+            Synchronization issues – Multiple parts of a large chip may not stay in sync at ultra-high speeds, causing errors.
+            ⚡ Insight: This is why chipmakers shifted focus from increasing frequency → to parallelism (multicore).
