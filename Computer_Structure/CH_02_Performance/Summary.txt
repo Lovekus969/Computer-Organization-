@@ -114,4 +114,21 @@ Execution rate =                Instruction count /
 
 	​
 
+	
+Amdahl’s Law — Easy Definition
+
+Amdahl’s Law tells us:
+
+👉 The maximum speedup from parallel processing is limited by the portion of a program that cannot be parallelized.
+
+Even with infinite processors, the serial part is a bottleneck.
+
+Formula:
+
+
+Speedup(N)=  1   /  F +{ (1−f)/N } 
+			
+
+1
 	​
+​
