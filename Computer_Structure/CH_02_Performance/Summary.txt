@@ -159,3 +159,10 @@ Formula: 𝑃=𝑉^2  × f × 𝐶
 
 		Pushing frequency too high → thermal issues, errors, throttling.
 		This is why CPU clock speeds plateaued (~3–5 GHz), and companies shifted to multicore designs + efficiency improvements.
+
+6. Real-World Reflection
+		2000s: CPUs stopped getting much faster in GHz → “Power wall.”
+Today:
+			Mix of strong single-core + many cores.
+			GPUs and AI accelerators for massive parallel workloads.
+			Smarter algorithms and distributed computing to overcome bottlenecks.
