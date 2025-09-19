@@ -1,0 +1,1 @@
+Amdahl’s law → Formula that shows the limit of speedup from parallel processing.
