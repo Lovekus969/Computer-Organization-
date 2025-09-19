@@ -84,3 +84,13 @@ FLOPS (Floating-Point Ops/sec):
             Doesn’t represent general-purpose performance.
 
 ⚡ Example: A CPU with high MIPS may perform worse if each instruction does less useful work
+
+2.8 Variables in Little’s Law
+                  L=λ×W
+
+            L (Length): Average number of items in system (e.g., requests in queue, instructions in pipeline).
+            λ (Arrival Rate): Average input rate (items per unit time).
+            W (Waiting Time): Average time item spends in the system.
+            ⚡ Example: If a server processes 100 requests/sec (
+            
+            L=100×0.2=20
