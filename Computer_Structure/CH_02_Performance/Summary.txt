@@ -16,4 +16,15 @@
       Instruction execution rate → How many instructions are executed per unit time.
 
                                     Little’s law →                                                                                     L=λ×W.
-Relates concurrency, throughput, and waiting time.
+      Relates concurrency, throughput, and waiting time.
+      Many Integrated Core (MIC) → Architecture with dozens/hundreds of cores for parallel tasks (Intel Xeon Phi).
+      Microprocessor → A CPU built on a single chip.
+      MIPS rate → Millions of instructions per second. (Inadequate metric alone.)
+      Multicore → Processors with multiple CPU cores on one chip.
+      Peak metric → Best-case performance (theoretical).
+      Rate metric → Performance expressed as throughput (operations/sec).
+      Reference machine → Standard system used to compare benchmark results.
+      Speed metric → Performance expressed as execution time (lower = better).
+      SPEC → Standard Performance Evaluation Corporation; provides industry benchmarks.
+      System under test (SUT) → The actual system being evaluated.
+      Throughput → Number of tasks completed per unit time.
