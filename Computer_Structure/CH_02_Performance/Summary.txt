@@ -132,3 +132,9 @@ Speedup(N)=  1   /  F +{ (1−f)/N }
 1
 	​
 ​
+2. Intuition:=>> 
+				Think of a program as two parts:
+				Serial (must run on a single core)
+				Parallel (can be spread across multiple cores)
+				Example: If 20% of a program is serial, even with 100 processors, the speedup is only ~5×, not 100×.
+				 Like cars on a highway that all must cross a one-lane bridge (serial bottleneck).
