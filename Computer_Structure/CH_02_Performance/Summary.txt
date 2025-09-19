@@ -66,3 +66,9 @@
             Memory bottlenecks – CPUs get faster, but DRAM hasn’t kept up → stalls.
             Wire delays – As chips get bigger, interconnect delays dominate.
             ⚡ Moore’s Law (transistors double every ~2 years) slowed down due to these limits.
+2.5 Clock rate definition
+
+            Clock rate (clock speed) = cycles per second (Hz).
+            Example: 3 GHz = 3 billion cycles per second.
+            Same as frequency of CPU’s system clock
+            ⚠ But → Not a full measure of performance. One 3 GHz CPU can be slower than another 2 GHz CPU if CPI is worse.
