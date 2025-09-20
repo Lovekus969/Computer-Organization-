@@ -18,3 +18,26 @@ Interrupts do not stop the CPU permanently.
           They just pause the current execution, handle the event with an ISR (Interrupt Service Routine), and then resume the program.
           
           You explained it nicely: interrupts make the CPU dive into handling the event and then return.
+: Fetch–Decode–Execute Cycle
+
+Fetch
+
+          CPU fetches the next instruction from main memory (RAM).
+          
+          The Program Counter (PC) gives the memory address.
+          
+          Instruction is loaded into the Instruction Register (IR).
+
+Decode
+
+          Control Unit decodes the opcode part of the instruction.
+          
+          Determines what operation is needed and which operands to use.
+
+Execute
+
+          The ALU (or relevant unit) performs the operation.
+          
+          Result is stored in a register, memory, or sent to an I/O device.
+
+👉 Then the cycle repeats for the next instruction.
