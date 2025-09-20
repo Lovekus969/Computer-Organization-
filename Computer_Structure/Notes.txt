@@ -1,0 +1,7 @@
+The three main functions of a computer are:
+
+          Data Processing (done by CPU/ALU)
+          
+          Data Storage (done by memory)
+          
+          Data Movement/Input-Output (handled by I/O devices + buses
