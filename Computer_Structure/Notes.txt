@@ -45,3 +45,15 @@ Execute
 Q5. Bus System
 
           Name the three types of buses in a computer system and state what each carries.
+
+ANS:==>> That’s a slick mnemonic! A C D = Address, Control, Data → easy to recall. And you’re 100% correct ✅
+
+          Quick Recap (Q5 Final Answer):
+
+                    A → Address Bus → carries addresses (unidirectional)
+                    
+                    C → Control Bus → carries control signals (read/write, interrupts, clock)
+                    
+                    D → Data Bus → carries actual data (bidirectional)
+                    
+                    And yes — “B stands for Bus” → so skip it 😅. That’s clever
