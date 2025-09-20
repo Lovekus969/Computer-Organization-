@@ -57,3 +57,20 @@ ANS:==>> That’s a slick mnemonic! A C D = Address, Control, Data → easy to r
                     D → Data Bus → carries actual data (bidirectional)
                     
                     And yes — “B stands for Bus” → so skip it 😅. That’s clever
+
+Next is Q6 (Interrupt Handling):
+What are the two main things the CPU must do when an interrupt occurs?
+
+                    Two Main Things CPU Does During an Interrupt
+                    
+                    Save the Current State
+                    
+                    CPU saves the contents of Program Counter (PC) and sometimes registers onto the stack.
+                    
+                    This ensures the CPU can resume the original program later.
+                    
+                    Jump to the Interrupt Service Routine (ISR)
+                    
+                    CPU loads the address of the ISR (from the Interrupt Vector Table).
+                    
+                    Executes the ISR to handle the event (like dealing with the error or I/O).
