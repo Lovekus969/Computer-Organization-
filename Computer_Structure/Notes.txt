@@ -10,3 +10,10 @@ You said True → Correct ✅
           In Von Neumann architecture, both data and instructions share the same memory space.
           
           That’s why the CPU uses the same bus for fetching instructions and data (which sometimes causes the “Von Neumann bottleneck”).
+You said No (i.e., False) → Correct ✅
+
+Interrupts do not stop the CPU permanently.
+
+          They just pause the current execution, handle the event with an ISR (Interrupt Service Routine), and then resume the program.
+          
+          You explained it nicely: interrupts make the CPU dive into handling the event and then return.
