@@ -5,3 +5,8 @@ The three main functions of a computer are:
           Data Storage (done by memory)
           
           Data Movement/Input-Output (handled by I/O devices + buses
+You said True → Correct ✅
+
+          In Von Neumann architecture, both data and instructions share the same memory space.
+          
+          That’s why the CPU uses the same bus for fetching instructions and data (which sometimes causes the “Von Neumann bottleneck”).
