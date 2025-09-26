@@ -20,3 +20,5 @@ Defines the physical implementation—control signals, microarchitecture, how th
                     Memory Data Register (MDR) – holds data sent to/from memory
                     Current Instruction Register (CIR) – stores the fetched instruction
                     (Extended: Instruction Buffer Register – holds instructions waiting to be executed)
+
+todays 
