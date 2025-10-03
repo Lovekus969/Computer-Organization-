@@ -1,0 +1,9 @@
+Catche Memory Cache Memory is:
+
+A small but very fast memory located between the CPU and main memory (RAM).
+
+It stores frequently accessed instructions and data so the CPU doesn’t have to fetch them repeatedly from the slower main memory.
+
+Access speed of cache is close to CPU registers, much faster than RAM.
+
+It is more expensive than main memory, which is why only a small amount is used.
