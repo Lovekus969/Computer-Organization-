@@ -7,3 +7,32 @@ It stores frequently accessed instructions and data so the CPU doesn’t have to
 Access speed of cache is close to CPU registers, much faster than RAM.
 
 It is more expensive than main memory, which is why only a small amount is used.
+
+
+ache Levels (L1, L2, L3):
+
+L1 Cache
+        
+        Closest to the CPU core
+        
+        Smallest in size (usually 32KB–128KB)
+        
+        Fastest (almost as fast as CPU registers)
+        
+        Stores the most frequently used instructions/data
+
+L2 Cache
+        
+        Larger (usually 256KB–1MB)
+        
+        Slightly slower than L1
+        
+        Acts as a backup for L1 cache
+
+L3 Cache
+        
+        Much larger (can be 4MB–64MB)
+        
+        Slower compared to L1 & L2, but still faster than main memory (RAM)
+
+Shared among multiple CPU cores
