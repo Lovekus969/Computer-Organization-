@@ -28,3 +28,14 @@ Types of Locality:
 | **Capacity**      | Total storage available                  |
 | **Cost per Bit**  | Price for storing each bit               |
 | **Volatility**    | Whether data is lost when power is off   |
+
+4.3 The Memory Hierarchy
+                        The memory hierarchy balances speed, cost, and capacity
+
+            | Level | Type                            | Speed     | Cost      | Size       |
+            | ----- | ------------------------------- | --------- | --------- | ---------- |
+            | 1     | **Registers**                   | Fastest   | Very High | Few bytes  |
+            | 2     | **Cache (L1, L2, L3)**          | Very Fast | High      | MBs        |
+            | 3     | **Main Memory (RAM)**           | Medium    | Moderate  | GBs        |
+            | 4     | **Secondary Storage (SSD/HDD)** | Slow      | Low       | TBs        |
+            | 5     | **Tertiary (Cloud, Tape)**      | Slowest   | Lowest    | Very large |
