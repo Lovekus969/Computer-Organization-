@@ -39,3 +39,10 @@ Types of Locality:
             | 3     | **Main Memory (RAM)**           | Medium    | Moderate  | GBs        |
             | 4     | **Secondary Storage (SSD/HDD)** | Slow      | Low       | TBs        |
             | 5     | **Tertiary (Cloud, Tape)**      | Slowest   | Lowest    | Very large |
+
+
+Concept:
+When CPU needs data:
+            It first checks cache (fastest).
+            If not found → goes to RAM (slower).
+            If not in RAM → goes to disk (slowest).
