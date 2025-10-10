@@ -46,3 +46,13 @@ When CPU needs data:
             It first checks cache (fastest).
             If not found → goes to RAM (slower).
             If not in RAM → goes to disk (slowest).
+
+
+4.3.1 Cost and Performance Characteristics
+
+            Registers: very fast but small
+            Cache: fast, expensive, medium-sized
+            Main Memory (RAM): slower, cheaper
+            Disk Storage: very slow, cheap, large capacity
+
+ Key Idea: Use small, fast memory near the CPU to store data that’s used often — that’s cache memory.
