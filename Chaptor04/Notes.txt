@@ -18,3 +18,13 @@ Types of Locality:
 
 4.2 Characteristics of Memory Systems
             Every memory system is described by:
+
+
+            | Property          | Description                              |
+| ----------------- | ---------------------------------------- |
+| **Access Time**   | Time to read/write a word                |
+| **Cycle Time**    | Minimum time between successive accesses |
+| **Transfer Rate** | Amount of data transferred per second    |
+| **Capacity**      | Total storage available                  |
+| **Cost per Bit**  | Price for storing each bit               |
+| **Volatility**    | Whether data is lost when power is off   |
