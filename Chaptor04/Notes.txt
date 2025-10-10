@@ -1,0 +1,6 @@
+Chapter 4 — The Memory Hierarchy: Locality and Performance
+🔹 4.1 Principle of Locality
+
+Definition:
+Most programs do not access all memory locations equally. They tend to access certain areas repeatedly.
+This is called the Principle of Locality — and it helps in designing faster memory systems.
