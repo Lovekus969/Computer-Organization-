@@ -4,3 +4,15 @@ Chapter 4 — The Memory Hierarchy: Locality and Performance
 Definition:
 Most programs do not access all memory locations equally. They tend to access certain areas repeatedly.
 This is called the Principle of Locality — and it helps in designing faster memory systems.
+
+Types of Locality:
+
+Temporal Locality (Time-based):
+      Recently accessed data is likely to be accessed again soon.
+      Example: A loop variable i accessed repeatedly in a for loop.
+
+Spatial Locality (Space-based):
+      Data close to recently accessed addresses are likely to be accessed soon.
+      Example: Accessing array elements sequentially (arr[0], arr[1], arr[2]).
+
+🧩 Cache memory is built to take advantage of these two kinds of locality.
