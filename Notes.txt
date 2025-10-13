@@ -21,4 +21,4 @@ Defines the physical implementation—control signals, microarchitecture, how th
                     Current Instruction Register (CIR) – stores the fetched instruction
                     (Extended: Instruction Buffer Register – holds instructions waiting to be executed)
 
-todays 
+
