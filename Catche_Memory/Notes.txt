@@ -64,3 +64,19 @@ Cache and virtual memory interactions: Decisions about using physical vs. virtua
                 Disadvantage: High conflict misses if many blocks map to the same line.
                 
                 Example: (Block address) mod (Number of cache lines)
+Q “What kind of miss increases most in a direct-mapped cache?” → Conflict misses?
+        In a direct-mapped cache, each memory block can map to exactly one cache line.
+
+So the type of miss that increases most is:
+        👉 Conflict misses
+
+Explanation:          
+                Conflict miss (also called collision miss) occurs when multiple blocks compete for the same cache line, even though other lines are free.
+                In a direct-mapped cache, this happens frequently because each block has only one possible location.
+
+Comparison:
+| Cache Type            | Miss Type Most Affected                                     |
+| --------------------- | ----------------------------------------------------------- |
+| **Direct-mapped**     | ✅ Conflict misses                                           |
+| **Fully associative** | ❌ No conflict misses (any block can go anywhere)            |
+| **Set-associative**   | ⚖️ Fewer conflict misses (more flexible than direct-mapped) |
