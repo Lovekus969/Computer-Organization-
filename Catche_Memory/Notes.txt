@@ -106,5 +106,31 @@ FAANG Q: “Why are fully associative caches rare in L1 caches?” → Cost and 
                 Fully associative caches are more common in small, slower caches like the TLB or L2/L3 victim caches.
 
  Final Answer:
+        Fully associative caches are rare in L1 caches because they are too costly and complex in hardware (they need many comparators and longer access time).
 
-Fully associative caches are rare in L1 caches because they are too costly and complex in hardware (they need many comparators and longer access time).
+
+3 Set-associative – Middle ground; cache is divided into sets; each set has n lines (n-way associative).
+        Example: 4-way associative → each block maps to one of several lines in that set.
+                Advantage: Fewer conflict misses than direct-mapped, less costly than fully associative.
+                        FAANG Q: “What happens to hit rate as associativity increases?” → It improves but with diminishing returns.
+        As associativity increases, the cache hit rate improves, but with diminishing returns.
+
+🧠 Here’s why:
+
+        Higher associativity → each memory block has more possible places to be stored.
+        → This reduces conflict misses, since fewer blocks compete for the same line.
+        → Therefore, hit rate goes up.
+
+        ⚖️ But — diminishing returns:
+
+        Going from direct-mapped → 2-way gives a big improvement.
+        From 2-way → 4-way, smaller gain.
+        Beyond 8-way or 16-way, the improvement is tiny, but the access time, power, and cost keep increasing.
+
+                | Associativity         | Hit Rate                 | Hardware Cost | Access Time     |
+                | --------------------- | ------------------------ | ------------- | --------------- |
+                | Direct-mapped (1-way) | Low                      | Low           | Fast            |
+                | 2-way                 | Higher                   | Moderate      | Slightly slower |
+                | 4-way                 | High                     | High          | Slower          |
+                | Fully associative     | Highest (but marginally) | Very high     | Slowest         |
+Ans. As associativity increases, the hit rate improves, but with diminishing returns due to increasing complexity and slower access time.
