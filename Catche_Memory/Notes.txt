@@ -155,4 +155,10 @@ Conceptually
                                 If the data is not in the cache, ❌ → cache miss (data must be fetched from main memory)
                 The hit rate measures how often the cache provides data directly without going to main memory.
 	​
+How to Increase Hit Rate
 
+				Increase cache size → fewer capacity misses
+				Increase associativity → fewer conflict misses
+				Use appropriate block size → leverage spatial locality
+				Good replacement policy (LRU, pseudo-LRU) → keeps useful data
+				Multi-level caches → L2/L3 improve effective hit rate
