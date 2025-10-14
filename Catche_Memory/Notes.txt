@@ -47,3 +47,7 @@ Principle of locality:
         Spatial locality: data near recently used data is likely to be used soon.
 
 Cache and virtual memory interactions: Decisions about using physical vs. virtual addresses for caches (logical cache vs. physical cache), and where the cache sits relative to the MMU. 
+
+
+
+                                                        Chapter 5.2: Elements of Cache Design
