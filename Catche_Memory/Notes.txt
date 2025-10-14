@@ -146,3 +146,13 @@ Ans. As associativity increases, the hit rate improves, but with diminishing ret
                 | Write Policy | Write handling   | Coherence vs Speed      | “When use write-back?”        |
                 | Cache Levels | Performance      | Cost & latency          | “Why multi-level cache?”      |
 
+Hit rate = the fraction (or percentage) of memory accesses that are found in the cache.
+
+                Formally:         Hit Rate =          Total Memory Accesses / Number of Cache Hits
+Conceptually
+                When the CPU requests data:
+                                If the data is already in the cache, ✅ → cache hit
+                                If the data is not in the cache, ❌ → cache miss (data must be fetched from main memory)
+                The hit rate measures how often the cache provides data directly without going to main memory.
+	​
+
