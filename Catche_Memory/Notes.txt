@@ -51,3 +51,16 @@ Cache and virtual memory interactions: Decisions about using physical vs. virtua
 
 
                                                         Chapter 5.2: Elements of Cache Design
+
+1. Mapping Function
+                        Definition: Determines where a block of main memory can be placed in the cache.
+
+🧩 Types:
+                
+                Direct-mapped – Each memory block maps to exactly one cache line.
+                
+                Advantage: Simple, fast lookup.
+                
+                Disadvantage: High conflict misses if many blocks map to the same line.
+                
+                Example: (Block address) mod (Number of cache lines)
