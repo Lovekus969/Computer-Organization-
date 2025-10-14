@@ -134,3 +134,15 @@ FAANG Q: “Why are fully associative caches rare in L1 caches?” → Cost and 
                 | 4-way                 | High                     | High          | Slower          |
                 | Fully associative     | Highest (but marginally) | Very high     | Slowest         |
 Ans. As associativity increases, the hit rate improves, but with diminishing returns due to increasing complexity and slower access time.
+
+                                                Summary Table 
+                | Parameter    | Main Purpose     | Trade-off               | Common Question               |
+                | ------------ | ---------------- | ----------------------- | ----------------------------- |
+                | Mapping      | Where data goes  | Simplicity vs Miss rate | “Why use set-associative?”    |
+                | Cache Size   | Capacity         | Speed vs Cost           | “Why small L1?”               |
+                | Line Size    | Spatial locality | Bandwidth vs Miss rate  | “Effect of large block size?” |
+                | Address Type | Lookup speed     | Synonyms vs Simplicity  | “Virtual vs Physical cache?”  |
+                | Replacement  | Eviction policy  | Complexity vs Hit rate  | “Why not LRU always?”         |
+                | Write Policy | Write handling   | Coherence vs Speed      | “When use write-back?”        |
+                | Cache Levels | Performance      | Cost & latency          | “Why multi-level cache?”      |
+
