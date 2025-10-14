@@ -64,19 +64,47 @@ Cache and virtual memory interactions: Decisions about using physical vs. virtua
                 Disadvantage: High conflict misses if many blocks map to the same line.
                 
                 Example: (Block address) mod (Number of cache lines)
-Q “What kind of miss increases most in a direct-mapped cache?” → Conflict misses?
-        In a direct-mapped cache, each memory block can map to exactly one cache line.
+        Q “What kind of miss increases most in a direct-mapped cache?” → Conflict misses?
+                In a direct-mapped cache, each memory block can map to exactly one cache line.
+        
+        So the type of miss that increases most is:
+                👉 Conflict misses
+        
+        Explanation:          
+                        Conflict miss (also called collision miss) occurs when multiple blocks compete for the same cache line, even though other lines are free.
+                        In a direct-mapped cache, this happens frequently because each block has only one possible location.
+        
+        Comparison:
+        | Cache Type            | Miss Type Most Affected                                     |
+        | --------------------- | ----------------------------------------------------------- |
+        | **Direct-mapped**     | ✅ Conflict misses                                           |
+        | **Fully associative** | ❌ No conflict misses (any block can go anywhere)            |
+        | **Set-associative**   | ⚖️ Fewer conflict misses (more flexible than direct-mapped) |
 
-So the type of miss that increases most is:
-        👉 Conflict misses
+2. Fully associative – Any block can go anywhere in cache.
 
-Explanation:          
-                Conflict miss (also called collision miss) occurs when multiple blocks compete for the same cache line, even though other lines are free.
-                In a direct-mapped cache, this happens frequently because each block has only one possible location.
+        Advantage: Lowest conflict misses.
+        Disadvantage: Expensive hardware (needs parallel tag comparison).
+        
+FAANG Q: “Why are fully associative caches rare in L1 caches?” → Cost and complexity.
+ Fully associative caches are rare in L1 caches because of their high cost and hardware complexity.
+        Here’s a breakdown of why:
+                💡 What happens in a fully associative cache:
+                        Any memory block can go anywhere in the cache.
+                                To find a block, the cache must compare the address tag against all entries simultaneously.
 
-Comparison:
-| Cache Type            | Miss Type Most Affected                                     |
-| --------------------- | ----------------------------------------------------------- |
-| **Direct-mapped**     | ✅ Conflict misses                                           |
-| **Fully associative** | ❌ No conflict misses (any block can go anywhere)            |
-| **Set-associative**   | ⚖️ Fewer conflict misses (more flexible than direct-mapped) |
+        ⚙️ Why this is expensive:
+                        Requires many comparators – one for every cache line.
+                        → That means parallel tag comparisons, which are hardware-intensive and consume power.
+
+                Longer access time – checking all lines in parallel slows down lookup, which is bad for L1 caches that need very low latency (1–2 CPU cycles).
+                Higher energy and area cost – the circuitry for full associativity makes the chip larger and hotter, which is inefficient at the L1 level.
+
+ Therefore:
+
+                L1 caches prioritize speed over flexibility → usually direct-mapped or 2- to 4-way set associative.
+                Fully associative caches are more common in small, slower caches like the TLB or L2/L3 victim caches.
+
+ Final Answer:
+
+Fully associative caches are rare in L1 caches because they are too costly and complex in hardware (they need many comparators and longer access time).
