@@ -162,3 +162,27 @@ How to Increase Hit Rate
 				Use appropriate block size → leverage spatial locality
 				Good replacement policy (LRU, pseudo-LRU) → keeps useful data
 				Multi-level caches → L2/L3 improve effective hit rate
+		
+How hit ratio works in cache like L1 , L2 and L3 
+
+												                    ┌─────────────────────┐
+												   CPU Access 100% →│        L1 Cache     │
+												                    └─────────────────────┘
+												                              │
+												                              │  Miss = 10%
+												                              ▼
+												                    ┌─────────────────────┐
+												                    │        L2 Cache     │
+												                    └─────────────────────┘
+												                              │
+												                              │  Miss = 2%
+												                              ▼
+												                    ┌─────────────────────┐
+												                    │        L3 Cache     │
+												                    └─────────────────────┘
+												                              │
+												                              │  Miss = 1%
+												                              ▼
+												                    ┌─────────────────────┐
+												                    │    Main Memory      │
+												                    └─────────────────────┘
