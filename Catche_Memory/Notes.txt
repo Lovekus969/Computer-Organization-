@@ -36,3 +36,14 @@ L3 Cache
         Slower compared to L1 & L2, but still faster than main memory (RAM)
 
 Shared among multiple CPU cores
+
+
+        5.1 Cache Memory Principles
+                Why caches exist: Because there’s a large gap between the speed of fast, expensive memory (like SRAM, near CPU) and slower, cheaper large memory (main                      memory / DRAM). A cache is a small, fast memory that holds copies of portions of main memory to reduce average access time. 
+
+Principle of locality:
+
+        Temporal locality: recently used data is likely to be used again soon.
+        Spatial locality: data near recently used data is likely to be used soon.
+
+Cache and virtual memory interactions: Decisions about using physical vs. virtual addresses for caches (logical cache vs. physical cache), and where the cache sits relative to the MMU. 
