@@ -186,3 +186,9 @@ How hit ratio works in cache like L1 , L2 and L3
 												                    ┌─────────────────────┐
 												                    │    Main Memory      │
 												                    └─────────────────────┘
+
+
+Number of Caches
+When caches were originally introduced, the typical system had a single cache. More
+recently, the use of multiple caches has become the norm. Two aspects of this design
+issue concern the number of levels of caches and the use of unified versus split caches.
