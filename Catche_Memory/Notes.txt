@@ -227,4 +227,24 @@ If not even in RAM (e.g., swapped out) → fetch from SSD/HDD
 					| **L2 I/D** | 2 MB / 2 MB     | 384 MB / 384 MB | Write-through | Backup for L1 misses              |
 					| **L3**     | 64 MB per chip  | 1.5 GB total    | Write-back    | Shared across cores               |
 					| **L4**     | 480 MB per node | 3.75 GB total   | Write-back    | Final on-chip cache before RAM    |
-					
+
+
+                                                       Visualization (Top to Bottom)
+												      ┌───────────────────────────────┐
+												      │ CPU Core Registers (1 cycle)  │   <– fastest, smallest
+												      ├───────────────────────────────┤
+												      │ L1 Cache (96KB + 128KB)       │
+												      ├───────────────────────────────┤
+												      │ L2 Cache (2MB)                │
+												      ├───────────────────────────────┤
+												      │ L3 Cache (64MB, shared)       │
+												      ├───────────────────────────────┤
+												      │ L4 Cache (480MB, node-level)  │
+												      ├───────────────────────────────┤
+												      │ Main Memory (RAM – DRAM)      │
+												      ├───────────────────────────────┤
+												      │ SSD (Solid State Drive)       │
+												      ├───────────────────────────────┤
+												      │ HDD (Hard Disk Drive)         │   <– slowest, largest
+												      └───────────────────────────────┘
+
