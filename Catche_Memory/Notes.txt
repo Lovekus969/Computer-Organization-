@@ -248,3 +248,15 @@ If not even in RAM (e.g., swapped out) → fetch from SSD/HDD
 												      │ HDD (Hard Disk Drive)         │   <– slowest, largest
 												      └───────────────────────────────┘
 
+															Memory Hierarchy Overview
+
+| **Level**                    | **Component**                              | **Located In**                    | **Speed (Latency)** | **Size (Approx.)**     | **Managed By**   | **Notes / Policy**                                   |
+| ---------------------------- | ------------------------------------------ | --------------------------------- | ------------------- | ---------------------- | ---------------- | ---------------------------------------------------- |
+| **L0**                       | **CPU Registers**                          | Inside CPU core                   | ⚡ Fastest (1 cycle) | A few KB               | Compiler / CPU   | Holds operands currently being used by instructions  |
+| **L1 Cache**                 | Instruction & Data Cache (I-cache/D-cache) | Inside each core                  | ~1–3 cycles         | 64–256 KB per core     | Hardware         | Write-through, lowest latency cache                  |
+| **L2 Cache**                 | Private per core                           | Inside each core                  | ~5–15 cycles        | 512 KB – 2 MB          | Hardware         | Often write-through or write-back; reduces L1 misses |
+| **L3 Cache**                 | Shared by all cores on a chip              | On CPU chip                       | ~20–50 cycles       | 10–100 MB              | Hardware         | Write-back; large, slower than L2 but still on-chip  |
+| **L4 Cache**                 | Shared per processor node                  | On-chip or near memory controller | ~50–100 cycles      | Hundreds of MB         | Hardware         | Write-back; buffers between CPU and RAM              |
+| **Main Memory (DRAM / RAM)** | External to CPU                            | Motherboard                       | ~100–300 ns         | GBs (8–128 GB)         | OS               | Holds active programs and data; volatile             |
+| **Secondary Storage (SSD)**  | External storage                           | System bus (NVMe, SATA)           | ~50–150 µs          | Hundreds of GBs to TBs | OS / File System | Non-volatile, used for long-term storage             |
+| **Tertiary Storage (HDD)**   | External storage                           | System bus                        | ~5–10 ms            | TBs                    | OS / File System | Magnetic, slowest, for backups and archives          |
