@@ -217,3 +217,14 @@ Check L1 — if hit, done ✅
 			If L3 miss → go to L4
 				If L4 miss → go to RAM (main memory)
 If not even in RAM (e.g., swapped out) → fetch from SSD/HDD
+
+
+
+													 	CPU Level Caches
+					| Cache      | Size per Unit   | Total Size      | Policy        | Function                          |
+					| ---------- | --------------- | --------------- | ------------- | --------------------------------- |
+					| **L1 I/D** | 96 KB / 128 KB  | 18 MB / 24 MB   | Write-through | Fastest instruction & data access |
+					| **L2 I/D** | 2 MB / 2 MB     | 384 MB / 384 MB | Write-through | Backup for L1 misses              |
+					| **L3**     | 64 MB per chip  | 1.5 GB total    | Write-back    | Shared across cores               |
+					| **L4**     | 480 MB per node | 3.75 GB total   | Write-back    | Final on-chip cache before RAM    |
+					
