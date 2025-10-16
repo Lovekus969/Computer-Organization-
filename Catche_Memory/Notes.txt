@@ -192,3 +192,18 @@ Number of Caches
 When caches were originally introduced, the typical system had a single cache. More
 recently, the use of multiple caches has become the norm. Two aspects of this design
 issue concern the number of levels of caches and the use of unified versus split caches.
+
+
+
+                                                      The Complete Memory Hierarchy (Fastest → Slowest)
+
+| Level                        | Name / Device                 | Example        | Access Time                            | Size (Typical) | Cost per Bit | Notes                                                  |
+| ---------------------------- | ----------------------------- | -------------- | -------------------------------------- | -------------- | ------------ | ------------------------------------------------------ |
+| **L1 Cache**                 | Per core (I-Cache + D-Cache)  | 96 KB + 128 KB | **~1 ns**                              | Smallest       | $$$          | Fastest; stores very recently used instructions/data   |
+| **L2 Cache**                 | Per core                      | 2 MB           | **~3–5 ns**                            | Medium         | $$           | Larger, slower than L1; backs up L1 misses             |
+| **L3 Cache**                 | Per chip (shared among cores) | 64 MB          | **~10–20 ns**                          | Larger         | $$           | Shared cache; reduces main memory access               |
+| **L4 Cache**                 | Per processor node            | 480 MB         | **~30–50 ns**                          | Big            | $            | Still on-chip or near-chip; last-level before RAM      |
+| **Main Memory (RAM / DRAM)** | System Memory                 | 16–64 GB       | **~100 ns**                            | Huge           | $            | Stores active data and programs                        |
+| **SSD (Solid State Drive)**  | Persistent Storage            | 512 GB – 2 TB  | **~100 µs = 100,000 ns**               | Very large     | $$           | Non-volatile; faster than HDD but slower than RAM      |
+| **HDD (Hard Disk Drive)**    | Magnetic Storage              | 1–10 TB        | **~5–10 ms = 5,000,000–10,000,000 ns** | Massive        | $            | Non-volatile; cheapest, slowest, for long-term storage |
+
