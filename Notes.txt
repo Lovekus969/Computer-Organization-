@@ -1,4 +1,5 @@
 There will be oral quiz tommorow be prepared 
+ch-04 and ch 05
 Computer Architecture (the "what"):
 Defines the functional behavior—instruction set (ISA), registers, addressing modes. It's like the blueprint or the programmer’s view.
 
