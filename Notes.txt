@@ -39,3 +39,24 @@ Chapter 5: Input/Output (I/O) Organization
         Device communication – controls the actual device operation.
         Data buffering – matches the speed differences between CPU and devices.
         Error detection – detects transmission errors.
+5.3 I/O Techniques
+
+There are three main ways to handle input/output:
+    
+    1️⃣ Programmed I/O
+    
+        CPU directly controls all I/O operations.
+        CPU waits while the I/O operation completes (busy waiting).
+        Simple but inefficient.
+    
+    2️⃣ Interrupt-Driven I/O
+        
+        The device interrupts the CPU when it’s ready.
+        CPU performs other tasks while waiting.
+        More efficient than programmed I/O.
+    
+    3️⃣ Direct Memory Access (DMA)
+    
+        A special hardware module (DMA controller) transfers data directly between memory and device without CPU involvement.
+        CPU is only interrupted once the transfer completes.
+        Used for high-speed devices like disk drives.
