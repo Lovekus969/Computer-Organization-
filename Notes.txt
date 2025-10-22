@@ -23,4 +23,19 @@ Defines the physical implementation—control signals, microarchitecture, how th
                     Current Instruction Register (CIR) – stores the fetched instruction
                     (Extended: Instruction Buffer Register – holds instructions waiting to be executed)
 
+Chapter 5: Input/Output (I/O) Organization
+5.1 Introduction to I/O
 
+        The CPU and memory alone cannot communicate directly with the outside world.
+        Input/Output (I/O) devices (keyboard, mouse, printer, disks, etc.) act as intermediaries.
+        I/O devices vary widely in speed, format, and control, so special modules are needed to manage them.
+
+5.2 I/O Modules
+
+        The I/O module connects the CPU and main memory to peripheral devices.
+        Its main functions:
+        Control and timing – coordinates data transfer.
+        CPU communication – sends and receives commands and status signals.
+        Device communication – controls the actual device operation.
+        Data buffering – matches the speed differences between CPU and devices.
+        Error detection – detects transmission errors.
