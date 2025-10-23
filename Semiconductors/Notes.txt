@@ -37,3 +37,7 @@ These pitch (parity) bits let the hardware detect and correct single-bit errors 
 If one bit flips due to electrical noise or a semiconductor glitch, the system uses these parity checks to identify exactly which bit went wrong and fix it instantly — no crash, no corruption.
 
 That’s how semiconductor memory, network packets, and data centers maintain accuracy at the bit level.
+
+Types of failures in semiconductors
+  Physical-Level Failures
+  These are hardware defects that happen deep inside the chip — often microscopic, but they can cause massive effects.
