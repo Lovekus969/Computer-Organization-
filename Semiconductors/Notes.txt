@@ -49,3 +49,14 @@ Types of failures in semiconductors
 | **Thermal Runaway**               | Excess heat causes transistors to draw more current → more heat → eventual burn-out.                                     | Used to design **thermal throttling** and **dynamic power management** in CPUs and GPUs.               |
 | **ESD (Electrostatic Discharge)** | Sudden surge of voltage (like static shock) damages the semiconductor junction.                                          | Hardware design includes **ESD protection circuits** in devices like phones and servers.               |
 
+
+
+2. Logical / Data-Level Failures
+
+These are bit-level or logic errors that affect how data is processed or stored — exactly where your 2^k - 1 ≥ k + D (Hamming code) helps.
+
+| Failure Type                | Description                                                                      | FAANG-Level Solution                                                                                 |
+| --------------------------- | -------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| **Soft Errors / Bit Flips** | Random bit changes due to radiation, voltage spikes, or noise.                   | Use **ECC (Error-Correcting Code)** memory and **redundancy checks** in data centers.                |
+| **Latch-up**                | Unintended current path forms inside CMOS circuits → chip locks up or burns out. | Prevented by **design isolation** and **protective layout** in chips.                                |
+| **Timing Failure**          | Signals arrive too early or late due to delay mismatch in circuits.              | Solved using **clock synchronization** and **timing analysis tools** (used by FAANG hardware teams). |
