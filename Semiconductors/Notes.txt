@@ -12,3 +12,22 @@ k → number of parity bits (for error checking)
 D → number of data bits
 
 2^k – 1 ≥ k + D → ensures there are enough parity bits to cover all data bits and their possible error positions.
+
+
+| Position | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9  | 10 | 11 | 12 |
+| -------- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
+| Bit type | P₁ | P₂ | D₁ | P₃ | D₂ | D₃ | D₄ | P₄ | D₅ | D₆ | D₇ | D₈ |
+
+: Parity (Pitch) bits calculation
+
+Each parity bit checks a group of bits whose position numbers have a 1 in the same binary place.
+
+For example:
+
+P₁ checks positions where the least significant bit (LSB) is 1 → 1, 3, 5, 7, 9, 11
+
+P₂ checks where the 2nd bit (from right) is 1 → 2, 3, 6, 7, 10, 11
+
+P₃ checks where the 3rd bit is 1 → 4, 5, 6, 7, 12
+
+P₄ checks where the 4th bit is 1 → 8, 9, 10, 11, 12
