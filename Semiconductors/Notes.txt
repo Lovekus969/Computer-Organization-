@@ -3,3 +3,12 @@ What “Pitch” Means in Semiconductors
   In semiconductor design (especially memory chips like DRAM, SRAM, or logic arrays), the pitch refers to the distance between identical elements — for example:
   Distance between two adjacent wires or interconnects, or the Distance between two transistor gates or contacts.  
   So, pitch movement means how data lines and address lines are arranged and spaced as the circuit gets more complex
+
+The Formula 2^k – 1 ≥ k + D
+
+This formula comes up when discussing addressing and parity bits in error detection and correction, especially Hamming codes used in semiconductor memory design.
+k → number of parity bits (for error checking)
+
+D → number of data bits
+
+2^k – 1 ≥ k + D → ensures there are enough parity bits to cover all data bits and their possible error positions.
