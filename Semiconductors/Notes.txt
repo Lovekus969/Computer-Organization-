@@ -41,3 +41,11 @@ That’s how semiconductor memory, network packets, and data centers maintain ac
 Types of failures in semiconductors
   Physical-Level Failures
   These are hardware defects that happen deep inside the chip — often microscopic, but they can cause massive effects.
+
+  | Failure Type                      | Description                                                                                                              | FAANG-Level Relevance                                                                                  |
+| --------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
+| **Gate Oxide Breakdown**          | The thin oxide layer in a transistor gets damaged due to excessive electric field — transistor stops switching properly. | Impacts reliability of CPUs and memory — handled by redundancy and failure prediction in data centers. |
+| **Electromigration**              | Metal atoms move over time due to current flow, causing open circuits or shorts in interconnects.                        | FAANG companies simulate chip wear-out to plan for **hardware refresh cycles** in their cloud servers. |
+| **Thermal Runaway**               | Excess heat causes transistors to draw more current → more heat → eventual burn-out.                                     | Used to design **thermal throttling** and **dynamic power management** in CPUs and GPUs.               |
+| **ESD (Electrostatic Discharge)** | Sudden surge of voltage (like static shock) damages the semiconductor junction.                                          | Hardware design includes **ESD protection circuits** in devices like phones and servers.               |
+
