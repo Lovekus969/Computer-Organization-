@@ -60,3 +60,13 @@ These are bit-level or logic errors that affect how data is processed or stored 
 | **Soft Errors / Bit Flips** | Random bit changes due to radiation, voltage spikes, or noise.                   | Use **ECC (Error-Correcting Code)** memory and **redundancy checks** in data centers.                |
 | **Latch-up**                | Unintended current path forms inside CMOS circuits → chip locks up or burns out. | Prevented by **design isolation** and **protective layout** in chips.                                |
 | **Timing Failure**          | Signals arrive too early or late due to delay mismatch in circuits.              | Solved using **clock synchronization** and **timing analysis tools** (used by FAANG hardware teams). |
+
+3. System-Level Failures
+
+Even if one transistor or bit fails, FAANG-scale systems must stay running — so they build fault-tolerant architectures.
+
+| Failure Type             | Description                                                  | FAANG-Level Handling                                                                                            |
+| ------------------------ | ------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- |
+| **Transient Failure**    | Temporary glitch — e.g., one node in a data center crashes.  | Systems use **automatic failover**, **replication**, and **self-healing clusters** (like Google Borg, AWS EC2). |
+| **Permanent Failure**    | Hardware dies (chip burn-out, SSD wear).                     | **Data replication** across multiple zones, **predictive maintenance**.                                         |
+| **Intermittent Failure** | Comes and goes due to unstable voltage or thermal variation. | Monitored via **telemetry + AI diagnostics** for predictive fault detection.                                    |
