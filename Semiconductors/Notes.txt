@@ -1,3 +1,34 @@
+  Semiconductor Memory
+    Semiconductor memory is a type of digital electronic memory used to store data in microchips. It’s fast, volatile or non-volatile, and is widely used in computers,         smartphones, and embedded systems.\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 What “Pitch” Means in Semiconductors
 
   In semiconductor design (especially memory chips like DRAM, SRAM, or logic arrays), the pitch refers to the distance between identical elements — for example:
