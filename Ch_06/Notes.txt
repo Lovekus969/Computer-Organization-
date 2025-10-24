@@ -51,3 +51,23 @@ Memory chips contain internal logic for:
     DIP (Dual Inline Package) – older style.
     SIMM (Single Inline Memory Module) – older RAM modules.
     DIMM (Dual Inline Memory Module) – modern RAM modules.
+
+
+6.2.1.0. Error Correction
+            Memory Errors
+                Memory systems can experience errors, which fall into two main categories:
+        
+        1. Hard Failures (Permanent Errors)
+        
+            Definition: Permanent physical defects in memory cells.
+            Behavior: Affected cells may:
+            Become stuck at 0 or 1, or
+            Switch erratically between 0 and 1.
+        
+        Causes:
+        
+            Harsh environmental conditions (heat, shock, humidity).
+            Manufacturing defects.
+            Wear and aging over time.
+        
+        Example: A DRAM cell that always reads 1 no matter what you write is a hard error.
