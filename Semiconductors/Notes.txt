@@ -94,7 +94,11 @@ FAANG Tip:
 
 Ans: “All semiconductor memory cells have two stable (or semi-stable) states to represent 0 and 1, can be written to at least once to set a state, and can be read to sense the state. This applies to both RAM and ROM, with differences only in volatility, speed, and rewritability.”
 
-
+RAM Technologies
+    
+    RAM is divided into two main types:
+          DRAM (Dynamic RAM)
+          SRAM (Static RAM)
 
 
 
