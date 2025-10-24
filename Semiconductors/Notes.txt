@@ -1,7 +1,17 @@
   Semiconductor Memory
     Semiconductor memory is a type of digital electronic memory used to store data in microchips. It’s fast, volatile or non-volatile, and is widely used in computers,         smartphones, and embedded systems.\
 
+ROM (Read-Only Memory)
 
+Definition:
+Memory that cannot be easily modified by the CPU during normal operation — typically stores firmware, bootloader, or permanent programs.
+
+Key Properties:
+
+  Non-volatile → retains data even without power.
+  Slow to write (some types), fast to read.
+
+Subtypes of ROM:
 
 
 
