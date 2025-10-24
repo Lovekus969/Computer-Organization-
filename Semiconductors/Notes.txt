@@ -12,6 +12,13 @@ Key Properties:
   Slow to write (some types), fast to read.
 
 Subtypes of ROM:
+| Type                                    | Description                                                                      | Rewritable? | Example Use                  |
+| --------------------------------------- | -------------------------------------------------------------------------------- | ----------- | ---------------------------- |
+| **PROM (Programmable ROM)**             | Can be programmed **once** after manufacturing                                   | No          | Firmware burned once         |
+| **EPROM (Erasable Programmable ROM)**   | Can be erased with **UV light** and reprogrammed                                 | Yes         | Embedded systems             |
+| **EEPROM (Electrically Erasable PROM)** | Can be erased **electrically** and reprogrammed                                  | Yes         | BIOS chips, microcontrollers |
+| **Flash Memory**                        | Modern EEPROM, erased and written in **blocks**, widely used in SSDs, USB drives | Yes         | SSD, USB, smartphone storage |
+
 
 
 
