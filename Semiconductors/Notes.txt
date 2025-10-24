@@ -1,35 +1,55 @@
   Semiconductor Memory
     Semiconductor memory is a type of digital electronic memory used to store data in microchips. It’s fast, volatile or non-volatile, and is widely used in computers,         smartphones, and embedded systems.\
-
-ROM (Read-Only Memory)
-
-Definition:
-Memory that cannot be easily modified by the CPU during normal operation — typically stores firmware, bootloader, or permanent programs.
-
-Key Properties:
-
-  Non-volatile → retains data even without power.
-  Slow to write (some types), fast to read.
-
-Subtypes of ROM:
-| Type                                    | Description                                                                      | Rewritable? | Example Use                  |
-| --------------------------------------- | -------------------------------------------------------------------------------- | ----------- | ---------------------------- |
-| **PROM (Programmable ROM)**             | Can be programmed **once** after manufacturing                                   | No          | Firmware burned once         |
-| **EPROM (Erasable Programmable ROM)**   | Can be erased with **UV light** and reprogrammed                                 | Yes         | Embedded systems             |
-| **EEPROM (Electrically Erasable PROM)** | Can be erased **electrically** and reprogrammed                                  | Yes         | BIOS chips, microcontrollers |
-| **Flash Memory**                        | Modern EEPROM, erased and written in **blocks**, widely used in SSDs, USB drives | Yes         | SSD, USB, smartphone storage |
-
-FAANG Tip:
     
-    ROM = non-volatile, slower writes, firmware storage
-    Flash = modern, rewritable, block-wise erase/write
-
-
-
-
-
-
-
+    ROM (Read-Only Memory)
+    
+    Definition:
+    Memory that cannot be easily modified by the CPU during normal operation — typically stores firmware, bootloader, or permanent programs.
+    
+    Key Properties:
+    
+      Non-volatile → retains data even without power.
+      Slow to write (some types), fast to read.
+    
+    Subtypes of ROM:
+    | Type                                    | Description                                                                      | Rewritable? | Example Use                  |
+    | --------------------------------------- | -------------------------------------------------------------------------------- | ----------- | ---------------------------- |
+    | **PROM (Programmable ROM)**             | Can be programmed **once** after manufacturing                                   | No          | Firmware burned once         |
+    | **EPROM (Erasable Programmable ROM)**   | Can be erased with **UV light** and reprogrammed                                 | Yes         | Embedded systems             |
+    | **EEPROM (Electrically Erasable PROM)** | Can be erased **electrically** and reprogrammed                                  | Yes         | BIOS chips, microcontrollers |
+    | **Flash Memory**                        | Modern EEPROM, erased and written in **blocks**, widely used in SSDs, USB drives | Yes         | SSD, USB, smartphone storage |
+    
+    FAANG Tip:
+        
+        ROM = non-volatile, slower writes, firmware storage
+        Flash = modern, rewritable, block-wise erase/write
+    
+     RAM (Random-Access Memory)
+    
+    Definition:
+    Memory used by the CPU to store data temporarily during program execution.
+    
+    Key Properties:
+    
+        Volatile → loses data when power is off.
+        Fast read/write.
+    
+    Subtypes of RAM:
+    
+    
+    | Feature | DRAM                      | SRAM                    |
+    | ------- | ------------------------- | ----------------------- |
+    | Storage | Capacitor + transistor    | Flip-flop circuit       |
+    | Speed   | Slower                    | Faster                  |
+    | Power   | Needs refresh, more power | Less power (no refresh) |
+    | Density | Higher                    | Lower                   |
+    | Cost    | Cheaper                   | Expensive               |
+    | Use     | Main memory               | CPU cache               |
+    
+    
+    “Explain memory types in a system and their differences”
+      
+      “Memory is divided into ROM (non-volatile, for firmware like BIOS, e.g., Flash, EEPROM) and RAM (volatile, for active data, e.g., DRAM as main memory and SRAM for cache). DRAM needs refresh, SRAM doesn’t, but SRAM is faster and more expensive.
 
 
 
