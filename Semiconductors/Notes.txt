@@ -51,7 +51,48 @@
       
       “Memory is divided into ROM (non-volatile, for firmware like BIOS, e.g., Flash, EEPROM) and RAM (volatile, for active data, e.g., DRAM as main memory and SRAM for cache). DRAM needs refresh, SRAM doesn’t, but SRAM is faster and more expensive.
 
+                                                Core Properties of Semiconductor Memory Cells
 
+All semiconductor memory, whether RAM or ROM, shares these three key characteristics:
+        
+        1️⃣ Two Stable (or Semi-Stable) States
+        
+        Each memory cell can exist in one of two states.
+        These represent binary data:
+                
+                0 → Low voltage / off state
+                1 → High voltage / on state
+        
+        This is why all memory is digital — it stores bits, not analog signals.
+        
+        for Example:
+                In SRAM, a flip-flop circuit holds either 0 or 1.
+                In DRAM, a capacitor either has charge (1) or no charge (0).
+        
+        2️⃣ Writable (Programmable)
+        
+        Memory cells can be set or changed by applying an electrical signal.
+        
+        Even in ROM types (like PROM/EEPROM/Flash), memory can be written at least once, sometimes multiple times depending on type.
+        
+        Example:  
+            DRAM → written by CPU during program execution.
+            EEPROM → written electrically by a microcontroller to store firmware.
+        
+        3️⃣ Readable
+        
+        Memory cells can be read, i.e., their state can be sensed to retrieve the stored 0 or 1.
+        
+        Reading can sometimes be destructive, requiring the cell to be rewritten afterward (as in DRAM).
+        
+        Example:
+              SRAM → read many times with no extra action.
+              DRAM → reading slightly discharges the capacitor, so it needs refresh.
+
+FAANG Tip:
+“What do all semiconductor memory cells have in common?”
+
+Ans: “All semiconductor memory cells have two stable (or semi-stable) states to represent 0 and 1, can be written to at least once to set a state, and can be read to sense the state. This applies to both RAM and ROM, with differences only in volatility, speed, and rewritability.”
 
 
 
