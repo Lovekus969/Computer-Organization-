@@ -100,7 +100,31 @@ RAM Technologies
           DRAM (Dynamic RAM)
           SRAM (Static RAM)
 
+ DRAM (Dynamic RAM)
+Definition: DRAM stores each bit of data in a capacitor inside an integrated circuit.
 
+How it Works:
+
+      Each memory cell = 1 capacitor + 1 transistor.
+      The presence of charge in a capacitor → binary 1
+      The absence of charge → binary 0
+
+Key Properties:
+| Property          | Explanation                                                                                |
+| ----------------- | ------------------------------------------------------------------------------------------ |
+| **Volatile**      | Loses data when power is turned off                                                        |
+| **Needs Refresh** | Capacitors leak charge; memory must be **periodically refreshed** (every few milliseconds) |
+| **Density**       | High — can store a large amount of data per chip                                           |
+| **Cost**          | Cheaper than SRAM                                                                          |
+| **Speed**         | Slower than SRAM                                                                           |
+
+Why “Dynamic”?
+
+    The term dynamic refers to the need to refresh because the stored charge leaks away, even when power is continuously applied.
+    Without refresh, data is lost.
+
+Q.1 “Explain DRAM and why it’s called dynamic”?
+“DRAM stores data as charge in capacitors. The presence or absence of charge represents 1 or 0. It’s called dynamic because the charge leaks over time and needs periodic refreshing. DRAM is slower but cheaper and denser than SRAM, making it ideal for main memory.”
 
 
 
