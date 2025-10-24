@@ -20,3 +20,16 @@
     | Cost    | Cheaper                    | Expensive            |
     | Density | High                       | Lower                |
     | Use     | Main memory                | Cache memory         |
+
+Key Points:
+
+        DRAM is used for main memory because it’s cheap and dense.
+        SRAM is used for CPU cache because it’s fast.
+
+3. Types of ROM
+    | Type   | Description           | Erasable?                     |
+    | ------ | --------------------- | ----------------------------- |
+    | ROM    | Read-Only Memory      | No                            |
+    | PROM   | Programmable Once     | No, programmable once by user |
+    | EPROM  | Erasable via UV light | Yes                           |
+    | EEPROM | Electrically Erasable | Yes, multiple times           |
