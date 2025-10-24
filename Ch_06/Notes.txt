@@ -33,3 +33,15 @@ Key Points:
     | PROM   | Programmable Once     | No, programmable once by user |
     | EPROM  | Erasable via UV light | Yes                           |
     | EEPROM | Electrically Erasable | Yes, multiple times           |
+
+Example Uses:
+
+    ROM: BIOS in computers
+    EEPROM: Flash memory for storing firmware.
+
+4. Chip Logic
+Memory chips contain internal logic for:
+        Address decoding → selects correct memory cell.
+        Data I/O → reading/writing data.
+        Control signals → Read/Write, Enable, Chip Select.
+        Diagram Idea: CPU → Address Bus → Memory Chip → Data Bus → CPU
