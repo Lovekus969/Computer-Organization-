@@ -127,6 +127,22 @@ Q.1 “Explain DRAM and why it’s called dynamic”?
 “DRAM stores data as charge in capacitors. The presence or absence of charge represents 1 or 0. It’s called dynamic because the charge leaks over time and needs periodic refreshing. DRAM is slower but cheaper and denser than SRAM, making it ideal for main memory.”
 
 
+2 SRAM (Static RAM)
+Definition: SRAM stores each bit of data in a flip-flop circuit made of transistors, rather than a capacitor.
+
+How it Works:
+      Each memory cell = 4–6 transistors (no capacitor needed)
+      Binary 1 or 0 is represented by the state of the flip-flop
+      No refresh required as long as power is supplied
+
+Key Properties:
+| Property              | Explanation                                             |
+| --------------------- | ------------------------------------------------------- |
+| **Volatile**          | Loses data when power is turned off                     |
+| **No Refresh Needed** | Flip-flops maintain their state indefinitely with power |
+| **Density**           | Lower than DRAM (more transistors per bit)              |
+| **Cost**              | More expensive than DRAM                                |
+| **Speed**             | Faster than DRAM                                        |
 
 
 
