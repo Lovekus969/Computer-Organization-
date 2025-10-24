@@ -71,3 +71,16 @@ Memory chips contain internal logic for:
             Wear and aging over time.
         
         Example: A DRAM cell that always reads 1 no matter what you write is a hard error.
+        
+        2. Soft Errors (Transient Errors)
+        
+            Definition: Temporary, random errors that do not damage the memory physically.
+            Behavior: Contents of one or more memory cells may be altered unexpectedly.
+        
+        Causes:
+        
+            Power supply fluctuations.
+            Alpha particles (from radioactive decay of materials in chips or packaging).
+            Interesting Fact: Alpha particles are common because almost all materials contain trace amounts of radioactive nuclei.
+            Example: A DRAM cell that flips from 0 to 1 due to an alpha particle hitting it is a soft error.
+            Once rewritten, the memory works normally again.
