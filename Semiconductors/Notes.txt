@@ -19,7 +19,10 @@ Subtypes of ROM:
 | **EEPROM (Electrically Erasable PROM)** | Can be erased **electrically** and reprogrammed                                  | Yes         | BIOS chips, microcontrollers |
 | **Flash Memory**                        | Modern EEPROM, erased and written in **blocks**, widely used in SSDs, USB drives | Yes         | SSD, USB, smartphone storage |
 
-
+FAANG Tip:
+    
+    ROM = non-volatile, slower writes, firmware storage
+    Flash = modern, rewritable, block-wise erase/write
 
 
 
