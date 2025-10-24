@@ -45,3 +45,9 @@ Memory chips contain internal logic for:
         Data I/O → reading/writing data.
         Control signals → Read/Write, Enable, Chip Select.
         Diagram Idea: CPU → Address Bus → Memory Chip → Data Bus → CPU
+
+5. Chip Packaging
+    Memory chips come in physical packages:
+    DIP (Dual Inline Package) – older style.
+    SIMM (Single Inline Memory Module) – older RAM modules.
+    DIMM (Dual Inline Memory Module) – modern RAM modules.
