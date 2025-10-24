@@ -1,0 +1,12 @@
+6.1 Semiconductor Main Memory
+    1. Organization of Main Memory
+      Memory Cells: The basic unit of memory. Each cell stores 1 bit (0 or 1).
+      Addressing: Every memory cell has a unique address, which allows the CPU to locate it.
+    
+    Access Operations:
+        Read: Get data from memory.
+        Write: Store data into memory.
+        Word: A group of bits (usually 8, 16, 32, or 64 bits) accessed together.
+    
+    Example:
+      A memory with 8-bit words and 256 addresses can store 256 × 8 = 2048 bits.
