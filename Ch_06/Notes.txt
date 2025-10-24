@@ -84,3 +84,20 @@ Memory chips contain internal logic for:
             Interesting Fact: Alpha particles are common because almost all materials contain trace amounts of radioactive nuclei.
             Example: A DRAM cell that flips from 0 to 1 due to an alpha particle hitting it is a soft error.
             Once rewritten, the memory works normally again.
+
+  6.2.1.1.0  Error Detection and Correction
+    
+            Because both hard and soft errors are undesirable:
+            Modern memory systems include logic for detecting and correcting errors.
+    
+    Techniques include:
+            
+            Parity Bits – Detect single-bit errors.
+            Hamming Codes – Detect and correct single-bit errors; detect double-bit errors.
+            ECC (Error-Correcting Code) Memory – Used in servers and high-reliability systems to automatically correct errors.
+    
+    Summary Table:
+        | Error Type | Duration  | Cause                               | Correction           |
+        | ---------- | --------- | ----------------------------------- | -------------------- |
+        | Hard Error | Permanent | Physical defects, wear              | Replace/repair       |
+        | Soft Error | Temporary | Power fluctuations, alpha particles | ECC, Hamming, parity |
