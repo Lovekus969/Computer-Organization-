@@ -10,3 +10,13 @@
     
     Example:
       A memory with 8-bit words and 256 addresses can store 256 × 8 = 2048 bits.
+
+2. DRAM (Dynamic RAM) vs SRAM (Static RAM)
+    | Feature | DRAM                       | SRAM                 |
+    | ------- | -------------------------- | -------------------- |
+    | Storage | Capacitor stores charge    | Flip-flop stores bit |
+    | Refresh | Needs refresh every few ms | No refresh needed    |
+    | Speed   | Slower                     | Faster               |
+    | Cost    | Cheaper                    | Expensive            |
+    | Density | High                       | Lower                |
+    | Use     | Main memory                | Cache memory         |
