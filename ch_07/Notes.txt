@@ -7,6 +7,7 @@ The main limiting factors are:
     Rotational Latency → Time for the disk to rotate to the right sector.
     Transfer Rate → Actual data transfer rate between disk and memory.
 
+
 So, improving any of these improves speed.
 
 🚀 2. Methods to Increase Hard Disk Speed
