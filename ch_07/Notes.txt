@@ -1,0 +1,26 @@
+1. Understanding Hard Disk Read/Write Speed
+
+Hard Disk speed depends on how fast data can be read from or written to the platters.
+The main limiting factors are:
+
+    Seek Time → Time to move read/write head to the right track.
+    Rotational Latency → Time for the disk to rotate to the right sector.
+    Transfer Rate → Actual data transfer rate between disk and memory.
+
+So, improving any of these improves speed.
+
+🚀 2. Methods to Increase Hard Disk Speed
+🔹 (a) Increase Rotational Speed (RPM)
+    
+    Hard disks rotate at 5400, 7200, 10000, or 15000 RPM.
+    Higher RPM → lower rotational delay → faster data access.
+
+🧠 Example:
+A 7200 RPM disk rotates once every 8.3 ms, while 5400 RPM takes 11.1 ms.
+→ Faster rotation = faster access.
+
+🔹 (b) Use Cache Memory (Disk Buffer)
+
+    Modern HDDs include cache (8MB–256MB) to temporarily store frequently accessed data.
+    The cache reduces physical reads from the disk.
+Improves both read and write performance.
