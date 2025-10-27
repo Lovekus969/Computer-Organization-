@@ -24,3 +24,21 @@ A 7200 RPM disk rotates once every 8.3 ms, while 5400 RPM takes 11.1 ms.
     Modern HDDs include cache (8MB–256MB) to temporarily store frequently accessed data.
     The cache reduces physical reads from the disk.
 Improves both read and write performance.
+
+                                            SSD (Solid State Drive) vs HDD (Hard Disk Drive)
+| **Feature**                  | **HDD (Hard Disk Drive)**                                                                 | **SSD (Solid State Drive)**                                                           |
+| ---------------------------- | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| **Basic Technology**         | Uses **magnetic platters** and a **mechanical read/write head** to store and access data. | Uses **NAND flash memory (semiconductors)** with **no moving parts**.                 |
+| **Data Access Method**       | Data accessed **mechanically** (head moves to correct track/sector).                      | Data accessed **electronically** (directly from memory cells).                        |
+| **Speed (Read/Write)**       | Slower — typically **50–150 MB/s**.                                                       | Much faster — typically **500 MB/s to 7000+ MB/s** (NVMe SSDs).                       |
+| **Access Time / Latency**    | ~5–10 milliseconds (due to mechanical movement).                                          | ~0.1 milliseconds or less (instant access).                                           |
+| **Durability / Reliability** | More prone to **mechanical failure**, shock damage.                                       | More **durable**, shock-resistant (no moving parts).                                  |
+| **Noise**                    | Produces noise (spinning platters, head movement).                                        | Completely silent.                                                                    |
+| **Power Consumption**        | Higher (spinning disks need energy).                                                      | Lower (energy-efficient).                                                             |
+| **Heat Generation**          | Generates more heat due to mechanical parts.                                              | Generates less heat.                                                                  |
+| **Weight**                   | Heavier.                                                                                  | Lighter.                                                                              |
+| **Cost per GB**              | Cheaper (~$0.04 per GB).                                                                  | More expensive (~$0.10–$0.20 per GB).                                                 |
+| **Storage Capacity**         | Typically larger (1–20 TB).                                                               | Smaller but increasing (128 GB – 8 TB common).                                        |
+| **Lifespan (Write Cycles)**  | Practically unlimited for reads/writes.                                                   | Limited **write cycles** (each flash cell can be rewritten a finite number of times). |
+| **Fragmentation Impact**     | Fragmentation slows performance.                                                          | No effect (data accessed electronically).                                             |
+| **Boot/Load Times**          | Slower boot and app load.                                                                 | Instant boot and load times.                                                          |
