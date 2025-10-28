@@ -43,3 +43,15 @@ Improves both read and write performance.
 | **Lifespan (Write Cycles)**  | Practically unlimited for reads/writes.                                                   | Limited **write cycles** (each flash cell can be rewritten a finite number of times). |
 | **Fragmentation Impact**     | Fragmentation slows performance.                                                          | No effect (data accessed electronically).                                             |
 | **Boot/Load Times**          | Slower boot and app load.                                                                 | Instant boot and load times.                                                          |
+
+
+Magnetic Disk Structure and Materials
+
+Substrate:
+        The base layer of the disk — provides mechanical strength and rigidity.
+        Earlier materials: Aluminum or aluminum alloy (lightweight, strong, and easy to machine).
+        Modern materials: Glass or ceramic substrates (introduced for better surface smoothness, rigidity, and resistance to heat and shock).
+
+Magnetizable Coating:
+        The thin layer on top of the substrate is coated with magnetic material (usually a ferromagnetic oxide or thin-film alloy like cobalt).
+        This layer stores data as tiny magnetic domains — each representing a binary 1 or 0.
