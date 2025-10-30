@@ -60,3 +60,4 @@ RAID Level 6 (Block-level Striping with Dual Distributed Parity)
     It uses block-level striping with two different parity calculations, allowing the system to withstand the failure of any two disks simultaneously.
     
     Both parity blocks (often called P and Q) are stored on different disks in a rotating pattern, just like in RAID 5, ensuring that no single disk becomes a bottleneck.
+  RAID 6 uses block-level striping with dual distributed parity, providing high reliability by allowing recovery from two simultaneous disk failures, though with slightly lower write performance than RAID 5.
