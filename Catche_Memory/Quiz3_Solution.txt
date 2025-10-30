@@ -1,0 +1,8 @@
+Q1 . Why is the logical cache faster than the physical cache?
+Ans: A logical (virtual) cache uses virtual addresses generated directly by the CPU, before the address translation step performed by the Memory Management Unit (MMU).
+Because it does not need to wait for the MMU to translate the address into a physical address, the CPU can access the cache immediately using the virtual address.
+
+This makes logical caches faster since there is no translation delay involved.
+
+In contrast, a physical cache requires the virtual address to be translated into a physical address by the MMU before accessing the cache.
+This extra translation step adds additional latency, making physical caches slower than logical caches
