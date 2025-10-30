@@ -45,3 +45,11 @@ RAID Level 4 (Block-level Striping with Dedicated Parity)
     
     When data is written, the parity for that block stripe is calculated using XOR operations and stored on the parity disk.
     If any single disk fails, the missing data can be reconstructed using the parity information and the remaining data blocks.
+
+RAID Level 5 (Block-level Striping with Distributed Parity)
+    
+    RAID 5 uses block-level striping, similar to RAID 4, but instead of storing parity information on a single dedicated disk, the parity blocks are distributed across all disks in the array.
+    This means each disk contains both data blocks and parity blocks, which are spread in a rotating pattern to avoid a single parity bottleneck.
+    
+    When data is written, parity is calculated (using XOR operations) and stored on a different disk than the data blocks.
+    If any one disk fails, the missing data can be reconstructed using the remaining data and parity information.
