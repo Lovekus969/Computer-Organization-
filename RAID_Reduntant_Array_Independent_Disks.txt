@@ -11,3 +11,7 @@ Why RAID 0 is not a true RAID level
 
 RAID stands for Redundant Array of Independent Disks, and RAID 0 does not provide redundancy.
 Therefore, it improves performance only, not reliability, which is why it is not considered a “true” RAID level.
+
+  RAID 0 uses data striping across disks to increase performance and capacity, but it lacks fault tolerance or redundancy. Hence, it is not a true member of the RAID family because it offers no data protection.
+
+Raid 01 
