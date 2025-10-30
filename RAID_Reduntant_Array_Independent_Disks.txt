@@ -53,3 +53,10 @@ RAID Level 5 (Block-level Striping with Distributed Parity)
     
     When data is written, parity is calculated (using XOR operations) and stored on a different disk than the data blocks.
     If any one disk fails, the missing data can be reconstructed using the remaining data and parity information.
+
+RAID Level 6 (Block-level Striping with Dual Distributed Parity)
+    
+    RAID 6 extends RAID 5 by adding a second independent parity block distributed across all disks.
+    It uses block-level striping with two different parity calculations, allowing the system to withstand the failure of any two disks simultaneously.
+    
+    Both parity blocks (often called P and Q) are stored on different disks in a rotating pattern, just like in RAID 5, ensuring that no single disk becomes a bottleneck.
