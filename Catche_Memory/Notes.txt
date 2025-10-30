@@ -271,3 +271,10 @@ Table explain difference in between the logical and physical cache
 | Cache Type   | Virtually Addressed Cache | Physically Addressed Cache           |
 | Speed        | Faster lookup             | Slightly slower (translation needed) |
 | Risk         | Aliasing problem          | No aliasing                          |
+In both terms logical and phycial which cache would be fater and why ? 
+	In a logical (virtual) cache, the CPU accesses the cache directly using the virtual address — it skips the MMU translation step.
+	→ This means no delay for converting a logical address into a physical address.
+	→ Therefore, faster access time.
+	
+	In a physical cache, the address must first be translated by the MMU from virtual → physical before the cache can be checked.
+	→ This adds extra latency.
