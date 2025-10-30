@@ -15,3 +15,10 @@ Q2. Difference between DRAM and SRAM (2.5 marks)
   
   DRAM (Dynamic RAM):
   DRAM stores data in capacitors, which gradually lose charge over time. Hence, it requires periodic refreshing to maintain the stored data, leading to slower performance compared to SRAM. It is denser, cheaper, and has higher storage capacity, which makes it suitable for main memory (primary RAM) in computers.
+
+Q3. when a new block is loaded in te cache given it is replacing an existing block , in what case would it be required to write something to the main memory?
+  When a new block is loaded into the cache, replacing an existing block, it is necessary to write the old block back to main memory if that block has been modified while in the cache.
+  
+  This situation occurs under the write-back policy.
+  In this policy, any changes made to the cache block are not immediately written to main memory. Instead, a “dirty bit” is set to indicate that the cache block has been modified.
+  So, when that block is later replaced (evicted), the system writes the updated data back to main memory to maintain consistency.
