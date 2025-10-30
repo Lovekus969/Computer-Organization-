@@ -1,0 +1,13 @@
+Raid - Redundant Array of Independent Disks
+RAID Level 0 (Disk Striping)
+
+RAID 0, also called disk striping, splits data into blocks and distributes (stripes) them evenly across multiple disks.
+This allows simultaneous read and write operations, greatly improving performance and storage capacity.
+
+However, RAID 0 provides no redundancy — meaning there is no duplicate data stored to recover from a disk failure.
+If one disk fails, all data is lost because parts of each file are spread across all disks.
+
+Why RAID 0 is not a true RAID level
+
+RAID stands for Redundant Array of Independent Disks, and RAID 0 does not provide redundancy.
+Therefore, it improves performance only, not reliability, which is why it is not considered a “true” RAID level.
