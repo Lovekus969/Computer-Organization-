@@ -37,3 +37,11 @@ RAID Level 3 (Byte-level Striping with Interleaved Parity)
     
     If one disk fails, the missing data can be reconstructed using the parity information and the remaining data disks.
     All disks operate synchronously, meaning every read or write involves all disks in the array.
+
+RAID Level 4 (Block-level Striping with Dedicated Parity)
+
+    RAID 4 organizes data into blocks (not bytes) and distributes these blocks across multiple disks — this is called block-level striping.
+    A separate dedicated parity disk stores the parity information for each corresponding block stripe.
+    
+    When data is written, the parity for that block stripe is calculated using XOR operations and stored on the parity disk.
+    If any single disk fails, the missing data can be reconstructed using the parity information and the remaining data blocks.
