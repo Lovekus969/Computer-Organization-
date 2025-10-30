@@ -22,3 +22,23 @@ Q3. when a new block is loaded in te cache given it is replacing an existing blo
   This situation occurs under the write-back policy.
   In this policy, any changes made to the cache block are not immediately written to main memory. Instead, a “dirty bit” is set to indicate that the cache block has been modified.
   So, when that block is later replaced (evicted), the system writes the updated data back to main memory to maintain consistency.
+Q4. let say you have to transfer 7 bit with even parity and your data is 0110010 whta be the final output worth 2.5 marks
+
+    Data bits = 0110010
+    Number of bits = 7
+    Parity type = Even parity
+Step 1: Count the number of 1s
+    
+    In 0110010, the 1s are at positions 2, 3, and 6.
+    Number of 1s = 3 (odd)
+
+Step 2: Apply even parity rule
+    
+    For even parity, the total number of 1s (including the parity bit) must be even.
+    Since there are 3 ones (odd), we must add 1 more ‘1’ as the parity bit to make the total even (4 ones).
+
+Step 3: Write the final 8-bit output
+
+If we append the parity bit at the end (typical convention):
+
+      👉 Final data (with even parity) = 10110010
