@@ -1,8 +1,17 @@
 Q1 . Why is the logical cache faster than the physical cache?
-Ans: A logical (virtual) cache uses virtual addresses generated directly by the CPU, before the address translation step performed by the Memory Management Unit (MMU).
-Because it does not need to wait for the MMU to translate the address into a physical address, the CPU can access the cache immediately using the virtual address.
+  Ans: A logical (virtual) cache uses virtual addresses generated directly by the CPU, before the address translation step performed by the Memory Management Unit (MMU).
+  Because it does not need to wait for the MMU to translate the address into a physical address, the CPU can access the cache immediately using the virtual address.
+  
+  This makes logical caches faster since there is no translation delay involved.
+  
+  In contrast, a physical cache requires the virtual address to be translated into a physical address by the MMU before accessing the cache.
+  This extra translation step adds additional latency, making physical caches slower than logical caches
+Q2. Difference between DRAM and SRAM (2.5 marks)
 
-This makes logical caches faster since there is no translation delay involved.
-
-In contrast, a physical cache requires the virtual address to be translated into a physical address by the MMU before accessing the cache.
-This extra translation step adds additional latency, making physical caches slower than logical caches
+  Static Random Access Memory (SRAM) and Dynamic Random Access Memory (DRAM) are two types of semiconductor memories that differ in their design, speed, cost, and use.
+  
+  SRAM (Static RAM):
+  SRAM stores each bit of data using a bistable flip-flop circuit, which can hold data as long as power is supplied. It does not require periodic refreshing, making it faster and more reliable in terms of access time. However, because each cell uses more transistors (typically 6), it is more expensive and occupies more space. Therefore, SRAM is commonly used in cache memory within CPUs where high speed is essential.
+  
+  DRAM (Dynamic RAM):
+  DRAM stores data in capacitors, which gradually lose charge over time. Hence, it requires periodic refreshing to maintain the stored data, leading to slower performance compared to SRAM. It is denser, cheaper, and has higher storage capacity, which makes it suitable for main memory (primary RAM) in computers.
