@@ -29,3 +29,11 @@ RAID Level 2 (Hamming Code ECC)
     
     If a disk fails, the missing data can be reconstructed using the Hamming code stored on the parity (ECC) disks.
     This provides very high reliability and fault tolerance, as Hamming code can detect and correct single-bit errors and detect double-bit errors.
+
+RAID Level 3 (Byte-level Striping with Interleaved Parity)
+
+    RAID 3 uses byte-level striping across multiple disks and stores parity information on a separate dedicated disk.
+    The parity bits are interleaved with the data so that for each set of data bytes written across the data disks, a parity byte is computed and stored on the parity disk.
+    
+    If one disk fails, the missing data can be reconstructed using the parity information and the remaining data disks.
+    All disks operate synchronously, meaning every read or write involves all disks in the array.
