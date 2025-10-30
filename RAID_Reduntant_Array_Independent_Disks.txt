@@ -14,4 +14,10 @@ Therefore, it improves performance only, not reliability, which is why it is not
 
   RAID 0 uses data striping across disks to increase performance and capacity, but it lacks fault tolerance or redundancy. Hence, it is not a true member of the RAID family because it offers no data protection.
 
-Raid 01 
+ RAID Level 1 (Disk Mirroring)
+  
+  RAID 1 provides redundancy through duplication rather than parity.
+  In this scheme, all data is duplicated (mirrored) onto a second disk. Every write operation is performed simultaneously on two disks, so each disk contains an exact copy of the data.
+  
+  Like RAID 0, RAID 1 can use data striping, but each logical block is written to two physical disks — a primary and its mirror.
+  If one disk fails, the system can continue operating using the mirror disk without data loss, ensuring high reliability and fault tolerance.
