@@ -98,5 +98,5 @@ This repository contains summarized notes and explanations for **Chapter 6: Inte
 ---
 
 **Author:** Kush  
-**Subject:** Computer Organization and Architecture  
-**Chapter:** 6 – Internal Memory
+**Subject:** Computer Organization and Architect
+** SSD And Optical Memory is our next Topic will cover today 
