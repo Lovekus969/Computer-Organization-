@@ -1,0 +1,13 @@
+Q1: Calculate Time (Transfer Time, Seek, Latency)
+Your Answer: 14
+
+Logic Behind the Answer: You are absolutely correct.
+  
+  The total time for a disk I/O operation is the sum of its three main components:
+  Seek Time (8): The time for the disk arm to move to the correct cylinder.
+  Rotational Latency (4): The time for the desired sector to rotate under the read/write head.
+
+Data Transfer Time (2): The time to actually read the data from the platter and transfer it to the controller.
+
+      Therefore, the total time is a simple sum:
+          Total I/O Time = Seek Time + Rotational Latency + Transfer Time = 8 + 4 + 2 = 14
