@@ -1,0 +1,10 @@
+MODERN SERVER ARCHITECTURE (2024)
+    
+      CPU Complex (Multiple Cores)
+      ═══ System Bus ═══
+      Memory Controller → DDR5 RAM
+             ║
+          PCIe Root Complex ←←← THIS IS THE MODERN I/O BUS
+             ║
+      NVMe SSD ← GPU ← Network ← USB
+           (DMA Masters)
