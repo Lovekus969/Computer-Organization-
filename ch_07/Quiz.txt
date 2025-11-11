@@ -11,3 +11,98 @@ Data Transfer Time (2): The time to actually read the data from the platter and 
 
       Therefore, the total time is a simple sum:
           Total I/O Time = Seek Time + Rotational Latency + Transfer Time = 8 + 4 + 2 = 14
+
+Q2: RAID Level 3 Parity Calculation
+  The Scenario:
+
+RAID 3 uses a dedicated parity disk.
+ Even parity is used (the number of '1' bits across a stripe must be even).
+    
+    Disk 1: 1
+    Disk 2: 1
+    Disk 3: ?
+    Disk 4 (Parity Disk): 1
+
+Logic Behind the Answer:
+The parity disk (Disk 4) holds a value that makes the sum of all data bits (Disk1 + Disk2 + Disk3) even.
+
+Let's represent the bits:
+    
+    Disk 1 (D1) = 1  
+    Disk 2 (D2) = 1
+    Disk 3 (D3) = ? (Let's call this x)
+    Parity Disk (P) = 1
+
+    The rule for even parity is:
+    D1 ⊕ D2 ⊕ D3 ⊕ P = 0 (where ⊕ is XOR, which is addition modulo 2).
+
+                          Let's plug in the values:
+                          1 ⊕ 1 ⊕ x ⊕ 1 = 0
+                          
+                          Now, solve for x:
+                          
+                          (1 ⊕ 1) ⊕ x ⊕ 1 = 0
+                          
+                          (0) ⊕ x ⊕ 1 = 0
+                          
+                          x ⊕ 1 = 0
+                          
+                          For x ⊕ 1 to be 0, x must be 1.
+So , x = 1 
+Q3. I/O Interrupt Methods 🎯
+              The Two Methods:
+Polling (Software):
+  CPU: "Are you done? Are you done? Are you done?"
+
+Wastes CPU cycles constantly checking
+    Simple but inefficient
+    Interrupts (Hardware Lines):
+    I/O Device: "Hey CPU, I'm ready!"
+
+CPU does other work until interrupted
+    Much more efficient
+    Performance Analysis:
+
+text
+  Polling: CPU utilization = 100% during I/O
+  Interrupts: CPU utilization = near 0% during I/O
+FANG Interview Insight: We use interrupts for most devices, but polling for ultra-low latency applications (high-frequency trading) where interrupt overhead is too high.
+
+Q4: DMA Configurations - CRITICAL CONCEPT 🔥
+Look at Diagram.png file to understand better
+          Looking at your diagram - this is GOLD for systems interviews.
+          
+          (a) Single-bus, detached DMA
+          text
+          [CPU] ↔ [DMA] ↔ [I/O] ↔ [I/O] ↔ [Memory]
+                    ALL ON SINGLE BUS
+                      Problem: DMA controller and CPU compete for same bus
+                      Bottleneck: Bus contention - when DMA transfers, CPU waits
+                      Performance: 🐢 Slow - serialized access
+          
+          
+          (b) Single-bus, integrated DMA-I/O
+          text
+              [CPU] ↔ [DMA+I/O] ↔ [DMA+I/O] ↔ [Memory]
+                    Better: DMA built into I/O controllers
+                    But Still: Single bus bottleneck remains
+                    Use Case: Low-cost embedded systems
+          
+          (c) I/O Bus ← WINNER 🏆
+          text
+          [CPU] ↔ [Memory]    (High-speed system bus)
+                     ↑
+                  [DMA] ↔ [I/O Bus] ↔ [I/O Devices]
+                    Game Changer: Separate buses for CPU/Memory vs I/O
+                    CPU can access memory WHILE DMA does I/O transfers
+                    Performance: 🚀 Parallel operations = maximum throughput
+          
+          Why (c) Dominates in Production:
+                
+                No bus contention between CPU and I/O
+                
+                Scalable - add more I/O devices without affecting CPU performance
+                
+                Used in ALL modern servers and high-performance systems
+                
+      Answer: Disk 3 (?) must be 1.
