@@ -60,3 +60,6 @@ There are three main ways to handle input/output:
         A special hardware module (DMA controller) transfers data directly between memory and device without CPU involvement.
         CPU is only interrupted once the transfer completes.
         Used for high-speed devices like disk drives.
+
+Read book chaptor 8-9
+
