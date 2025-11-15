@@ -1,1 +1,13 @@
-The Theoretical Framework of Computer Architecture & Organization: A Study in Abstraction
+           $$$$--    The Theoretical Framework of Computer Architecture & Organization: A Study in Abstraction --$$$$
+  
+Computer Architecture is the "What" or the "Blueprint."
+
+    It's the conceptual design and functional behavior of the computer system as seen by the programmer. It defines what the computer is supposed to do.
+    
+    Example from the house analogy: The number of bedrooms, the location of the kitchen and bathrooms, the height of the ceilings. It's the set of features the homeowner (programmer) cares about.
+    
+    Computer Organization is the "How" or the "Construction."
+    
+    It's the physical implementation of the architecture. It deals with how the hardware components are interconnected and work together to realize the architectural specifications.
+    
+    Example from the house analogy: The type of bricks used, the brand of electrical wiring, the diameter of the water pipes, the specific model of the furnace. These are details the builder (hardware engineer) worries about, which are often hidden from the homeowner.
