@@ -11,3 +11,5 @@ Computer Architecture is the "What" or the "Blueprint."
     It's the physical implementation of the architecture. It deals with how the hardware components are interconnected and work together to realize the architectural specifications.
     
     Example from the house analogy: The type of bricks used, the brand of electrical wiring, the diameter of the water pipes, the specific model of the furnace. These are details the builder (hardware engineer) worries about, which are often hidden from the homeowner.
+
+instruction set architecture(ISA) seems like how many and what kind of instruction came through and how it works
