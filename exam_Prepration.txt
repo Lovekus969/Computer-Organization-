@@ -49,3 +49,24 @@ Q4. What is the difference between simple single processor computer and multicor
 Q5. What are major elements of a multicore computer? Define and explain how are they related to each other?
 A multicore computer contains multiple CPU cores on the same chip, each with private L1/L2 caches, and all cores share an L3 cache, main memory, I/O subsystem, and an interconnect bus. A coherence mechanism maintains data consistency between cores when they access shared memory. All these components work together to enable parallel processing and faster system performance.
 
+Q6. Using an IAS memory format, what is the maximum possible data that can be stored? You can represent the answer as a power of 2.
+2^16
+Q7. Let’s say you want to add two registers AX and BX. Which of the following will be impacted when the processor executes the instruction. PC, MAR, MRO, MBR, IR 
+Let's analyze each:
+🔸 1. Program Counter (PC) — YES, impacted
+•	PC always updates to point to the next instruction.
+2. Memory Address Register (MAR) — NO
+  MAR holds an address when CPU accesses memory
+  This instruction uses registers only, no memory access.
+3. Memory Buffer Register (MBR or MDR) — NO
+  Used only when reading/writing data between CPU and memory.
+  Since both operands (AX, BX) are CPU registers, no memory fetch.
+4. Instruction Register (IR) — YES, impacted
+  IR must load the instruction ADD AX, BX after the fetch cycle.
+  So IR definitely changes.
+
+✔ Impacted
+5. Memory Read Operation (MRO) — NO
+   No memory read is required (operands are inside CPU registers).
+ Not impacted
+
