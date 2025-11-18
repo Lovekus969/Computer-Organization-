@@ -13,3 +13,19 @@ This includes hardware details such as the ALU, control signals, data paths, mem
  In Short:
   Architecture = WHAT the system does (programmer’s view)
   Organization = HOW the system is built (hardware implementation)
+2. What are the four basic functions that a computer can perform?
+A computer performs four fundamental operations:
+  1. Data Processing
+  Manipulating data to produce meaningful information.
+  Examples: arithmetic operations, logical operations.
+  
+  2. Data Storage 
+  Storing data for later use — either temporarily (RAM) or permanently (disk, SSD).
+  
+  3. Data Movement (Input/Output)
+  Transferring data between the computer and the outside world.
+  Examples: keyboard input, monitor output, network communication.
+  
+  4. Control
+  Directing and coordinating all other operations.
+  The control unit fetches instructions, interprets them, and issues the necessary control signals.
