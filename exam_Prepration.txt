@@ -1,9 +1,15 @@
 We will see some top questions and try to solve them via solution under faang required Authorities.
 1.What is the difference between computer organization and architecture?
-  Computer architecture refers to those attributes of a computer system that are visible to a programmer — in other words, the attributes that have a direct impact on the logical execution of a program.
-  Computer organization refers to the operational units and their interconnections that implement or realize the architectural specifications.
-    
-    Examples of architectural attributes include:
-      the instruction set
-      number of bits used to represent data types (numbers, characters, etc.)
-      I/O mechanisms
+Computer Architecture:
+
+Computer architecture refers to the attributes of a computer system that are visible to the programmer and that have a direct impact on the logical execution of a program.
+It includes the Instruction Set Architecture (ISA) — instruction formats, opcodes, registers, data types, memory addressing techniques, and the effect of instructions on registers and memory.
+
+Computer Organization:
+
+Computer organization refers to the operational units and their interconnections that implement the architectural specifications.
+This includes hardware details such as the ALU, control signals, data paths, memory hierarchy, and how the CPU is internally structured.
+
+ In Short:
+  Architecture = WHAT the system does (programmer’s view)
+  Organization = HOW the system is built (hardware implementation)
