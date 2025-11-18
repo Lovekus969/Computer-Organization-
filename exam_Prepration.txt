@@ -29,3 +29,17 @@ A computer performs four fundamental operations:
   4. Control
   Directing and coordinating all other operations.
   The control unit fetches instructions, interprets them, and issues the necessary control signals.
+Q3. Draw a top-level structure diagram of the computer representing the following components: I/O, Main Memory, System Bus, CPU, Registers, ALU, Internal Bus, Control Unit, Sequencing Logic, Control Unit Registers and Decoders, Control Memory.
+
+[COMPUTER]
+   |-- I/O
+   |-- Main Memory
+   |-- CPU
+       |-- ALU
+       |-- Registers
+       |-- Internal Bus
+       |-- Control Unit
+            |-- Sequencing Logic
+            |-- Control Registers/Decoders
+            |-- Control Memory
+Official image is uploaded in the book At page 31 
