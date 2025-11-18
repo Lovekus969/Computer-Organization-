@@ -43,3 +43,5 @@ Q3. Draw a top-level structure diagram of the computer representing the followin
             |-- Control Registers/Decoders
             |-- Control Memory
 Official image is uploaded in the book At page 31 
+Q4. What is the difference between simple single processor computer and multicore computer structure?
+ A simple single-processor computer has only one CPU core that executes one instruction stream at a time. A multicore computer contains multiple CPU cores on the same chip, allowing parallel execution of multiple instructions and higher performance.
