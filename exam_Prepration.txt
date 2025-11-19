@@ -78,3 +78,10 @@ Q8. What are the two general approaches to developing an embedded operating syst
   2. Design a dedicated embedded operating system
   A new OS is designed and implemented specifically for embedded use.
   Example: TinyOS, widely used in wireless sensor networks.
+Q9. Define and explain the techniques used in contemporary processors to achieve speed-up.
+ Contemporary processors include a number of techniques designed to increase instruction throughput and overall performance. The   main techniques are the following:
+ 1. Pipelining
+ 
+ Pipelining breaks instruction execution into multiple stages (fetch, decode, fetch operands, execute, store result).
+ The processor overlaps these operations so that multiple instructions are in different stages at the same time—similar to an assembly line.
+ This increases throughput because while one instruction is executing, the next instruction is being decoded, and so on.
