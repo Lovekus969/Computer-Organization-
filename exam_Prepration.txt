@@ -90,3 +90,7 @@ Q9. Define and explain the techniques used in contemporary processors to achieve
 The processor looks ahead in the instruction stream and predicts which branch or sequence of instructions will be executed next.
 If the prediction is correct, the CPU fetches and buffers those instructions early, keeping the pipeline busy.
 Advanced predictors can look several branches ahead, increasing the amount of useful work available to execute.
+3. Superscalar Execution
+
+A superscalar processor is able to issue more than one instruction per clock cycle.
+It achieves this using multiple functional units and multiple parallel pipelines so several instructions can execute simultaneously.
