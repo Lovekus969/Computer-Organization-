@@ -79,18 +79,29 @@ Q8. What are the two general approaches to developing an embedded operating syst
   A new OS is designed and implemented specifically for embedded use.
   Example: TinyOS, widely used in wireless sensor networks.
 Q9. Define and explain the techniques used in contemporary processors to achieve speed-up.
- Contemporary processors include a number of techniques designed to increase instruction throughput and overall performance. The   main techniques are the following:
- 1. Pipelining
- 
- Pipelining breaks instruction execution into multiple stages (fetch, decode, fetch operands, execute, store result).
- The processor overlaps these operations so that multiple instructions are in different stages at the same time—similar to an assembly line.
- This increases throughput because while one instruction is executing, the next instruction is being decoded, and so on.
-2. Branch Prediction
-
-The processor looks ahead in the instruction stream and predicts which branch or sequence of instructions will be executed next.
-If the prediction is correct, the CPU fetches and buffers those instructions early, keeping the pipeline busy.
-Advanced predictors can look several branches ahead, increasing the amount of useful work available to execute.
-3. Superscalar Execution
-
-A superscalar processor is able to issue more than one instruction per clock cycle.
-It achieves this using multiple functional units and multiple parallel pipelines so several instructions can execute simultaneously.
+   Contemporary processors include a number of techniques designed to increase instruction throughput and overall performance. The   main techniques are the following:
+   1. Pipelining
+   
+   Pipelining breaks instruction execution into multiple stages (fetch, decode, fetch operands, execute, store result).
+   The processor overlaps these operations so that multiple instructions are in different stages at the same time—similar to an assembly line.
+   This increases throughput because while one instruction is executing, the next instruction is being decoded, and so on.
+  2. Branch Prediction
+  
+  The processor looks ahead in the instruction stream and predicts which branch or sequence of instructions will be executed next.
+  If the prediction is correct, the CPU fetches and buffers those instructions early, keeping the pipeline busy.
+  Advanced predictors can look several branches ahead, increasing the amount of useful work available to execute.
+  3. Superscalar Execution
+  
+  A superscalar processor is able to issue more than one instruction per clock cycle.
+  It achieves this using multiple functional units and multiple parallel pipelines so several instructions can execute simultaneously.
+  4. Data Flow Analysis
+  
+  The processor examines dependencies between instructions (results and operands) to create an optimized schedule.
+  Instructions are executed as soon as their data is ready, independent of their original program order.
+  This reduces stalls and improves parallelism.
+  
+  5. Speculative Execution
+  
+  Using branch prediction and data flow analysis, the processor executes instructions ahead of time, before it is certain they are needed.
+  These results are kept in temporary storage until the branch outcome is verified.
+  This keeps execution units busy by executing likely-needed instructions
