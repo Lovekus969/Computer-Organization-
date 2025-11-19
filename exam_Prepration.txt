@@ -70,3 +70,11 @@ Let's analyze each:
    No memory read is required (operands are inside CPU registers).
  Not impacted
 
+
+Q8. What are the two general approaches to developing an embedded operating system?
+  There are two general approaches to developing an embedded operating system:
+  1. Adapt an existing operating system
+  An existing OS (such as embedded Linux, Windows CE, or other commercial/proprietary systems) is modified to suit the embedded application.
+  2. Design a dedicated embedded operating system
+  A new OS is designed and implemented specifically for embedded use.
+  Example: TinyOS, widely used in wireless sensor networks.
