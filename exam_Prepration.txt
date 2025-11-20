@@ -197,3 +197,102 @@ Q22. What are three types of bus lines that are used to connect CPU, Memory and 
    Data bus: carries data
   	Address bus: carries addresses
   	Control bus: carries control signals
+Q23. If the processor wants to write something in memory, what will be transferred on the various bus lines?
+When the CPU wants to write data to memory, the following happens on the bus lines:
+	Address Bus: The CPU sends the address of the memory location where the data will be stored.
+	Data Bus: The CPU sends the actual data to be written to that memory location.
+	Control Bus: The CPU activates the Write signal to indicate a write operation, and may also use signals like Memory Enable or Chip Select to activate the correct memory module.
+
+Q24. Point-to-point interconnection method is the faster way to connect various components. Explain the disadvantages of this method?
+Disadvantages of Point-to-Point Interconnection
+Although point-to-point interconnection provides fast and direct communication between components, it has several disadvantages:
+	High Cost:
+o	Each device requires a dedicated connection to every other device, which increases hardware cost significantly.
+	Complex Wiring:
+o	The number of wires grows rapidly with the number of devices, leading to complex and bulky wiring that is difficult to manage.
+	Scalability Issues:
+o	Adding a new device requires new dedicated connections to all other devices, making the system difficult to expand.
+	Limited Flexibility:
+o	Any change in the system configuration requires rewiring or redesigning the connections.
+
+Q25. What is the difference between the link layer and routing layer in QPI four-layer architecture?
+In the QPI four-layer architecture, the Link Layer ensures reliable data transfer between two directly connected devices by handling error detection, framing, and flow control. In contrast, the Routing Layer is responsible for forwarding packets across multiple nodes in the QPI network, determining the best path and managing addressing and switching. Simply put, the Link Layer focuses on data integrity on a single link, while the Routing Layer focuses on data delivery across the entire network.
+
+Q26. What is the purpose of a switch in a typical PCIe configuration?
+Purpose of a Switch in a PCIe Configuration
+In a typical PCIe (Peripheral Component Interconnect Express) system, a switch is used to expand the number of PCIe devices that can be connected to the processor or root complex.
+Functions of a PCIe Switch:
+	Multiple Device Support:
+o	Allows one PCIe root port to connect to several endpoints (graphics cards, SSDs, network cards) simultaneously.
+	Packet Routing:
+o	Receives packets from the root complex and forwards them to the correct downstream device.
+	Bandwidth Management:
+o	Shares the available PCIe lanes efficiently among multiple devices.
+	Transparency:
+o	Devices connected through the switch appear as if directly connected to the root complex.
+Summary:
+A PCIe switch increases connectivity, manages traffic, and enables multiple devices to communicate efficiently over PCIe lanes.
+
+Q27. What is the role of the transaction layer in PCIe layered architecture?
+Functions of the Transaction Layer:
+The Transaction Layer acts as the interface between software/CPU and the lower PCIe layers, handling packet formation, delivery, and flow control to ensure reliable data communication across PCIe links.
+	Packet Creation:
+o	Converts read, write, and message requests from software or hardware into TLPs.
+	Packet Processing:
+o	Receives TLPs from other devices and delivers them to the appropriate requester.
+	Flow Control and Ordering:
+o	Ensures proper sequencing of packets and that the receiving device can handle them without overflow.
+
+
+Q28. Let’s say you must write a computer program that is going to use 4 variables. Based on the principle of locality, where would you declare these variables?
+Based on the principle of locality, the 4 variables should be declared as local variables on the stack or in CPU registers, because these locations provide fast access and take advantage of temporal and spatial locality.
+Q29. Studies have shown that the data address probability distribution is wider than the instruction address probability distribution, what does this mean?
+	Studies show that the data address probability distribution is wider than the instruction address distribution, which means that programs tend to execute a small set of instructions repeatedly (narrow distribution), while data accesses are spread over many memory locations (wide distribution). As a result, instruction caches can be smaller and still effective, whereas data caches need to be larger or more sophisticated to handle the wider range of data addresses efficiently.
+Q30. With the recent advances in big data, is spatial locality more important than temporal locality? Explain your answer.
+Spatial locality has become more important in big data applications because large datasets are often processed sequentially or in blocks. Accessing contiguous memory regions allows efficient prefetching and better cache utilization. Temporal locality is still useful, but in big data, the sheer volume of data makes predictable sequential access (spatial locality) more critical for performance.
+Q31. In a program, explain why there are more dynamic instructions than static instructions?
+•	Static instructions are the unique instructions written in the program code.
+•	Dynamic instructions are the actual instructions executed at runtime.
+Loops, function calls, and repeated operations cause the same static instructions to execute many times, resulting in more dynamic instructions than static instructions.
+
+Q32. List and describe the key characteristics of a memory system.
+	Capacity: Amount of data it can store.
+	Access Time / Latency: Time taken to read/write a value.
+	Transfer Rate / Bandwidth: Speed of data transfer between memory and CPU.
+	Cost per Bit: Determines economic feasibility.
+	Volatility: Whether memory retains data without power.
+	Physical Proximity to CPU: Affects speed and latency.
+	Organization: Cache, main memory, registers, etc., affects performance.
+
+Q33. Why is associative access method more complex to design?
+Associative (or fully associative) memory allows any memory block to be placed in any location, requiring the hardware to compare the input address with all stored addresses simultaneously. This parallel comparison logic is complex, costly, and consumes more power, making the design challenging.
+Q34. What is transfer rate for a memory system and why is the calculation method different for random access and non-random access methods?
+	Transfer Rate: Amount of data transferred per unit time (e.g., MB/s).
+	Random Access Memory (RAM): Access time is uniform, so transfer rate is calculated as data size ÷ access time.
+	Non-Random Access Memory (e.g., tapes, disks): Access time depends on seek, rotation, and latency, so transfer rate considers average access time plus data transfer time.
+
+Q35. Arrange the following memory devices into memory hierarchy from closer to the processer to further away. Registers, On-chip cache, Off-chip cache, main memory, Hard disks, Magnetic Disks, Magnetic Tapes.
+Registers → On-chip cache → Off-chip cache → Main memory → Hard disks → Magnetic disks → Magnetic tapes
+
+Q36.   Why L1 cache is smaller than L2 cache, L2 cache is smaller than L3 cache and so on?
+•	Proximity vs Size Trade-off: Smaller caches are faster and placed closer to the CPU (L1) for quick access.
+•	Larger caches (L2, L3) store more data but are slower and placed farther from the CPU.
+•	This balances speed, cost, and capacity in a memory hierarchy.
+
+Q37. What is the design principle of inclusion in memory systems?
+•	Inclusion Principle: Data in a higher-level cache (L1) is also present in lower-level caches (L2, L3).
+•	Ensures coherence, simplifies cache management, and makes it easier to invalidate blocks in lower caches when needed.
+
+Q38. Which memory devices use vertical coherence, and which ones use hierarchical coherence?
+	Vertical Coherence: Maintains consistency between different levels of cache and main memory (e.g., L1 ↔ L2 ↔ main memory).
+	Hierarchical Coherence: Maintains consistency within caches at the same level across multiple processors (e.g., L1 caches in a multi-core CPU).
+
+Q39. How is the memory access time calculated if there are two levels of cache used? Write the mathematical formula?
+ 
+Q40. Instead of using smaller l1 and l2 cache, why can’t we use a bigger cache of size l1+l2?
+
+Q40. Instead of using smaller L1 and L2 caches, why can’t we use a bigger cache of size L1 + L2?
+	Trade-off between speed and size: Large cache is slower due to longer access and lookup times.
+	Hierarchy advantage: L1 provides very fast access to frequently used data, L2 stores less frequently used data, balancing speed and capacity.
+	A single large cache would increase latency for most accesses, reducing CPU performance.
+
