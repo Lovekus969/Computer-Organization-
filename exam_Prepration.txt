@@ -105,3 +105,14 @@ Q9. Define and explain the techniques used in contemporary processors to achieve
   Using branch prediction and data flow analysis, the processor executes instructions ahead of time, before it is certain they are needed.
   These results are kept in temporary storage until the branch outcome is verified.
   This keeps execution units busy by executing likely-needed instructions
+ Q10. What changes have been introduced to balance the performance of memory with increasing microprocessor speeds?
+ As microprocessor speeds increased much faster than memory speeds, several architectural changes were introduced to reduce the “memory wall” problem. The most important improvements are:
+ 1.	Cache Memory Hierarchy (L1, L2, L3):
+ Fast caches store frequently used data close to the CPU, reducing slow RAM accesses.
+ 2.	Memory Interleaving:
+ Main memory is divided into multiple banks that can be accessed in parallel, increasing overall bandwidth.
+ 3.	Faster and Wider Memory Technologies:
+ Development of DDR/DDR5 RAM, wider buses, and higher clock speeds improves data transfer rates.
+ 4.	On-Chip Memory Controllers:
+ Integrating the memory controller inside the CPU reduces latency and speeds up communication with RAM.
+
