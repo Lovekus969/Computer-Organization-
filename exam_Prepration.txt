@@ -116,3 +116,11 @@ Q9. Define and explain the techniques used in contemporary processors to achieve
  4.	On-Chip Memory Controllers:
  Integrating the memory controller inside the CPU reduces latency and speeds up communication with RAM.
 
+Q11. Discuss the challenges of Power, RC Delay and Memory Latency?
+  Modern processors face three main challenges: power, RC delay, and memory latency. As processors get faster, they use more power and produce more heat, which makes it difficult to keep increasing speed safely. RC delay happens because the tiny wires inside the chip become thinner as technology shrinks, which slows down the movement of signals inside the processor. Memory latency (Time it takes to read something from the memory) is another problem because the CPU is very fast, but the main memory (RAM) is much slower, so the processor often has to wait for data, reducing overall performance. These three issues make it harder to improve processor speed and efficiency.
+
+Q12. What is the difference between Multicore Processors and Graphics Processing Units?
+  Multicore processors are CPUs that contain several general-purpose cores designed to run normal computer tasks like operating systems, applications, and multiple programs at the same time. They focus on fast decision-making, logic operations, and running a few complex tasks efficiently. In contrast, Graphics Processing Units (GPUs) have hundreds or thousands of small cores designed mainly for handling graphics, images, and large amounts of simple, repeated calculations in parallel. CPUs are good for complex tasks with a few threads, while GPUs are good for highly parallel work like gaming, AI, and scientific simulations
+
+
+
