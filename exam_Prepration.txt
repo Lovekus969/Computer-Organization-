@@ -289,7 +289,11 @@ Q38. Which memory devices use vertical coherence, and which ones use hierarchica
 
 Q39. How is the memory access time calculated if there are two levels of cache used? Write the mathematical formula?
  
-Q40. Instead of using smaller l1 and l2 cache, why can’t we use a bigger cache of size l1+l2?
+Ans : T avg = H * T1 + ( T1+T2) ( 1 - H ) 
+             = T1 H + (1 - H ) T1 + T2( 1-H ) 
+             = T1H + T1 - T1H + T2 - T2H 
+             = T1 + T2 -T2H
+             = T1 +(1-H)T2
 
 Q40. Instead of using smaller L1 and L2 caches, why can’t we use a bigger cache of size L1 + L2?
 	Trade-off between speed and size: Large cache is slower due to longer access and lookup times.
