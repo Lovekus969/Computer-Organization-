@@ -69,3 +69,9 @@ Ans:- L1 and L2 caches are faster than L3 because they are closer to the CPU, sm
 Q. In most computers, L1 and L2 caches are faster than L3 cache, then what is the purpose of having a slow cache memory?
 Ans:- L3 cache is slower but larger and shared, helping the CPU avoid frequent main memory accesses and improving overall system efficiency.
 
+Q. What are three types of bus lines that are used to connect CPU, Memory and I/O devices?
+	
+    Data bus: carries data
+	Address bus: carries addresses
+	Control bus: carries control signals
+
