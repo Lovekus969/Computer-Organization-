@@ -63,3 +63,6 @@ There are three main ways to handle input/output:
 
 Read book chaptor 8-9
 
+Q. Why L1 and L2 cache faster than L3 cache?
+L1 and L2 caches are faster than L3 because they are closer to the CPU, smaller in size, and simpler in design, whereas L3 is larger, shared, and farther from the processor, making it slower to access.
+
