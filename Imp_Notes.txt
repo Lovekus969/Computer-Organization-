@@ -11,3 +11,6 @@ Nested Interrupt Processing
 •	When a new, higher-priority interrupt occurs, the processor pauses the current ISR, handles the new one, and then returns to the previous ISR. 
 •	This allows faster response to important interrupts. 
 •	It requires hardware support and more complex interrupt handling. 
+
+Q. Why is disabled interrupt approach in handling interrupts risky? What challenges does it pose using this method to handle multiple interrupts? 
+Disabling interrupts ensures the current ISR runs safely but is risky because it can block all interrupts, miss events, and cause potential system failures while handling multiple interrupts becomes inefficient. 
