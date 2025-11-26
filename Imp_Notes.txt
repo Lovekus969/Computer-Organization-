@@ -29,8 +29,20 @@ Q.What are three types of bus lines that are used to connect CPU, Memory and I/O
 ➢	Control bus: carries control signals 
 
 
-Q23. If the processor wants to write something in memory, what will be transferred on the various bus lines? 
+Q. If the processor wants to write something in memory, what will be transferred on the various bus lines? 
 When the CPU wants to write data to memory, the following happens on the bus lines: 
 ➢	Address Bus: The CPU sends the address of the memory location where the data will be stored. 
 ➢	Data Bus: The CPU sends the actual data to be written to that memory location. 
 ➢	Control Bus: The CPU activates the Write signal to indicate a write operation, and may also use signals like Memory Enable or Chip Select to activate the correct memory module
+
+Q. The point-to-point interconnection method is a faster way to connect various components. Explain the disadvantages of this method? 
+Disadvantages of Point-to-Point Interconnection 
+Although point-to-point interconnection provides fast and direct communication between components, it has several disadvantages: 
+➢	High Cost: 
+o	Each device requires a dedicated connection to every other device, which significantly increases hardware cost. 
+➢	Complex Wiring: 
+o	The number of wires grows rapidly with the number of devices, leading to complex and bulky wiring that is difficult to manage. 
+➢	Scalability Issues: 
+o	Adding a new device requires new dedicated connections to all other devices, making the system difficult to expand. 
+➢	Limited Flexibility: 
+o	Any change in the system configuration requires rewiring or redesigning the connections. 
