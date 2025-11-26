@@ -1,0 +1,13 @@
+What is the difference between sequential interrupt processing and nested interrupt processing? 
+Difference Between Sequential Interrupt Processing and Nested Interrupt Processing 
+Sequential Interrupt Processing 
+•	In sequential interrupt processing, only one interrupt is handled at a time. 
+•	When an interrupt occurs, the CPU disables all other interrupts until the current interrupt service routine (ISR) is finished. 
+•	Other interrupts must wait in a queue. 
+•	This method is simple but can cause delays if a high-priority interrupt must wait for a low-priority one to complete. 
+  
+Nested Interrupt Processing 
+•	In nested interrupt processing, the CPU allows higher-priority interrupts to interrupt a lower-priority interrupt handler. 
+•	When a new, higher-priority interrupt occurs, the processor pauses the current ISR, handles the new one, and then returns to the previous ISR. 
+•	This allows faster response to important interrupts. 
+•	It requires hardware support and more complex interrupt handling. 
