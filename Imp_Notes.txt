@@ -1,3 +1,6 @@
+Explain term Block 
+Block : The minimum unit of transfer bw the cache and main memory and in most of the literarure the term block refers both to the units of datat transfereed and to the physical location in main " 
+
 What is the difference between sequential interrupt processing and nested interrupt processing? 
 Difference Between Sequential Interrupt Processing and Nested Interrupt Processing 
 Sequential Interrupt Processing 
