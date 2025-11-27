@@ -8,6 +8,12 @@ In associative : find extra space and fill it in ( hit ratio increase )
 What is benefit of associative this  most data be in cache 
 
 
+Q. Discuss how bigger size caches can be inefficient?
+Bigger caches can be inefficient because they increase access time, and hardware complexity. Large caches also have longer hit latency and offer diminishing returns in hit-rate improvement. As a result, excessively large caches reduce overall system efficiency despite storing more data
+
+
+
+
 Q5. What is the most time efficient memory mapping method to use cache-memory combo?
 The most time-efficient memory mapping method is Direct Mapping. It offers the fastest access time because each memory block maps to only one specific cache line, requiring only a single tag comparison and minimal hardware, making it quicker than associative or set-associative mapping
 
