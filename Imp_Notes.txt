@@ -5,6 +5,36 @@ Frame : to distinguis bw the daata transfereed and the chunk of physical memory 
 Line : a pottion of tbe  cache memory capable of holding one block so called becasue ut us ysyakky drawb as a horizontal object 
 
 Tag : A portion of a catche line that is tge usedd for the addressinf purpose as explained subsequently . A cache line may be  also include up to 2^n 
+AQ What IS THE DIFFERENCE BW BLOCK AND FRAME 
+What is word –“ Word stote more data than block  (2 block =word) ” 
+
+Q3. If the processor wants to read a memory location, which of the following components are used and how? Processor, Cache, System Bus, Address Buffer, Data Buffer.
+Ans : By default talking about Ram 
+Processor send Read Address – 
+Processor
+The processor (CPU) generates the Read Address of the memory location it wants. It sends this address to the Address Buffer. At the same time, the CPU issues a READ control signal.
+Cache
+      The cache checks if the requested address is already stored.
+      Cache Hit:
+      Data is found in cache → Data is sent directly from cache to CPU (fast).
+      Cache Miss:
+      Cache does not have the data → A memory read request is sent to main memory through the system bus.
+Address Buffer
+The address buffer holds the address received from the CPU. It places this address onto the Address Bus of the system bus. This ensures the address reaches the correct memory module.
+System Bus
+  The system bus consists of:
+    •	Address Bus
+    •	Data Bus
+    •	Control Bus
+  Here’s how it works:
+      1.	Address Bus carries the address from address buffer → main memory.
+      2.	Control Bus carries the READ signal.
+      3.	Data Bus will carry the data from memory → data buffer → CPU.
+
+How cache will use  CPU will generate RA if we find we hit and send to processor otherwise got to main memory and What happen with the system bus  we need to send control signal READ on address bus address processor send wand on data bus once data read from main memory that be put on data bus and data be receive through data bus 
+Adress buffer: Hold the address of the memory location I want to read 
+Data buffer : Holds the data once it read from the main memory it put on system bus and gooses to the processing .
+
 what is the difference between sequential interrupt processing and nested interrupt processing? 
 Difference Between Sequential Interrupt Processing and Nested Interrupt Processing 
 Sequential Interrupt Processing 
