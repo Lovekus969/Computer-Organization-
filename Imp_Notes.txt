@@ -12,6 +12,17 @@ Q. Discuss how bigger size caches can be inefficient?
 Bigger caches can be inefficient because they increase access time, and hardware complexity. Large caches also have longer hit latency and offer diminishing returns in hit-rate improvement. As a result, excessively large caches reduce overall system efficiency despite storing more data
 
 
+When a miss occurs in a memory read operation, what happens next?
+ Steps:
+ 1.	CPU sends the memory address to the address buffer.
+ 2.	Address buffer places it on the system bus.
+ 3.	READ signal is sent to main memory.
+ 4.	Main memory returns the entire block (not just one byte/word).
+ 5.	The block is stored in the cache (in an empty frame or replacing one).
+ 6.	The requested word is then sent to the CPU via the data buffer.
+ Short version:
+ On a miss, the block containing the required data is fetched from main memory, placed into the cache, and then supplied to the processor.
+
 
 
 Q5. What is the most time efficient memory mapping method to use cache-memory combo?
