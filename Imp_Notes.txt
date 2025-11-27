@@ -1,7 +1,11 @@
 Explain term Block 
 Block : The minimum unit of transfer bw the cache and main memory and in most of the literarure the term block refers both to the units of datat transfereed and to the physical location in main " 
 
-What is the difference between sequential interrupt processing and nested interrupt processing? 
+Frame : to distinguis bw the daata transfereed and the chunk of physical memory , the term frmae , or block frame is sometime used with reference to cache 
+Line : a pottion of tbe  cache memory capable of holding one block so called becasue ut us ysyakky drawb as a horizontal object 
+
+Tag : A portion of a catche line that is tge usedd for the addressinf purpose as explained subsequently . A cache line may be  also include up to 2^n 
+what is the difference between sequential interrupt processing and nested interrupt processing? 
 Difference Between Sequential Interrupt Processing and Nested Interrupt Processing 
 Sequential Interrupt Processing 
 •	In sequential interrupt processing, only one interrupt is handled at a time. 
