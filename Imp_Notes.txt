@@ -1,6 +1,8 @@
 Why do we need logical addressing rather than using physical memory addresses?
  Logical addressing is needed because it provides process isolation, memory protection, and flexibility. The CPU generates logical addresses, which the OS and MMU translate to physical addresses. With logical addressing, programs can be relocated in memory, virtual memory can be used, and multiple processes can run safely without interfering with each other. Physical addresses are fixed by the hardware, but logical addresses allow the operating system to manage memory efficiently and securely.
 
+Q5. What is the most time efficient memory mapping method to use cache-memory combo?
+The most time-efficient memory mapping method is Direct Mapping. It offers the fastest access time because each memory block maps to only one specific cache line, requiring only a single tag comparison and minimal hardware, making it quicker than associative or set-associative mapping
 
 Explain term Block 
 Block : The minimum unit of transfer bw the cache and main memory and in most of the literarure the term block refers both to the units of datat transfereed and to the physical location in main " 
