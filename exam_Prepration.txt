@@ -399,3 +399,6 @@ So:
 | Consistency  | High                  | Needs dirty bit         |
 | Hardware     | Simple                | More complex            |
 
+Write-through updates both cache and RAM, but CPU does not wait for slow RAM.
+Write-through uses a write buffer that stores the write request and completes it in the background.
+Cache still gives fast access for reads, and consistency is maintained between cache and memory.
