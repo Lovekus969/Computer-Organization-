@@ -310,4 +310,9 @@ Direct Mapping is the simplest cache-mapping technique.
 	
 					Cache Line Number=(Block Number)mod(Number of Cache Lines)
 	  A single large cache would increase latency for most accesses, reducing CPU performance.
-	
+
+That means:
+		
+		Every memory block has only one exact position where it can be placed in cache.
+		
+		If two blocks map to the same cache line, they will replace each other.
