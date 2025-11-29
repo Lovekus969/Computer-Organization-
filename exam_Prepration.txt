@@ -362,4 +362,15 @@ So what happens?
 		
 		✔ LRU is smarter
 		      because it keeps the most recently used items.
-				
+
+
+Q.If RAM is slow and write-through writes to both cache and RAM, then what is the purpose of cache?
+Doesn’t writing to RAM make the CPU wait?
+With Write-Through, CPU Does NOT Wait for RAM
+
+Ans:--> When using write-through, the CPU:
+
+		Writes to cache
+		Sends write request to RAM
+		Immediately continues execution
+		It does not wait for RAM to finish the slow write.
