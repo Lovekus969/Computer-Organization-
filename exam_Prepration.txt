@@ -298,5 +298,16 @@ Ans : T avg = H * T1 + ( T1+T2) ( 1 - H )
 Q40. Instead of using smaller L1 and L2 caches, why can’t we use a bigger cache of size L1 + L2?
 	Trade-off between speed and size: Large cache is slower due to longer access and lookup times.
 	Hierarchy advantage: L1 provides very fast access to frequently used data, L2 stores less frequently used data, balancing speed and capacity.
-	A single large cache would increase latency for most accesses, reducing CPU performance.
 
+Q . What Is Direct Mapping?
+
+Direct Mapping is the simplest cache-mapping technique.
+	It defines a fixed rule telling where each block of main memory must go in the cache.
+	
+	👉 Formula used:
+	
+	The cache line is selected using the modulus operation:
+	
+					Cache Line Number=(Block Number)mod(Number of Cache Lines)
+	  A single large cache would increase latency for most accesses, reducing CPU performance.
+	
