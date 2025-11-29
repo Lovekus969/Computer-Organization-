@@ -374,3 +374,18 @@ Ans:--> When using write-through, the CPU:
 		Sends write request to RAM
 		Immediately continues execution
 		It does not wait for RAM to finish the slow write.
+
+Why?
+Because write-through often uses a Write Buffer (a small queue between cache and RAM).
+. Write Buffer (VERY IMPORTANT)
+
+When cache updates RAM, the write goes into a buffer, like a mini-queue.
+	CPU → Cache → Write Buffer → RAM
+
+So:
+	
+	Cache is updated instantly
+	CPU keeps running
+	Write buffer slowly writes to RAM in background
+	
+	👉 This is why write-through still works fast.
