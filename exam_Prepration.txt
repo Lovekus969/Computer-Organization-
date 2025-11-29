@@ -389,3 +389,13 @@ So:
 	Write buffer slowly writes to RAM in background
 	
 	👉 This is why write-through still works fast.
+
+     Write-Through vs Write-Back (important comparison)
+
+| Feature      | Write-Through         | Write-Back              |
+| ------------ | --------------------- | ----------------------- |
+| Write to RAM | Every write           | Only when block evicted |
+| Speed        | Medium (buffer helps) | Fastest                 |
+| Consistency  | High                  | Needs dirty bit         |
+| Hardware     | Simple                | More complex            |
+
