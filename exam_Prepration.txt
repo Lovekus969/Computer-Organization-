@@ -316,3 +316,19 @@ That means:
 		Every memory block has only one exact position where it can be placed in cache.
 		
 		If two blocks map to the same cache line, they will replace each other.
+	How Direct Mapping Works
+
+		Memory address is divided into:
+		Tag
+		
+					Index (decides which cache line)
+					Offset (inside block)
+		
+		Example:
+		If cache has 8 lines → index = block_number mod 8
+					
+					Block 0 → line 0
+					
+					Block 8 → line 0
+					
+					Block 16 → line 0
