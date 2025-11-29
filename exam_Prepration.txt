@@ -349,3 +349,17 @@ So what happens?
 		In direct mapping, all blocks fighting for the same index fill the same line — so nothing stays “free”.
 		
 		But in fully associative mapping, the replacement algorithm (like LRU or FIFO) decides which line to use, and some lines might not get touched yet.
+			
+			. FIFO vs LRU — Which Is Faster?
+		
+		| Algorithm | Speed           | Miss Rate            | Which is better?                 |
+		| --------- | --------------- | -------------------- | -------------------------------- |
+		| **FIFO**  | Fastest         | Medium               | Simple hardware, quick decisions |
+		| **LRU**   | Slightly slower | Best (lowest misses) | Acts closest to "real" usage     |
+		
+		FIFO is faster
+		      because it only tracks the order of entry.
+		
+		✔ LRU is smarter
+		      because it keeps the most recently used items.
+				
