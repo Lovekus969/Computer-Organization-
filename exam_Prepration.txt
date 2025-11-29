@@ -332,3 +332,20 @@ That means:
 					Block 8 → line 0
 					
 					Block 16 → line 0
+
+
+Why Can Associative Mapping Leave Free Space in Cache?
+	✔ Because in fully associative mapping,
+	a block can go ANYWHERE in the cache.
+	
+There are no fixed rules like “this block must go to line 5”.
+
+So what happens?
+		
+		When the CPU loads memory blocks:
+		It may fill some cache lines.
+		Other lines may still be empty, because no mapping rule forces blocks to use those lines.
+		
+		In direct mapping, all blocks fighting for the same index fill the same line — so nothing stays “free”.
+		
+		But in fully associative mapping, the replacement algorithm (like LRU or FIFO) decides which line to use, and some lines might not get touched yet.
