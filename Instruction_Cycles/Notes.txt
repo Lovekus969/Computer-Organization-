@@ -54,6 +54,21 @@ So CPU designers use a pyramid:
   Medium + Moderate (L2)
   Large + Slower (L3)
   But all are still MUCH faster than RAM.
+Q2 — What is cache miss? Types?
+
+Three types:
+
+✔ Cold Miss (Compulsory Miss)
+
+First time accessing data → not in cache → miss.
+
+✔ Capacity Miss
+
+Cache is too small → old data gets evicted → miss.
+
+✔ Conflict Miss
+
+Two memory addresses map to the same cache line → collision → eviction.
 
             When CPU needs data:
            Check L1 cache → if not found, go to L2 → if not found, go to L3 → if not found, fetch from RAM → if not in RAM, bring from storage (page swap).
