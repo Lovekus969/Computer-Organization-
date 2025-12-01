@@ -42,6 +42,18 @@ The Indirect Cycle is always followed by the Execute Cycle. The Interrupt Cycle 
                L3 Cache (largest, slowest, shared across cores).
                   L2 Cache (medium size, faster, usually per core or shared between few cores).
                      L1 Cache (smallest, fastest, directly attached to each core).
+Q1 — Why not just make L1 cache huge? Why do we need L2 and L3?
+
+Because:
+  Bigger memory = slower access
+  Small cache = super fast (low latency)
+  Larger cache = slower (higher latency)
+
+So CPU designers use a pyramid:
+  Tiny + Fast (L1)
+  Medium + Moderate (L2)
+  Large + Slower (L3)
+  But all are still MUCH faster than RAM.
 
             When CPU needs data:
            Check L1 cache → if not found, go to L2 → if not found, go to L3 → if not found, fetch from RAM → if not in RAM, bring from storage (page swap).
