@@ -53,7 +53,9 @@ Q5. What are major elements of a multicore computer? Define and explain how are 
 A multicore computer contains multiple CPU cores on the same chip, each with private L1/L2 caches, and all cores share an L3 cache, main memory, I/O subsystem, and an interconnect bus. A coherence mechanism maintains data consistency between cores when they access shared memory. All these components work together to enable parallel processing and faster system performance.
 
 Q6. Using an IAS memory format, what is the maximum possible data that can be stored? You can represent the answer as a power of 2.
-2^16
+IAS memory stores data in 40-bit words, with 1 sign bit and 39 data bits.
+Therefore, the maximum possible data that can be stored (as magnitude) is 2³⁹.
+
 Q7. Let’s say you want to add two registers AX and BX. Which of the following will be impacted when the processor executes the instruction. PC, MAR, MRO, MBR, IR 
 Let's analyze each:
 🔸 1. Program Counter (PC) — YES, impacted
