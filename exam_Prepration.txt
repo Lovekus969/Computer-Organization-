@@ -46,6 +46,9 @@ Official image is uploaded in the book At page 31
 Q4. What is the difference between simple single processor computer and multicore computer structure?
  A simple single-processor computer has only one CPU core that executes one instruction stream at a time. A multicore computer contains multiple CPU cores on the same chip, allowing parallel execution of multiple instructions and higher performance.
 
+More depth ....Multicore processors execute multiple instruction streams because each core is an independent processing unit. The operating system assigns different threads or processes to different cores, enabling true parallel execution.
+This is different from pipelining, which overlaps stages of multiple instructions within a single core but does not execute multiple independent instruction streams.
+
 Q5. What are major elements of a multicore computer? Define and explain how are they related to each other?
 A multicore computer contains multiple CPU cores on the same chip, each with private L1/L2 caches, and all cores share an L3 cache, main memory, I/O subsystem, and an interconnect bus. A coherence mechanism maintains data consistency between cores when they access shared memory. All these components work together to enable parallel processing and faster system performance.
 
