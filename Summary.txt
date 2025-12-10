@@ -5,3 +5,5 @@ ONE-LINE SUMMARY (Write this in your exam):
       Data Storage — stores data temporarily (RAM) and permanently (disk).
       Data Movement — transfers data through I/O and communication systems.
       Control — directs and coordinates all internal operations of the computer.
+AMONG ABOVE WHICH ONE BE THE FASTER AND WHY ?
+  Data processing is the fastest function because it occurs inside the CPU using registers, ALU, and cache memory, which are the highest-speed components in a computer system.
