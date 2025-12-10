@@ -1,0 +1,7 @@
+ONE-LINE SUMMARY (Write this in your exam):
+  A computer performs four basic functions:
+
+      Data Processing — performs arithmetic and logical operations.
+      Data Storage — stores data temporarily (RAM) and permanently (disk).
+      Data Movement — transfers data through I/O and communication systems.
+      Control — directs and coordinates all internal operations of the computer.
