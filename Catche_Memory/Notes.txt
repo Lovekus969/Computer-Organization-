@@ -280,4 +280,5 @@ In both terms logical and phycial which cache would be fater and why ?
 	→ This adds extra latency.
 
 
-Cache works internally nd so important to understand as its only the smallest unit in the system so managing it is the another concern 
+Cache works internally nd so important to understand as its only the smallest unit in the system so managing it is the another concern .
+
