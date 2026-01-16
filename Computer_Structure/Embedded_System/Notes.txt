@@ -96,9 +96,10 @@ A* (A-Star) Algorithm
 
 Breadth-First Search (BFS)
             Finds shortest path in grids where all moves have equal cost.
-
+ bfs use queue
 Depth-First Search (DFS)
             Explores but not optimal for shortest path.
+use stack 
 
 Handle Obstacles
 
