@@ -102,6 +102,51 @@ Depth-First Search (DFS)
 use stack 
 
 Handle Obstacles
+Breadth-First Search (BFS)
+
+Uses a Queue (FIFO)
+
+Explores nodes level by level
+
+Optimal for shortest path in unweighted graphs
+
+Visits all neighbors first, then moves deeper
+
+Why Queue?
+Because the first node inserted is explored first → ensures level-order traversal.
+
+Key points:
+
+Data structure: Queue
+
+Time complexity: O(V + E)
+
+Space complexity: O(V)
+
+Used in: shortest path, level order traversal, network broadcasting
+
+Depth-First Search (DFS)
+
+Uses a Stack (LIFO) or Recursion
+
+Explores as deep as possible first
+
+❌ Not optimal for shortest path
+
+Backtracks after reaching depth
+
+Why Stack?
+Because the last node added is explored first → goes deep before wide.
+
+Key points:
+
+Data structure: Stack / Recursion
+
+Time complexity: O(V + E)
+
+Space complexity: O(V) (worst case)
+
+Used in: cycle detection, topological sort, path existence
 
 Mark blocked nodes/cells as unavailable.Algorithm searches around them.
 
